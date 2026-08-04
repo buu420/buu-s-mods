@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T03:32:01.4585798Z",
+  "generatedAt": "2026-08-04T03:44:06.657647Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -13,7 +13,27 @@
       "probeRules": [],
       "registryProbe": null,
       "asciiPathShim": null,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "id": "seventhheaven",
+          "type": "framework",
+          "minVersion": null,
+          "check": null,
+          "fix": {
+            "downloadUrl": "https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "extractZip",
+              "targetDir": null,
+              "blocklist": [],
+              "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
       "tags": [],
       "languages": [],
       "defaultPreInstall": null,
@@ -29,10 +49,28 @@
         "runFromGameFolder": true
       },
       "defaultPostUninstall": null
+    },
+    {
+      "gameId": "ffviinew",
+      "displayName": "Final Fantasy VII (2026)",
+      "modName": "Blind Soldier (226)",
+      "description": null,
+      "steamAppId": "3837340",
+      "exeName": null,
+      "probeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [],
+      "tags": [],
+      "languages": [],
+      "defaultPreInstall": null,
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
     }
   ],
   "releasesByGameId": {
-    "ffviiold": []
+    "ffviiold": [],
+    "ffviinew": []
   },
   "author": null,
   "dependencyPresets": []
