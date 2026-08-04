@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T03:49:43.9493921Z",
+  "generatedAt": "2026-08-04T03:56:54.1644521Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -138,9 +138,30 @@
     }
   ],
   "releasesByGameId": {
-    "ffviiold": [],
+    "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1/ffviiold-v0.1-amm.zip",
+        "sha256": "6a4ff2184eb263cde8b945fe1592f8eb085e74a6a23fd2ca16e82d7a92d337ce",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1",
+        "notes": null,
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
     "ffviinew": []
   },
-  "author": null,
+  "author": {
+    "displayName": "Buu420",
+    "bio": null,
+    "websiteUrl": null,
+    "discordUrl": null,
+    "patreonUrl": null,
+    "gitHubUrl": null,
+    "donationUrl": null
+  },
   "dependencyPresets": []
 }
