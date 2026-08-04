@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T04:17:26.952762Z",
+  "generatedAt": "2026-08-04T04:21:58.2709007Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -47,7 +47,7 @@
             "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\sharedfx\\Microsoft.WindowsDesktop.App",
             "registryValue": null,
             "registryHive": null,
-            "registryView": "32",
+            "registryView": null,
             "filePath": null
           },
           "fix": {
@@ -104,7 +104,7 @@
             "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\sharedfx\\Microsoft.WindowsDesktop.App",
             "registryValue": null,
             "registryHive": null,
-            "registryView": "64",
+            "registryView": null,
             "filePath": null
           },
           "fix": {
