@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T03:59:37.4535931Z",
+  "generatedAt": "2026-08-04T04:09:56.2793478Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -82,7 +82,7 @@
     {
       "gameId": "ffviinew",
       "displayName": "Final Fantasy VII (2026)",
-      "modName": "Blind Soldier (226)",
+      "modName": "Blind Soldier (2026)",
       "description": null,
       "steamAppId": "3837340",
       "exeName": null,
