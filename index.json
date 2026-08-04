@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T03:56:54.1644521Z",
+  "generatedAt": "2026-08-04T03:59:37.4535931Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -152,7 +152,20 @@
         "patreon": null
       }
     ],
-    "ffviinew": []
+    "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1/ffviinew-v0.1-amm.zip",
+        "sha256": "63540c959ef5c87a0144fc4102073d9e9b0318630d3d559c45d47d862414cddc",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1",
+        "notes": null,
+        "compatibility": null,
+        "patreon": null
+      }
+    ]
   },
   "author": {
     "displayName": "Buu420",
