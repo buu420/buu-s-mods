@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T03:46:25.1819021Z",
+  "generatedAt": "2026-08-04T03:49:43.9493921Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -89,11 +89,51 @@
       "probeRules": [],
       "registryProbe": null,
       "asciiPathShim": null,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "id": "dotnet-9-desktop-x64",
+          "type": "system",
+          "minVersion": "9.0.0",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": "64",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x64.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "12cd00688fc9f8f5187d25911bf656db61998c264f03eef4022ff2d9321d6982"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
       "tags": [],
       "languages": [],
       "defaultPreInstall": null,
-      "defaultPostInstall": null,
+      "defaultPostInstall": {
+        "executable": "files/scripts/BlindSoldier_Installer.exe",
+        "needsAdmin": true,
+        "failureFatal": true,
+        "what": "makes it so you can launch the mod directly from steam",
+        "why": "without this you can\u0027t run the mod directly from steam",
+        "modifies": "registry key that tells steam what to launch",
+        "installToGameFolder": true,
+        "runOnUpdate": false,
+        "runFromGameFolder": true
+      },
       "defaultPostUninstall": null
     }
   ],
