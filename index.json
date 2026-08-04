@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T03:44:06.657647Z",
+  "generatedAt": "2026-08-04T03:46:25.1819021Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -27,6 +27,35 @@
               "targetDir": null,
               "blocklist": [],
               "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "dotnet-9-desktop-x86",
+          "type": "system",
+          "minVersion": "9.0.0",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": "32",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x86.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "a90bc401a7838f036a4d615ca7031099b4b950ed6a8f59f59c44150c6ad7d648"
             }
           },
           "required": true,
