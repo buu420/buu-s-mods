@@ -1,0 +1,29 @@
+{
+  "pluginId": "buu420",
+  "repoVersion": "1",
+  "generatedAt": "2026-08-04T01:58:34.5861059Z",
+  "games": [
+    {
+      "gameId": "ffviiold",
+      "displayName": "Final Fantasy VII (2013)",
+      "modName": "Blind Soldier (2013)",
+      "description": null,
+      "steamAppId": "39140",
+      "exeName": null,
+      "probeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [],
+      "tags": [],
+      "languages": [],
+      "defaultPreInstall": null,
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    }
+  ],
+  "releasesByGameId": {
+    "ffviiold": []
+  },
+  "author": null,
+  "dependencyPresets": []
+}
