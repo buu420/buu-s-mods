@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T04:09:56.2793478Z",
+  "generatedAt": "2026-08-04T04:17:26.952762Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -18,7 +18,13 @@
           "id": "seventhheaven",
           "type": "framework",
           "minVersion": null,
-          "check": null,
+          "check": {
+            "registryKey": null,
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": "FFNx.toml"
+          },
           "fix": {
             "downloadUrl": "https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip",
             "bundledPath": null,
