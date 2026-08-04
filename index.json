@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T01:58:34.5861059Z",
+  "generatedAt": "2026-08-04T03:32:01.4585798Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -17,7 +17,17 @@
       "tags": [],
       "languages": [],
       "defaultPreInstall": null,
-      "defaultPostInstall": null,
+      "defaultPostInstall": {
+        "executable": "files/scripts/BlindSoldier_Installer.exe",
+        "needsAdmin": true,
+        "failureFatal": true,
+        "what": "this lets the mod run by starting the game directly from steam",
+        "why": "unless this is ran the game will continue to start without the mod.",
+        "modifies": "the launch registry key that tells steam what to run for the game",
+        "installToGameFolder": true,
+        "runOnUpdate": false,
+        "runFromGameFolder": true
+      },
       "defaultPostUninstall": null
     }
   ],
