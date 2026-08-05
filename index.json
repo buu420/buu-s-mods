@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-04T04:21:58.2709007Z",
+  "generatedAt": "2026-08-05T15:30:34.2694183Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -168,6 +168,18 @@
         "sha256": "63540c959ef5c87a0144fc4102073d9e9b0318630d3d559c45d47d862414cddc",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1",
         "notes": null,
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.1/ffviinew-v0.1.1-amm.zip",
+        "sha256": "eef2eb66890086efed35f04d512295d3bf648ffba7605bcbb8e12af128af022e",
+        "changelogUrl": null,
+        "notes": "Fix Story and Object navigation routes treating their selected destination model as a blocking obstacle.",
         "compatibility": null,
         "patreon": null
       }
