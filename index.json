@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-05T16:36:35.3524031Z",
+  "generatedAt": "2026-08-05T19:18:37.6940422Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -192,6 +192,18 @@
         "sha256": "eef2eb66890086efed35f04d512295d3bf648ffba7605bcbb8e12af128af022e",
         "changelogUrl": null,
         "notes": "Fix Story and Object navigation routes treating their selected destination model as a blocking obstacle.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.2/ffviinew-v0.1.2-amm.zip",
+        "sha256": "e09a56908d2076c49ecef7c2f95c2b5a25a5bb1a9e0a2726bd23ff69e7062c51",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.2",
+        "notes": "Fix the Steam 2026 startup bounce caused by Reloaded-II\u0027s broad delayed-hook race, and prevent duplicate Blind Soldier instances from producing repeated audio descriptions on either runtime.",
         "compatibility": null,
         "patreon": null
       }
