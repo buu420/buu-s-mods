@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-05T23:06:36.4644934Z",
+  "generatedAt": "2026-08-05T23:07:00.3062991Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -180,18 +180,6 @@
         "notes": "Fix the Steam 2026 startup bounce caused by Reloaded-II\u0027s broad delayed-hook race, and prevent duplicate Blind Soldier instances from producing repeated audio descriptions on either runtime.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.1.3",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.3/ffviiold-v0.1.3-amm.zip",
-        "sha256": "cfcb96a86e96c48600620b0c7f0a03fbb8e2322a6d1a2b996c5644a04ef14787",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
-        "notes": "Fix reactor story and ladder navigation, restore the original traversal cue, and add route-aware ladder mount, drift recovery, live landing completion, and stale-state suppression.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -228,6 +216,18 @@
         "sha256": "e09a56908d2076c49ecef7c2f95c2b5a25a5bb1a9e0a2726bd23ff69e7062c51",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.2",
         "notes": "Fix the Steam 2026 startup bounce caused by Reloaded-II\u0027s broad delayed-hook race, and prevent duplicate Blind Soldier instances from producing repeated audio descriptions on either runtime.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.3/ffviinew-v0.1.3-amm.zip",
+        "sha256": "8ec94d3e5b1d5e257c020097f20aaed6f920a9b105cdb1521f496f3a3da57db1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
+        "notes": "Fix reactor story and ladder navigation, restore the original traversal cue, and add route-aware ladder mount, drift recovery, live landing completion, and stale-state suppression.",
         "compatibility": null,
         "patreon": null
       }
