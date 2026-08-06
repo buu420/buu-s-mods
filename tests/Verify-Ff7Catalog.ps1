@@ -83,7 +83,10 @@ try {
     $officialSha = '1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55'
     $uninstallKey = 'Software\Microsoft\Windows\CurrentVersion\Uninstall\{E66AE545-C285-4B8C-8BD0-67282E160BF4}_is1'
 
-    foreach ($definition in @($old, $compat)) {
+    $oldLegacyDeps = @($old.dependencies | Where-Object { $_.id -in @('seventh-heaven', 'ffnx-game-driver') })
+    Assert-Equal 0 $oldLegacyDeps.Count 'A real FFVII 2013 install must not require 7th Heaven or FFNx.'
+
+    foreach ($definition in @($compat)) {
         $dep = @($definition.dependencies | Where-Object id -eq 'seventh-heaven')
         Assert-Equal 1 $dep.Count "$($definition.gameId) must offer exactly one seventh-heaven dependency."
         $dep = $dep[0]
@@ -101,7 +104,6 @@ try {
     $ffnxUrl = 'https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip'
     $ffnxSha = '2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d'
     foreach ($case in @(
-        [pscustomobject]@{ Definition = $old; Required = $true; Check = 'FFNx.toml'; Target = $null },
         [pscustomobject]@{ Definition = $compat; Required = $true; Check = 'ff7\workingdir\FFNx.toml'; Target = 'ff7\workingdir' }
     )) {
         $definition = $case.Definition
