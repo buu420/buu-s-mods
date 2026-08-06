@@ -87,8 +87,7 @@ try {
         $dep = @($definition.dependencies | Where-Object id -eq 'seventh-heaven')
         Assert-Equal 1 $dep.Count "$($definition.gameId) must offer exactly one seventh-heaven dependency."
         $dep = $dep[0]
-        $expectedRequired = $definition.gameId -eq 'ffviioldsteam2026'
-        Assert-Equal $expectedRequired ([bool]$dep.required) "$($definition.gameId) has the wrong 7th Heaven requirement state."
+        Assert-True ([bool]$dep.required) "$($definition.gameId) must use the manager's normal required 7th Heaven flow."
         Assert-Equal '4.5.2.0' $dep.minVersion "$($definition.gameId) has the wrong 7th Heaven minimum version."
         Assert-Equal $uninstallKey $dep.check.registryKey "$($definition.gameId) has the wrong 7th Heaven registry key."
         Assert-Equal 'DisplayVersion' $dep.check.registryValue "$($definition.gameId) must read 7th Heaven's DisplayVersion."
@@ -102,7 +101,7 @@ try {
     $ffnxUrl = 'https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip'
     $ffnxSha = '2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d'
     foreach ($case in @(
-        [pscustomobject]@{ Definition = $old; Required = $false; Check = 'FFNx.toml'; Target = $null },
+        [pscustomobject]@{ Definition = $old; Required = $true; Check = 'FFNx.toml'; Target = $null },
         [pscustomobject]@{ Definition = $compat; Required = $true; Check = 'ff7\workingdir\FFNx.toml'; Target = 'ff7\workingdir' }
     )) {
         $definition = $case.Definition
