@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-06T03:20:18.7563987Z",
+  "generatedAt": "2026-08-06T03:57:16.9390483Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -23,56 +23,6 @@
       "registryProbe": null,
       "asciiPathShim": null,
       "dependencies": [
-        {
-          "id": "seventh-heaven",
-          "type": "framework",
-          "minVersion": "4.5.2.0",
-          "check": {
-            "registryKey": "Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{E66AE545-C285-4B8C-8BD0-67282E160BF4}_is1",
-            "registryValue": "DisplayVersion",
-            "registryHive": "HKCU",
-            "registryView": "both",
-            "filePath": null
-          },
-          "fix": {
-            "downloadUrl": "https://github.com/tsunamods-codes/7th-Heaven/releases/download/4.5.2/7thHeaven-v4.5.2.0_Release.exe",
-            "bundledPath": null,
-            "autoInstall": {
-              "kind": "runInstaller",
-              "args": [],
-              "needsAdmin": false,
-              "sha256": "1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55"
-            }
-          },
-          "required": true,
-          "isGameInstaller": false,
-          "versionDiscovery": null
-        },
-        {
-          "id": "ffnx-game-driver",
-          "type": "framework",
-          "minVersion": null,
-          "check": {
-            "registryKey": null,
-            "registryValue": null,
-            "registryHive": null,
-            "registryView": null,
-            "filePath": "FFNx.toml"
-          },
-          "fix": {
-            "downloadUrl": "https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip",
-            "bundledPath": null,
-            "autoInstall": {
-              "kind": "extractZip",
-              "targetDir": null,
-              "blocklist": [],
-              "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
-            }
-          },
-          "required": true,
-          "isGameInstaller": false,
-          "versionDiscovery": null
-        },
         {
           "id": "dotnet-9-desktop-x86",
           "type": "system",
