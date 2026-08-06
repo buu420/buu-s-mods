@@ -9,13 +9,47 @@
       "modName": "Blind Soldier (2013)",
       "description": null,
       "steamAppId": "39140",
-      "exeName": null,
-      "probeRules": [],
+      "exeName": "ff7_en.exe",
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "FF7_Launcher.exe"
+        },
+        {
+          "type": "folderExists",
+          "relativePath": "data"
+        }
+      ],
       "registryProbe": null,
       "asciiPathShim": null,
       "dependencies": [
         {
-          "id": "seventhheaven",
+          "id": "seventh-heaven",
+          "type": "framework",
+          "minVersion": "4.5.2.0",
+          "check": {
+            "registryKey": "Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{E66AE545-C285-4B8C-8BD0-67282E160BF4}_is1",
+            "registryValue": "DisplayVersion",
+            "registryHive": "HKCU",
+            "registryView": "both",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://github.com/tsunamods-codes/7th-Heaven/releases/download/4.5.2/7thHeaven-v4.5.2.0_Release.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [],
+              "needsAdmin": false,
+              "sha256": "1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55"
+            }
+          },
+          "required": false,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "ffnx-game-driver",
           "type": "framework",
           "minVersion": null,
           "check": {
@@ -35,7 +69,7 @@
               "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
             }
           },
-          "required": true,
+          "required": false,
           "isGameInstaller": false,
           "versionDiscovery": null
         },
@@ -86,13 +120,154 @@
       "defaultPostUninstall": null
     },
     {
+      "gameId": "ffviioldsteam2026",
+      "displayName": "Final Fantasy VII (2026, 2013 compatibility runtime)",
+      "modName": "Blind Soldier (2013 for 7th Heaven)",
+      "description": "Installs the x86 Blind Soldier runtime for 7th Heaven into the Steam 2026 game folder.",
+      "steamAppId": "3837340",
+      "exeName": "FFVII.exe",
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "FFVII_LAUNCHER.exe"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "steam_api64.dll"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "ff7\\resources\\ff7_1.02\\ff7_en"
+        },
+        {
+          "type": "folderExists",
+          "relativePath": "ff7\\workingdir\\data"
+        }
+      ],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [
+        {
+          "id": "seventh-heaven",
+          "type": "framework",
+          "minVersion": "4.5.2.0",
+          "check": {
+            "registryKey": "Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{E66AE545-C285-4B8C-8BD0-67282E160BF4}_is1",
+            "registryValue": "DisplayVersion",
+            "registryHive": "HKCU",
+            "registryView": "both",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://github.com/tsunamods-codes/7th-Heaven/releases/download/4.5.2/7thHeaven-v4.5.2.0_Release.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [],
+              "needsAdmin": false,
+              "sha256": "1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "ffnx-game-driver",
+          "type": "framework",
+          "minVersion": null,
+          "check": {
+            "registryKey": null,
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": "ff7\\workingdir\\FFNx.toml"
+          },
+          "fix": {
+            "downloadUrl": "https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "extractZip",
+              "targetDir": "ff7\\workingdir",
+              "blocklist": [],
+              "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "dotnet-9-desktop-x86",
+          "type": "system",
+          "minVersion": "9.0.0",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x86.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "a90bc401a7838f036a4d615ca7031099b4b950ed6a8f59f59c44150c6ad7d648"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
+      "tags": [],
+      "languages": [],
+      "defaultPreInstall": null,
+      "defaultPostInstall": {
+        "executable": "files/scripts/BlindSoldier_Installer.exe",
+        "needsAdmin": true,
+        "failureFatal": true,
+        "what": "configures the 2013 Blind Soldier runtime inside the Steam 2026 installation",
+        "why": "7th Heaven launches the embedded x86 game runtime instead of the native x64 executable",
+        "modifies": "the embedded compatibility runtime, Reloaded profiles, and Steam launch registration",
+        "installToGameFolder": true,
+        "runOnUpdate": false,
+        "runFromGameFolder": true
+      },
+      "defaultPostUninstall": null
+    },
+    {
       "gameId": "ffviinew",
       "displayName": "Final Fantasy VII (2026)",
       "modName": "Blind Soldier (2026)",
       "description": null,
       "steamAppId": "3837340",
-      "exeName": null,
-      "probeRules": [],
+      "exeName": "FFVII.exe",
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "FFVII_LAUNCHER.exe"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "steam_api64.dll"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "ff7\\resources\\ff7_1.02\\ff7_en"
+        },
+        {
+          "type": "folderExists",
+          "relativePath": "ff7\\workingdir\\data"
+        }
+      ],
       "registryProbe": null,
       "asciiPathShim": null,
       "dependencies": [
@@ -190,6 +365,20 @@
         "sha256": "cfcb96a86e96c48600620b0c7f0a03fbb8e2322a6d1a2b996c5644a04ef14787",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
         "notes": "Fix reactor story and ladder navigation, restore the original traversal cue, and add route-aware ladder mount, drift recovery, live landing completion, and stale-state suppression.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "ffviioldsteam2026": [
+      {
+        "gameId": "ffviioldsteam2026",
+        "pluginId": "buu420",
+        "version": "0.1.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.3/ffviioldsteam2026-v0.1.3-amm.zip",
+        "sha256": "84031559d37e28a7c3d4437b58ba60d39e0f3185d05122ea2f04e5bee2410d7a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
+        "notes": "Installs the x86 Blind Soldier runtime alongside the native Steam 2026 build for 7th Heaven, with FFNx installed into ff7\\workingdir.",
         "compatibility": null,
         "patreon": null
       }
