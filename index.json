@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-05T23:08:53.0835458Z",
+  "generatedAt": "2026-08-06T03:20:18.7563987Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -44,7 +44,7 @@
               "sha256": "1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55"
             }
           },
-          "required": false,
+          "required": true,
           "isGameInstaller": false,
           "versionDiscovery": null
         },
@@ -69,7 +69,7 @@
               "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
             }
           },
-          "required": false,
+          "required": true,
           "isGameInstaller": false,
           "versionDiscovery": null
         },
