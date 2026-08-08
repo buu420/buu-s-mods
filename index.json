@@ -1,13 +1,13 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-08T00:03:11.4936239Z",
+  "generatedAt": "2026-08-08T00:06:12.2747434Z",
   "games": [
     {
       "gameId": "ffviiold",
       "displayName": "Final Fantasy VII (2013)",
       "modName": "Blind Soldier (2013)",
-      "description": "Blind Soldier makes Final Fantasy VII accessible to blind players by speaking menus, dialogue, battles, navigation targets, story objectives, objects, exits, and other information normally conveyed visually.\n\n## Included runtime\n\nThis entry installs the self-contained x86 components required by Final Fantasy VII 2013. The private .NET runtime and Reloaded components are included. It does not install or modify 7th Heaven or FFNx.\n\n## Hotkeys\n\n- \u0060U\u0060 - Previous navigation category\n- \u0060O\u0060 - Next navigation category\n- \u0060J\u0060 - Previous target in the selected category\n- \u0060L\u0060 - Next target in the selected category\n- \u0060K\u0060 - Repeat the selected target, or report the active route and progress\n- \u0060I\u0060 - Start navigation to the selected target, or stop the active route\n- \u0060F5\u0060 - Turn route progress indicators off or on\n- \u0060F6\u0060 - Select the previous progress interval\n- \u0060F7\u0060 - Select the next progress interval\n- \u0060F8\u0060 - Toggle automatic steering during the motorcycle minigame\n\n## Navigation\n\nUse \u0060U\u0060 and \u0060O\u0060 to choose a category, \u0060J\u0060 and \u0060L\u0060 to choose a target, and \u0060I\u0060 to start or stop a route. Press \u0060K\u0060 to repeat the route and progress. Keeping progress indicators enabled is recommended; \u0060F5\u0060 toggles them, while \u0060F6\u0060 and \u0060F7\u0060 select 5, 10, 15, or 20 percent intervals.",
+      "description": null,
       "steamAppId": "39140",
       "exeName": "ff7_en.exe",
       "probeRules": [
@@ -22,28 +22,58 @@
       ],
       "registryProbe": null,
       "asciiPathShim": null,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "id": "dotnet-9-desktop-x86",
+          "type": "system",
+          "minVersion": "9.0.0",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x86.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "a90bc401a7838f036a4d615ca7031099b4b950ed6a8f59f59c44150c6ad7d648"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
       "tags": [],
       "languages": [],
       "defaultPreInstall": null,
       "defaultPostInstall": {
-        "executable": "files/Blind-Soldier/Tools/Remove-AmethystRegistryEntries-Automatic.cmd",
+        "executable": "files/scripts/BlindSoldier_Installer.exe",
         "needsAdmin": true,
         "failureFatal": true,
-        "what": "removes obsolete Blind Soldier registry launch values left by earlier manager packages",
-        "why": "v0.1.6 uses its native proxy bootstrap and does not require registry launch redirection",
-        "modifies": "only Blind Soldier-owned Image File Execution Options values for ff7_en.exe and FFVII.exe; unrelated values are preserved",
-        "installToGameFolder": false,
-        "runOnUpdate": true,
-        "runFromGameFolder": false
+        "what": "this lets the mod run by starting the game directly from steam",
+        "why": "unless this is ran the game will continue to start without the mod.",
+        "modifies": "the launch registry key that tells steam what to run for the game",
+        "installToGameFolder": true,
+        "runOnUpdate": false,
+        "runFromGameFolder": true
       },
       "defaultPostUninstall": null
     },
     {
-      "gameId": "ffviinew",
-      "displayName": "Final Fantasy VII (2026)",
-      "modName": "Blind Soldier (2026)",
-      "description": "Blind Soldier makes Final Fantasy VII accessible to blind players by speaking menus, dialogue, battles, navigation targets, story objectives, objects, exits, and other information normally conveyed visually.\n\n## Included runtime\n\nThis entry installs the complete self-contained Blind Soldier package for Final Fantasy VII 2026, including the accessible launcher, x64 runtime, and x86 compatibility runtime. The private .NET runtimes and Reloaded components are included. It does not install or modify 7th Heaven or FFNx.\n\n## Hotkeys\n\n- \u0060U\u0060 - Previous navigation category\n- \u0060O\u0060 - Next navigation category\n- \u0060J\u0060 - Previous target in the selected category\n- \u0060L\u0060 - Next target in the selected category\n- \u0060K\u0060 - Repeat the selected target, or report the active route and progress\n- \u0060I\u0060 - Start navigation to the selected target, or stop the active route\n- \u0060F5\u0060 - Turn route progress indicators off or on\n- \u0060F6\u0060 - Select the previous progress interval\n- \u0060F7\u0060 - Select the next progress interval\n- \u0060F8\u0060 - Toggle automatic steering during the motorcycle minigame\n\n## Navigation\n\nUse \u0060U\u0060 and \u0060O\u0060 to choose a category, \u0060J\u0060 and \u0060L\u0060 to choose a target, and \u0060I\u0060 to start or stop a route. Press \u0060K\u0060 to repeat the route and progress. Keeping progress indicators enabled is recommended; \u0060F5\u0060 toggles them, while \u0060F6\u0060 and \u0060F7\u0060 select 5, 10, 15, or 20 percent intervals.",
+      "gameId": "ffviioldsteam2026",
+      "displayName": "Final Fantasy VII (2026, 2013 compatibility runtime)",
+      "modName": "Blind Soldier (2013 for 7th Heaven)",
+      "description": "Installs the x86 Blind Soldier runtime for 7th Heaven into the Steam 2026 game folder.",
       "steamAppId": "3837340",
       "exeName": "FFVII.exe",
       "probeRules": [
@@ -66,20 +96,174 @@
       ],
       "registryProbe": null,
       "asciiPathShim": null,
-      "dependencies": [],
+      "dependencies": [
+        {
+          "id": "seventh-heaven",
+          "type": "framework",
+          "minVersion": "4.5.2.0",
+          "check": {
+            "registryKey": "Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{E66AE545-C285-4B8C-8BD0-67282E160BF4}_is1",
+            "registryValue": "DisplayVersion",
+            "registryHive": "HKCU",
+            "registryView": "both",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://github.com/tsunamods-codes/7th-Heaven/releases/download/4.5.2/7thHeaven-v4.5.2.0_Release.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [],
+              "needsAdmin": false,
+              "sha256": "1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "ffnx-game-driver",
+          "type": "framework",
+          "minVersion": null,
+          "check": {
+            "registryKey": null,
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": "ff7\\workingdir\\FFNx.toml"
+          },
+          "fix": {
+            "downloadUrl": "https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "extractZip",
+              "targetDir": "ff7\\workingdir",
+              "blocklist": [],
+              "sha256": "2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "dotnet-9-desktop-x86",
+          "type": "system",
+          "minVersion": "9.0.0",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x86\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x86.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "a90bc401a7838f036a4d615ca7031099b4b950ed6a8f59f59c44150c6ad7d648"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
       "tags": [],
       "languages": [],
       "defaultPreInstall": null,
       "defaultPostInstall": {
-        "executable": "files/Blind-Soldier/Tools/Remove-AmethystRegistryEntries-Automatic.cmd",
+        "executable": "files/scripts/BlindSoldier_Installer.exe",
         "needsAdmin": true,
         "failureFatal": true,
-        "what": "removes obsolete Blind Soldier registry launch values left by earlier manager packages",
-        "why": "v0.1.6 uses its native proxy bootstrap and does not require registry launch redirection",
-        "modifies": "only Blind Soldier-owned Image File Execution Options values for ff7_en.exe and FFVII.exe; unrelated values are preserved",
-        "installToGameFolder": false,
-        "runOnUpdate": true,
-        "runFromGameFolder": false
+        "what": "configures the 2013 Blind Soldier runtime inside the Steam 2026 installation",
+        "why": "7th Heaven launches the embedded x86 game runtime instead of the native x64 executable",
+        "modifies": "the embedded compatibility runtime, Reloaded profiles, and Steam launch registration",
+        "installToGameFolder": true,
+        "runOnUpdate": false,
+        "runFromGameFolder": true
+      },
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "ffviinew",
+      "displayName": "Final Fantasy VII (2026)",
+      "modName": "Blind Soldier (2026)",
+      "description": null,
+      "steamAppId": "3837340",
+      "exeName": "FFVII.exe",
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "FFVII_LAUNCHER.exe"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "steam_api64.dll"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "ff7\\resources\\ff7_1.02\\ff7_en"
+        },
+        {
+          "type": "folderExists",
+          "relativePath": "ff7\\workingdir\\data"
+        }
+      ],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [
+        {
+          "id": "dotnet-9-desktop-x64",
+          "type": "system",
+          "minVersion": "9.0.0",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.18/windowsdesktop-runtime-9.0.18-win-x64.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "12cd00688fc9f8f5187d25911bf656db61998c264f03eef4022ff2d9321d6982"
+            }
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
+      "tags": [],
+      "languages": [],
+      "defaultPreInstall": null,
+      "defaultPostInstall": {
+        "executable": "files/scripts/BlindSoldier_Installer.exe",
+        "needsAdmin": true,
+        "failureFatal": true,
+        "what": "makes it so you can launch the mod directly from steam",
+        "why": "without this you can\u0027t run the mod directly from steam",
+        "modifies": "registry key that tells steam what to launch",
+        "installToGameFolder": true,
+        "runOnUpdate": false,
+        "runFromGameFolder": true
       },
       "defaultPostUninstall": null
     }
@@ -131,6 +315,32 @@
         "sha256": "cfcb96a86e96c48600620b0c7f0a03fbb8e2322a6d1a2b996c5644a04ef14787",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
         "notes": "Fix reactor story and ladder navigation, restore the original traversal cue, and add route-aware ladder mount, drift recovery, live landing completion, and stale-state suppression.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.1.6",
+        "channel": "stable",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.6/ffviiold-v0.1.6-amm.zip",
+        "sha256": "f40b5e70d6cff3c37e28b44c4e77bda1524f815a0a80f69724252d32caa2a7ba",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.6",
+        "notes": "Blind Soldier v0.1.6 for Final Fantasy VII 2013: self-contained x86 package, hotkey documentation, and safe legacy registry cleanup.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "ffviioldsteam2026": [
+      {
+        "gameId": "ffviioldsteam2026",
+        "pluginId": "buu420",
+        "version": "0.1.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.3/ffviioldsteam2026-v0.1.3-amm.zip",
+        "sha256": "84031559d37e28a7c3d4437b58ba60d39e0f3185d05122ea2f04e5bee2410d7a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
+        "notes": "Installs the x86 Blind Soldier runtime alongside the native Steam 2026 build for 7th Heaven, with FFNx installed into ff7\\workingdir.",
         "compatibility": null,
         "patreon": null
       }
