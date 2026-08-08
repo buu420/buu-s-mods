@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-08T00:33:09.7173434Z",
+  "generatedAt": "2026-08-08T02:39:31.7429165Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -31,7 +31,7 @@
         "needsAdmin": true,
         "failureFatal": true,
         "what": "removes obsolete Blind Soldier registry launch values left by earlier manager packages",
-        "why": "v0.1.6 uses its native proxy bootstrap and does not require registry launch redirection",
+        "why": "Blind Soldier uses its native proxy bootstrap and does not require registry launch redirection",
         "modifies": "only Blind Soldier-owned Image File Execution Options values for ff7_en.exe and FFVII.exe; unrelated values are preserved",
         "installToGameFolder": false,
         "runOnUpdate": true,
@@ -75,7 +75,7 @@
         "needsAdmin": true,
         "failureFatal": true,
         "what": "removes obsolete Blind Soldier registry launch values left by earlier manager packages",
-        "why": "v0.1.6 uses its native proxy bootstrap and does not require registry launch redirection",
+        "why": "Blind Soldier uses its native proxy bootstrap and does not require registry launch redirection",
         "modifies": "only Blind Soldier-owned Image File Execution Options values for ff7_en.exe and FFVII.exe; unrelated values are preserved",
         "installToGameFolder": false,
         "runOnUpdate": true,
