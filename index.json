@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-08T21:22:50.9383947Z",
+  "generatedAt": "2026-08-08T21:23:11.5649075Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -181,18 +181,6 @@
         "notes": "Fix stock Steam 2013 startup with the sibling Version proxy and preserve mapped-drive paths for Reloaded discovery.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.1.10",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.10/ffviiold-v0.1.10-amm.zip",
-        "sha256": "6ff01fc36ad3b0f308d9452cbcc3de85650998a983e1fea60b58a6b551942ce9",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.10.md",
-        "notes": "Blind Soldier 0.1.10 for Final Fantasy VII 2013: Config, Limit, and Order menu speech fixes plus R to repeat the last spoken message.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -289,6 +277,18 @@
         "sha256": "07b19d3ffad7bb1c34b60e01e87d558c5a823c0d94a51f7b2c55c9bfc3d3694c",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.9.md",
         "notes": "Preserve mapped-drive paths for Reloaded discovery and ship the synchronized Blind Soldier 0.1.9 runtime.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.10",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.10/ffviinew-v0.1.10-amm.zip",
+        "sha256": "8ac35ce8a7c59aadc45d5b02530cd66da03c00eafba6bacc03b29888fe2d1d26",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.10.md",
+        "notes": "Blind Soldier 0.1.10 for Final Fantasy VII 2026: synchronized dual-runtime package plus R to repeat the last spoken message.",
         "compatibility": null,
         "patreon": null
       }
