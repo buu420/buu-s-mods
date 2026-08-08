@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-08T02:39:31.7429165Z",
+  "generatedAt": "2026-08-08T03:08:22.2291101Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -145,6 +145,18 @@
         "notes": "Blind Soldier v0.1.6 for Final Fantasy VII 2013: self-contained x86 package, hotkey documentation, and safe legacy registry cleanup.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.1.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.7/ffviiold-v0.1.7-amm.zip",
+        "sha256": "40797676a64a24349ac7cc8f399c91fc5e7c6411b5103966027adac9b3920d79",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.7",
+        "notes": "Blind Soldier 0.1.7 for Final Fantasy VII 2013: current x86 runtime plus the startup-readiness fix shared by both brokers.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -205,6 +217,18 @@
         "sha256": "852a4d906122c70c4b9a0fbcd0613573b9941134c7cf0895dc34c3b247d20be0",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.6",
         "notes": "Blind Soldier v0.1.6 for Final Fantasy VII 2026: complete dual-runtime portable package, accessible launcher, hotkey documentation, and safe legacy registry cleanup.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.7/ffviinew-v0.1.7-amm.zip",
+        "sha256": "0b54d8aa257faecd62d997e18622e9b93293f1a9509da3f34b5f3647417878d0",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.7",
+        "notes": "Blind Soldier 0.1.7 for Final Fantasy VII 2026: fixes intermittent bootstrap exit code 17 while preserving the complete dual-runtime portable package.",
         "compatibility": null,
         "patreon": null
       }
