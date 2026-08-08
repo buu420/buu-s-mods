@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-08T00:06:12.2747434Z",
+  "generatedAt": "2026-08-08T00:06:39.9297532Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -317,18 +317,6 @@
         "notes": "Fix reactor story and ladder navigation, restore the original traversal cue, and add route-aware ladder mount, drift recovery, live landing completion, and stale-state suppression.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.1.6",
-        "channel": "stable",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.6/ffviiold-v0.1.6-amm.zip",
-        "sha256": "f40b5e70d6cff3c37e28b44c4e77bda1524f815a0a80f69724252d32caa2a7ba",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.6",
-        "notes": "Blind Soldier v0.1.6 for Final Fantasy VII 2013: self-contained x86 package, hotkey documentation, and safe legacy registry cleanup.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviioldsteam2026": [
@@ -391,6 +379,18 @@
         "sha256": "8ec94d3e5b1d5e257c020097f20aaed6f920a9b105cdb1521f496f3a3da57db1",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.3",
         "notes": "Fix reactor story and ladder navigation, restore the original traversal cue, and add route-aware ladder mount, drift recovery, live landing completion, and stale-state suppression.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.6",
+        "channel": "stable",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.6/ffviinew-v0.1.6-amm.zip",
+        "sha256": "852a4d906122c70c4b9a0fbcd0613573b9941134c7cf0895dc34c3b247d20be0",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.6",
+        "notes": "Blind Soldier v0.1.6 for Final Fantasy VII 2026: complete dual-runtime portable package, accessible launcher, hotkey documentation, and safe legacy registry cleanup.",
         "compatibility": null,
         "patreon": null
       }
