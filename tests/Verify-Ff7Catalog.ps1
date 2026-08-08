@@ -46,10 +46,10 @@ $new = @($catalog.games | Where-Object gameId -eq 'ffviinew')
 $compat = @($catalog.games | Where-Object gameId -eq 'ffviioldsteam2026')
 Assert-Equal 1 $old.Count 'The catalog must contain exactly one FFVII 2013 definition.'
 Assert-Equal 1 $new.Count 'The catalog must contain exactly one FFVII 2026 definition.'
-Assert-Equal 1 $compat.Count 'The catalog must contain exactly one 2013-on-2026 compatibility definition.'
+Assert-Equal 0 $compat.Count 'The separate 7th Heaven compatibility entry must be removed.'
+Assert-Equal 2 @($catalog.games).Count 'The Blind Soldier catalog must contain only the supported 2013 and 2026 entries.'
 $old = $old[0]
 $new = $new[0]
-$compat = $compat[0]
 
 $tempRoot = Join-Path ([IO.Path]::GetTempPath()) ('amm-ff7-catalog-' + [Guid]::NewGuid().ToString('N'))
 $oldFixture = Join-Path $tempRoot '2013'
@@ -74,62 +74,42 @@ try {
     Assert-True (-not (Test-DefinitionAtPath $old $newFixture)) 'FFVII 2013 probes accepted the 2026 layout.'
     Assert-True (Test-DefinitionAtPath $new $newFixture) 'FFVII 2026 probes rejected a complete 2026 fixture.'
     Assert-True (-not (Test-DefinitionAtPath $new $oldFixture)) 'FFVII 2026 probes accepted the 2013 layout.'
-    Assert-True (Test-DefinitionAtPath $compat $newFixture) 'The 2013 compatibility entry rejected the 2026 layout.'
-    Assert-True (-not (Test-DefinitionAtPath $compat $oldFixture)) 'The 2013 compatibility entry accepted a real 2013 layout.'
     Assert-True (-not (Test-DefinitionAtPath $old $incompleteFixture)) 'FFVII 2013 probes accepted an incomplete layout.'
     Assert-True (-not (Test-DefinitionAtPath $new $incompleteFixture)) 'FFVII 2026 probes accepted an incomplete layout.'
 
-    $officialUrl = 'https://github.com/tsunamods-codes/7th-Heaven/releases/download/4.5.2/7thHeaven-v4.5.2.0_Release.exe'
-    $officialSha = '1a6cb7b3da0788e5fdc4174fd75367cb81a0825fec92e2817a8e95ef8f455c55'
-    $uninstallKey = 'Software\Microsoft\Windows\CurrentVersion\Uninstall\{E66AE545-C285-4B8C-8BD0-67282E160BF4}_is1'
+    foreach ($definition in @($old, $new)) {
+        Assert-Equal 0 @($definition.dependencies).Count "$($definition.gameId) must be self-contained and dependency-free."
+        Assert-True ($definition.description -match '## Hotkeys') "$($definition.gameId) description must contain the hotkey heading."
+        foreach ($key in @('U', 'O', 'J', 'L', 'K', 'I', 'F5', 'F6', 'F7', 'F8')) {
+            $needle = [string]([char]96) + $key + [char]96
+            Assert-True ($definition.description.Contains($needle)) "$($definition.gameId) description is missing hotkey $key."
+        }
 
-    $oldLegacyDeps = @($old.dependencies | Where-Object { $_.id -in @('seventh-heaven', 'ffnx-game-driver') })
-    Assert-Equal 0 $oldLegacyDeps.Count 'A real FFVII 2013 install must not require 7th Heaven or FFNx.'
-
-    foreach ($definition in @($compat)) {
-        $dep = @($definition.dependencies | Where-Object id -eq 'seventh-heaven')
-        Assert-Equal 1 $dep.Count "$($definition.gameId) must offer exactly one seventh-heaven dependency."
-        $dep = $dep[0]
-        Assert-True ([bool]$dep.required) "$($definition.gameId) must use the manager's normal required 7th Heaven flow."
-        Assert-Equal '4.5.2.0' $dep.minVersion "$($definition.gameId) has the wrong 7th Heaven minimum version."
-        Assert-Equal $uninstallKey $dep.check.registryKey "$($definition.gameId) has the wrong 7th Heaven registry key."
-        Assert-Equal 'DisplayVersion' $dep.check.registryValue "$($definition.gameId) must read 7th Heaven's DisplayVersion."
-        Assert-Equal 'HKCU' $dep.check.registryHive "$($definition.gameId) must check the per-user 7th Heaven install."
-        Assert-Equal $officialUrl $dep.fix.downloadUrl "$($definition.gameId) does not use the official 7th Heaven installer."
-        Assert-Equal 'runInstaller' $dep.fix.autoInstall.kind "$($definition.gameId) must run the official installer."
-        Assert-Equal $officialSha $dep.fix.autoInstall.sha256 "$($definition.gameId) has the wrong installer SHA-256."
-        Assert-True (-not [bool]$dep.fix.autoInstall.needsAdmin) "$($definition.gameId) should let the installer handle its own privileges."
+        $post = $definition.defaultPostInstall
+        Assert-True ($null -ne $post) "$($definition.gameId) must declare the legacy-registry cleanup hook."
+        Assert-Equal 'files/Blind-Soldier/Tools/Remove-AmethystRegistryEntries-Automatic.cmd' $post.executable "$($definition.gameId) has the wrong cleanup executable."
+        Assert-True ([bool]$post.needsAdmin) "$($definition.gameId) cleanup must request elevation."
+        Assert-True ([bool]$post.failureFatal) "$($definition.gameId) cleanup failure must abort the install."
+        Assert-True ([bool]$post.runOnUpdate) "$($definition.gameId) cleanup must run on update."
+        Assert-True (-not [bool]$post.installToGameFolder) "$($definition.gameId) must not retain a root-level cleanup script."
+        Assert-True (-not [bool]$post.runFromGameFolder) "$($definition.gameId) cleanup should run from package staging."
     }
 
-    $ffnxUrl = 'https://github.com/julianxhokaxhiu/FFNx/releases/download/1.24.3/FFNx-Steam-v1.24.3.0.zip'
-    $ffnxSha = '2be45f486974f0979b849d0525eb66427df62483ec99e9339e9773e9e52afc0d'
-    foreach ($case in @(
-        [pscustomobject]@{ Definition = $compat; Required = $true; Check = 'ff7\workingdir\FFNx.toml'; Target = 'ff7\workingdir' }
-    )) {
-        $definition = $case.Definition
-        $dep = @($definition.dependencies | Where-Object id -eq 'ffnx-game-driver')
-        Assert-Equal 1 $dep.Count "$($definition.gameId) must contain exactly one FFNx game-driver dependency."
-        $dep = $dep[0]
-        Assert-Equal $case.Required ([bool]$dep.required) "$($definition.gameId) has the wrong FFNx requirement state."
-        Assert-Equal $case.Check $dep.check.filePath "$($definition.gameId) checks FFNx in the wrong runtime."
-        Assert-Equal $ffnxUrl $dep.fix.downloadUrl "$($definition.gameId) uses the wrong FFNx archive."
-        Assert-Equal 'extractZip' $dep.fix.autoInstall.kind "$($definition.gameId) must extract the FFNx archive."
-        Assert-Equal $case.Target $dep.fix.autoInstall.targetDir "$($definition.gameId) installs FFNx into the wrong runtime."
-        Assert-Equal $ffnxSha $dep.fix.autoInstall.sha256 "$($definition.gameId) has the wrong FFNx SHA-256."
-    }
-
-    $nativeLegacyDeps = @($new.dependencies | Where-Object { $_.id -in @('seventh-heaven', 'ffnx-game-driver') })
-    Assert-Equal 0 $nativeLegacyDeps.Count 'The native 2026 entry must not install 7th Heaven or FFNx.'
-
-    $mislabelled = @($catalog.games.dependencies | Where-Object {
+    $allDependencies = @($catalog.games | ForEach-Object { @($_.dependencies) })
+    $mislabelled = @($allDependencies | Where-Object {
         $_.id -match 'seventh.?heaven' -and $_.fix.downloadUrl -match '/FFNx/'
     })
     Assert-Equal 0 $mislabelled.Count 'A dependency named for 7th Heaven still points to FFNx.'
+    Assert-True ($catalog.releasesByGameId.PSObject.Properties.Name -notcontains 'ffviioldsteam2026') 'Release metadata for the removed 7th Heaven entry must also be removed.'
 
-    $compatReleases = @($catalog.releasesByGameId.ffviioldsteam2026)
-    Assert-True ($compatReleases.Count -gt 0) 'The 2013-on-2026 compatibility entry has no installable release.'
-    $latestCompat = $compatReleases | Sort-Object { [Version]$_.version } | Select-Object -Last 1
-    Assert-True ($latestCompat.packageUrl -match '/ffviioldsteam2026-v[^/]+-amm\.zip$') 'The compatibility release points to the wrong package asset.'
+    foreach ($gameId in @('ffviiold', 'ffviinew')) {
+        $releases = @($catalog.releasesByGameId.$gameId)
+        $latest = $releases | Sort-Object { [Version]$_.version } | Select-Object -Last 1
+        Assert-Equal '0.1.6' $latest.version "$gameId must publish v0.1.6 as its newest release."
+        Assert-Equal 'stable' $latest.channel "$gameId v0.1.6 must be a stable release."
+        Assert-True ($latest.packageUrl -match ("/v0\.1\.6/$gameId-v0\.1\.6-amm\.zip$")) "$gameId v0.1.6 points to the wrong package asset."
+        Assert-True ($latest.sha256 -match '^[0-9a-f]{64}$') "$gameId v0.1.6 must have a SHA-256 digest."
+    }
 
     Write-Host 'FFVII catalog contract verified.'
 }
@@ -138,3 +118,4 @@ finally {
         Remove-Item -LiteralPath $tempRoot -Recurse -Force
     }
 }
+
