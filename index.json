@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-08T08:01:47.3184924Z",
+  "generatedAt": "2026-08-08T19:08:08.1340611Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -167,6 +167,18 @@
         "sha256": "044189bbf009991262afee9546e339362111c5da7c5b2cad1682135525b635f5",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.1.8",
         "notes": "Blind Soldier 0.1.8 for Final Fantasy VII 2013: Wall Market Story routing, battle status hotkeys, Save speech restoration, and corrected Enemy Skill mapping.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.1.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.9/ffviiold-v0.1.9-amm.zip",
+        "sha256": "35d941bc02602400a878a6565b527efe56b844aff139c2aedf472eb09e3c849c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.9.md",
+        "notes": "Fix stock Steam 2013 startup with the sibling Version proxy and preserve mapped-drive paths for Reloaded discovery.",
         "compatibility": null,
         "patreon": null
       }
