@@ -80,7 +80,7 @@ try {
     foreach ($definition in @($old, $new)) {
         Assert-Equal 0 @($definition.dependencies).Count "$($definition.gameId) must be self-contained and dependency-free."
         Assert-True ($definition.description -match '## Hotkeys') "$($definition.gameId) description must contain the hotkey heading."
-        foreach ($key in @('U', 'O', 'J', 'L', 'K', 'I', 'F5', 'F6', 'F7', 'F8')) {
+        foreach ($key in @('U', 'O', 'J', 'L', 'K', 'I', 'F5', 'F6', 'F7', 'F8', '1', '2', '3', 'H', 'M', 'D', 'S')) {
             $needle = [string]([char]96) + $key + [char]96
             Assert-True ($definition.description.Contains($needle)) "$($definition.gameId) description is missing hotkey $key."
         }
@@ -105,10 +105,10 @@ try {
     foreach ($gameId in @('ffviiold', 'ffviinew')) {
         $releases = @($catalog.releasesByGameId.$gameId)
         $latest = $releases | Sort-Object { [Version]$_.version } | Select-Object -Last 1
-        Assert-Equal '0.1.7' $latest.version "$gameId must publish v0.1.7 as its newest release."
-        Assert-Equal 'beta' $latest.channel "$gameId v0.1.7 must be a beta release."
-        Assert-True ($latest.packageUrl -match ("/v0\.1\.7/$gameId-v0\.1\.7-amm\.zip$")) "$gameId v0.1.7 points to the wrong package asset."
-        Assert-True ($latest.sha256 -match '^[0-9a-f]{64}$') "$gameId v0.1.7 must have a SHA-256 digest."
+        Assert-Equal '0.1.8' $latest.version "$gameId must publish v0.1.8 as its newest release."
+        Assert-Equal 'beta' $latest.channel "$gameId v0.1.8 must be a beta release."
+        Assert-True ($latest.packageUrl -match ("/v0\.1\.8/$gameId-v0\.1\.8-amm\.zip$")) "$gameId v0.1.8 points to the wrong package asset."
+        Assert-True ($latest.sha256 -match '^[0-9a-f]{64}$') "$gameId v0.1.8 must have a SHA-256 digest."
     }
 
     Write-Host 'FFVII catalog contract verified.'
