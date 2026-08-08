@@ -106,7 +106,7 @@ try {
         $releases = @($catalog.releasesByGameId.$gameId)
         $latest = $releases | Sort-Object { [Version]$_.version } | Select-Object -Last 1
         Assert-Equal '0.1.6' $latest.version "$gameId must publish v0.1.6 as its newest release."
-        Assert-Equal 'stable' $latest.channel "$gameId v0.1.6 must be a stable release."
+        Assert-Equal 'beta' $latest.channel "$gameId v0.1.6 must be a beta release."
         Assert-True ($latest.packageUrl -match ("/v0\.1\.6/$gameId-v0\.1\.6-amm\.zip$")) "$gameId v0.1.6 points to the wrong package asset."
         Assert-True ($latest.sha256 -match '^[0-9a-f]{64}$') "$gameId v0.1.6 must have a SHA-256 digest."
     }
