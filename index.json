@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-09T01:55:57.2315405Z",
+  "generatedAt": "2026-08-09T02:06:29.138052Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -193,6 +193,18 @@
         "notes": "Blind Soldier 0.1.10 for Final Fantasy VII 2013: Config, Limit, and Order menu speech fixes plus R to repeat the last spoken message.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.2.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.0/ffviiold-v0.2.0-amm.zip",
+        "sha256": "48105ff772a7d7282a908b122812bb0bc3c1d062b492b95033b04a5b8519aa9c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.0.md",
+        "notes": "Blind Soldier 0.2.0 beta adds native Wall Market squat prompts for both supported FFVII runtimes.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -301,6 +313,18 @@
         "sha256": "8ac35ce8a7c59aadc45d5b02530cd66da03c00eafba6bacc03b29888fe2d1d26",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.10.md",
         "notes": "Blind Soldier 0.1.10 for Final Fantasy VII 2026: synchronized dual-runtime package plus R to repeat the last spoken message.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.0/ffviinew-v0.2.0-amm.zip",
+        "sha256": "46efa1810713cc1be9b4720db1ec3d19918866bca8996e27cfd3c8d759b0fd34",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.0.md",
+        "notes": "Blind Soldier 0.2.0 beta adds native Wall Market squat prompts for both supported FFVII runtimes.",
         "compatibility": null,
         "patreon": null
       }
