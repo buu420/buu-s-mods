@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-09T01:54:04.1171138Z",
+  "generatedAt": "2026-08-09T01:54:33.6293968Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -193,18 +193,6 @@
         "notes": "Blind Soldier 0.1.10 for Final Fantasy VII 2013: Config, Limit, and Order menu speech fixes plus R to repeat the last spoken message.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.1.11",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.11/ffviiold-v0.1.11-amm.zip",
-        "sha256": "ae27433214b6d94a14e4aaf015f45892f9daf9529c1c6fafd347c12b2c1d6f59",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.11.md",
-        "notes": "Blind Soldier 0.1.11 for Final Fantasy VII 2013: native Wall Market squat prompts announce Switch, Cancel, and OK.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -313,6 +301,18 @@
         "sha256": "8ac35ce8a7c59aadc45d5b02530cd66da03c00eafba6bacc03b29888fe2d1d26",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.10.md",
         "notes": "Blind Soldier 0.1.10 for Final Fantasy VII 2026: synchronized dual-runtime package plus R to repeat the last spoken message.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.1.11",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1.11/ffviinew-v0.1.11-amm.zip",
+        "sha256": "b80b1088c0bc1626c17a03017b367ce2ee778119a81da8d0f5f1e21f18cf61e1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.1.11.md",
+        "notes": "Blind Soldier 0.1.11 for Final Fantasy VII 2026: native Wall Market squat prompts announce Switch, Cancel, and OK.",
         "compatibility": null,
         "patreon": null
       }
