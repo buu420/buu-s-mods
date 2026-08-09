@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-09T22:56:47.7444409Z",
+  "generatedAt": "2026-08-09T22:57:13.4157023Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -205,18 +205,6 @@
         "notes": "Blind Soldier 0.2.0 beta adds native Wall Market squat prompts for both supported FFVII runtimes.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.2.1-beta.2",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.1-beta.2/ffviiold-v0.2.1-beta.2-amm.zip",
-        "sha256": "6162f2e5295c3ed4990751d90087799a0144904d46471de0179dae08c68e7cec",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.1-beta.2.md",
-        "notes": "Fix Echo-S opening-movie audio description when stock 7th Heaven and FFNx serve the movie without an ordinary file handle. Also includes multilingual accessibility support and the trimmed 2013 portable payload.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -337,6 +325,18 @@
         "sha256": "46efa1810713cc1be9b4720db1ec3d19918866bca8996e27cfd3c8d759b0fd34",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.0.md",
         "notes": "Blind Soldier 0.2.0 beta adds native Wall Market squat prompts for both supported FFVII runtimes.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.1-beta.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.1-beta.2/ffviinew-v0.2.1-beta.2-amm.zip",
+        "sha256": "cbc4e70486778638661bd542bfa087227e67c3e952a2dfdbf3429c7b58849595",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.1-beta.2.md",
+        "notes": "Fix Echo-S opening-movie audio description when the x86 compatibility runtime uses stock 7th Heaven and FFNx virtual movie playback. Includes the complete multilingual dual-runtime package.",
         "compatibility": null,
         "patreon": null
       }
