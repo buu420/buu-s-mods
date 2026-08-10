@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-10T05:36:26.4827022Z",
+  "generatedAt": "2026-08-10T05:36:50.7178689Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -229,18 +229,6 @@
         "notes": "Fix Polish fan-translation dialogue so Prism speaks Polish special characters instead of unrelated symbols. Includes automatic Bunio V1.05 detection and the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.2.2",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.2/ffviiold-v0.2.2-amm.zip",
-        "sha256": "e54e9a44d5a90daf93f4a8a759ac179a83ca2a1ab72b2780b5e89d9e37d817aa",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.2.md",
-        "notes": "Adds route-driven auto walk with P, progress reporting, swallowed-direction recovery, and repaired Train Graveyard story progression. Includes the trimmed 2013 x86 payload.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -385,6 +373,18 @@
         "sha256": "5eaa0f621c177435b6f12522bd4ab5950f9937a7d3e12e5b18cd3fa389b84bb9",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.1-beta.3.md",
         "notes": "Fix Polish fan-translation dialogue so Prism speaks Polish special characters instead of unrelated symbols. Includes automatic Bunio V1.05 detection and the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.2/ffviinew-v0.2.2-amm.zip",
+        "sha256": "f0d6ed2c44b495c7aea26641581bad9d5b70aca9115271e07f0c213bd12828bd",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.2.md",
+        "notes": "Adds route-driven auto walk with P, progress reporting, swallowed-direction recovery, and repaired Train Graveyard story progression. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
