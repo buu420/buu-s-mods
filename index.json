@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-09T22:58:34.9926881Z",
+  "generatedAt": "2026-08-10T02:07:15.1217552Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -217,6 +217,18 @@
         "notes": "Fix Echo-S opening-movie audio description when stock 7th Heaven and FFNx serve the movie without an ordinary file handle. Also includes multilingual accessibility support and the trimmed 2013 portable payload.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.2.1-beta.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.1-beta.3/ffviiold-v0.2.1-beta.3-amm.zip",
+        "sha256": "26f09f47bbe6a8abd722e3e87a9914c4041b4b9ab92593d9873a3ecb551e7314",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.1-beta.3.md",
+        "notes": "Fix Polish fan-translation dialogue so Prism speaks Polish special characters instead of unrelated symbols. Includes automatic Bunio V1.05 detection and the trimmed 2013 x86 payload.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -349,6 +361,18 @@
         "sha256": "cbc4e70486778638661bd542bfa087227e67c3e952a2dfdbf3429c7b58849595",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.1-beta.2.md",
         "notes": "Fix Echo-S opening-movie audio description when the x86 compatibility runtime uses stock 7th Heaven and FFNx virtual movie playback. Includes the complete multilingual dual-runtime package.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.1-beta.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.1-beta.3/ffviinew-v0.2.1-beta.3-amm.zip",
+        "sha256": "5eaa0f621c177435b6f12522bd4ab5950f9937a7d3e12e5b18cd3fa389b84bb9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.1-beta.3.md",
+        "notes": "Fix Polish fan-translation dialogue so Prism speaks Polish special characters instead of unrelated symbols. Includes automatic Bunio V1.05 detection and the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
