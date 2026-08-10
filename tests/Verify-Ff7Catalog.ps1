@@ -104,12 +104,12 @@ try {
 
     foreach ($gameId in @('ffviiold', 'ffviinew')) {
         $releases = @($catalog.releasesByGameId.$gameId)
-        $matches = @($releases | Where-Object version -eq '0.2.1-beta.2')
-        Assert-Equal 1 $matches.Count "$gameId must publish exactly one v0.2.1-beta.2 release."
+        $matches = @($releases | Where-Object version -eq '0.2.1-beta.3')
+        Assert-Equal 1 $matches.Count "$gameId must publish exactly one v0.2.1-beta.3 release."
         $latest = $matches[0]
-        Assert-Equal 'beta' $latest.channel "$gameId v0.2.1-beta.2 must be a beta release."
-        Assert-True ($latest.packageUrl -match ("/v0\.2\.1-beta\.2/$gameId-v0\.2\.1-beta\.2-amm\.zip$")) "$gameId v0.2.1-beta.2 points to the wrong package asset."
-        Assert-True ($latest.sha256 -match '^[0-9a-f]{64}$') "$gameId v0.2.1-beta.2 must have a SHA-256 digest."
+        Assert-Equal 'beta' $latest.channel "$gameId v0.2.1-beta.3 must be a beta release."
+        Assert-True ($latest.packageUrl -match ("/v0\.2\.1-beta\.3/$gameId-v0\.2\.1-beta\.3-amm\.zip$")) "$gameId v0.2.1-beta.3 points to the wrong package asset."
+        Assert-True ($latest.sha256 -match '^[0-9a-f]{64}$') "$gameId v0.2.1-beta.3 must have a SHA-256 digest."
     }
 
     Write-Host 'FFVII catalog contract verified.'
