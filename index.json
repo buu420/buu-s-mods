@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-10T20:46:10.0333125Z",
+  "generatedAt": "2026-08-10T22:47:05.1488682Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -253,6 +253,18 @@
         "notes": "Fixes automatic Polish translation detection when the translated font is unavailable or replaced, and restores Continue save-file speech.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.2.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.4/ffviiold-v0.2.4-amm.zip",
+        "sha256": "0e6db69b046856eb1b2a77a2cca2469b10b98bcdf1654447efa4f0c5593020c8",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.4.md",
+        "notes": "Restores field objectives after collected objects disappear and fixes direction reversals on active ladder routes. Includes the trimmed 2013 x86 payload.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -421,6 +433,18 @@
         "sha256": "a92c0202697b52e8a926aafc9dad7b390f9adcff7f02f6554cbe201d11a2706a",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.3.md",
         "notes": "Fixes automatic Polish translation detection when the translated font is unavailable or replaced, and restores Continue save-file speech.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.4/ffviinew-v0.2.4-amm.zip",
+        "sha256": "f811585b4cf31bd26ae818941b3a60ff3d998dd2a8e5ce61aa49f03ff02f8b03",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.4.md",
+        "notes": "Restores field objectives after collected objects disappear and fixes direction reversals on active ladder routes. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
