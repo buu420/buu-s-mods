@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-10T20:42:50.8529334Z",
+  "generatedAt": "2026-08-10T20:43:14.7743343Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -241,18 +241,6 @@
         "notes": "Adds route-driven auto walk with P, progress reporting, swallowed-direction recovery, and repaired Train Graveyard story progression. Includes the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.2.3",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.3/ffviiold-v0.2.3-amm.zip",
-        "sha256": "2b8ed2eb5246172cc089b10ccc3a9f4d81c43b4791c81351228fd3eb0ee01300",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.3.md",
-        "notes": "Fixes automatic Polish translation detection when the translated font is unavailable or replaced, and restores Continue save-file speech.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -409,6 +397,18 @@
         "sha256": "f0d6ed2c44b495c7aea26641581bad9d5b70aca9115271e07f0c213bd12828bd",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.2.md",
         "notes": "Adds route-driven auto walk with P, progress reporting, swallowed-direction recovery, and repaired Train Graveyard story progression. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.3/ffviinew-v0.2.3-amm.zip",
+        "sha256": "a92c0202697b52e8a926aafc9dad7b390f9adcff7f02f6554cbe201d11a2706a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.3.md",
+        "notes": "Fixes automatic Polish translation detection when the translated font is unavailable or replaced, and restores Continue save-file speech.",
         "compatibility": null,
         "patreon": null
       }
