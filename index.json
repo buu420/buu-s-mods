@@ -459,6 +459,18 @@
         "notes": "Restores field objectives after collected objects disappear and fixes direction reversals on active ladder routes. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.5/ffviinew-v0.2.5-amm.zip",
+        "sha256": "38dcda80c4ac69825ef17e7058d61850a734468d5ea550ac2750b1cc1d7e0dfd",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.5.md",
+        "notes": "Blind Soldier 0.2.5 adds world-map story routing and combat recovery, Kalm and Chocobo Ranch accessibility, Lower Junon descriptions, corrected encounter counts, and field-navigation recovery fixes. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
       }
     ]
   },
