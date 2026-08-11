@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-11T14:38:24.4986898Z",
+  "generatedAt": "2026-08-11T21:23:55.1336778Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -469,6 +469,18 @@
         "sha256": "38dcda80c4ac69825ef17e7058d61850a734468d5ea550ac2750b1cc1d7e0dfd",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.5.md",
         "notes": "Blind Soldier 0.2.5 adds world-map story routing and combat recovery, Kalm and Chocobo Ranch accessibility, Lower Junon descriptions, corrected encounter counts, and field-navigation recovery fixes. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.6/ffviinew-v0.2.6-amm.zip",
+        "sha256": "8ae4e10afe5e972843fbb144291f8f2b2013daecf2e14e8deecc28c10cd563f7",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.6.md",
+        "notes": "Repairs Floor 63 coupon and duct progression, clears stale room selections, and follows live crawlspace route bends. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
