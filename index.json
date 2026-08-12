@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-11T21:25:32.8449246Z",
+  "generatedAt": "2026-08-12T21:06:00.8254208Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -493,6 +493,18 @@
         "sha256": "8ae4e10afe5e972843fbb144291f8f2b2013daecf2e14e8deecc28c10cd563f7",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.6.md",
         "notes": "Repairs Floor 63 coupon and duct progression, clears stale room selections, and follows live crawlspace route bends. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.7/ffviinew-v0.2.7-amm.zip",
+        "sha256": "8f136557408464cbde4b733e51c347a5ecf29396ea9cba2371bf0084f62100b4",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.7.md",
+        "notes": "Corrects the native Floor 63 D16 and C Coupon route, retains short obstacle-recovery steps for manual navigation and auto-walk, and restores FFNx-wrapped highlighted choice tracking. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
