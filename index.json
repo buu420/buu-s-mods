@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-13T17:31:58.8464771Z",
+  "generatedAt": "2026-08-13T17:32:34.2762005Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -301,18 +301,6 @@
         "notes": "Corrects the native Floor 63 D16 and C Coupon route, retains short obstacle-recovery steps for manual navigation and auto-walk, and restores FFNx-wrapped highlighted choice tracking. Includes the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.2.8",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.8/ffviiold-v0.2.8-amm.zip",
-        "sha256": "66f9d5df60accd64c05faff57a448bdb9baa6d877a3c320dd5d68362cd875119",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.8.md",
-        "notes": "Adds Nibelheim flashback Story and Object guidance, scripted guest-party battle reading, and non-repeating Reform party-slot speech. Includes the trimmed 2013 x86 payload.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -529,6 +517,18 @@
         "sha256": "8f136557408464cbde4b733e51c347a5ecf29396ea9cba2371bf0084f62100b4",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.7.md",
         "notes": "Corrects the native Floor 63 D16 and C Coupon route, retains short obstacle-recovery steps for manual navigation and auto-walk, and restores FFNx-wrapped highlighted choice tracking. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.8/ffviinew-v0.2.8-amm.zip",
+        "sha256": "583be277509afa977f20c269c9e566167fd16eaf8b5b93fd9c3baa7c81bc3535",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.8.md",
+        "notes": "Adds Nibelheim flashback Story and Object guidance, scripted guest-party battle reading, and non-repeating Reform party-slot speech. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
