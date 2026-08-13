@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-13T17:32:34.2762005Z",
+  "generatedAt": "2026-08-13T19:39:34.8996726Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -313,6 +313,18 @@
         "notes": "Adds Nibelheim flashback Story and Object guidance, scripted guest-party battle reading, and non-repeating Reform party-slot speech. Includes the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.2.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.9/ffviiold-v0.2.9-amm.zip",
+        "sha256": "a942e5425cf07ea464857c7ae038e83c74fae7b695cf51bfae464cf5e00df5e5",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.9.md",
+        "notes": "Restores post-reactor Nibelheim Story guidance and FFNx-wrapped choice speech, and adds native front/back row and swap announcements to the Steam 2026 Order menu. Includes the trimmed 2013 x86 payload.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -541,6 +553,18 @@
         "sha256": "583be277509afa977f20c269c9e566167fd16eaf8b5b93fd9c3baa7c81bc3535",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.8.md",
         "notes": "Adds Nibelheim flashback Story and Object guidance, scripted guest-party battle reading, and non-repeating Reform party-slot speech. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.2.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.9/ffviinew-v0.2.9-amm.zip",
+        "sha256": "5b230346f2cc2b74f15a6160f76617d756527d167bb925d560ab9d1033f1fe72",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.9.md",
+        "notes": "Restores post-reactor Nibelheim Story guidance and FFNx-wrapped choice speech, and adds native front/back row and swap announcements to the Steam 2026 Order menu. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
