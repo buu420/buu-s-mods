@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-12T21:10:29.0767116Z",
+  "generatedAt": "2026-08-13T17:31:58.8464771Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -299,6 +299,18 @@
         "sha256": "97a0488cb716281e1ea29b7467c16683cd85555f8492a494ddd3f1fa99f500fe",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.7.md",
         "notes": "Corrects the native Floor 63 D16 and C Coupon route, retains short obstacle-recovery steps for manual navigation and auto-walk, and restores FFNx-wrapped highlighted choice tracking. Includes the trimmed 2013 x86 payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.2.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.2.8/ffviiold-v0.2.8-amm.zip",
+        "sha256": "66f9d5df60accd64c05faff57a448bdb9baa6d877a3c320dd5d68362cd875119",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.8.md",
+        "notes": "Adds Nibelheim flashback Story and Object guidance, scripted guest-party battle reading, and non-repeating Reform party-slot speech. Includes the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
       }
