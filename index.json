@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-14T03:56:13.5894231Z",
+  "generatedAt": "2026-08-14T03:56:44.4299078Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -325,18 +325,6 @@
         "notes": "Restores post-reactor Nibelheim Story guidance and FFNx-wrapped choice speech, and adds native front/back row and swap announcements to the Steam 2026 Order menu. Includes the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.3.0",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.3.0/ffviiold-v0.3.0-amm.zip",
-        "sha256": "7c6c619d82c7086fe75dfff4cc907745ecc4318a0a910496bca25ef2b38dfa80",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.0",
-        "notes": "Blind Soldier 0.3.0 improves native menu and dialogue coverage, mounted world-map accessibility, and Nibelheim flashback guidance. Includes the trimmed 2013 x86 payload.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -577,6 +565,18 @@
         "sha256": "5b230346f2cc2b74f15a6160f76617d756527d167bb925d560ab9d1033f1fe72",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.9.md",
         "notes": "Restores post-reactor Nibelheim Story guidance and FFNx-wrapped choice speech, and adds native front/back row and swap announcements to the Steam 2026 Order menu. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.3.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.3.0/ffviinew-v0.3.0-amm.zip",
+        "sha256": "f7a7f23c5a9c17eb2457f2b6ff96f3dab64c6122c47a84b04c91efd7a2f3485a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.0",
+        "notes": "Blind Soldier 0.3.0 improves native menu and dialogue coverage, mounted world-map accessibility, and Nibelheim flashback guidance. Includes the complete dual-runtime payload.",
         "compatibility": null,
         "patreon": null
       }
