@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-13T19:39:34.8996726Z",
+  "generatedAt": "2026-08-14T03:56:13.5894231Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -323,6 +323,18 @@
         "sha256": "a942e5425cf07ea464857c7ae038e83c74fae7b695cf51bfae464cf5e00df5e5",
         "changelogUrl": "https://github.com/buu420/blind-soldier/blob/main/docs/releases/v0.2.9.md",
         "notes": "Restores post-reactor Nibelheim Story guidance and FFNx-wrapped choice speech, and adds native front/back row and swap announcements to the Steam 2026 Order menu. Includes the trimmed 2013 x86 payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.3.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.3.0/ffviiold-v0.3.0-amm.zip",
+        "sha256": "7c6c619d82c7086fe75dfff4cc907745ecc4318a0a910496bca25ef2b38dfa80",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.0",
+        "notes": "Blind Soldier 0.3.0 improves native menu and dialogue coverage, mounted world-map accessibility, and Nibelheim flashback guidance. Includes the trimmed 2013 x86 payload.",
         "compatibility": null,
         "patreon": null
       }
