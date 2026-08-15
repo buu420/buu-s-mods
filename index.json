@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-14T04:02:20.3401462Z",
+  "generatedAt": "2026-08-15T16:53:10.7682067Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -335,6 +335,18 @@
         "sha256": "7c6c619d82c7086fe75dfff4cc907745ecc4318a0a910496bca25ef2b38dfa80",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.0",
         "notes": "Blind Soldier 0.3.0 improves native menu and dialogue coverage, mounted world-map accessibility, and Nibelheim flashback guidance. Includes the trimmed 2013 x86 payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.3.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.3.1/ffviiold-v0.3.1-amm.zip",
+        "sha256": "dcec2a7994f1330de289e1cac902850d3bb17b141294e73476eb439fcd405460",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.1",
+        "notes": "Version-aligned 2013 x86 package; the functional change restores Steam 2026 x64 world-map menu speech.",
         "compatibility": null,
         "patreon": null
       }
