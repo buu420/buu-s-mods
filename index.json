@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-15T16:54:46.2165484Z",
+  "generatedAt": "2026-08-20T16:39:51.4817522Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -347,6 +347,18 @@
         "sha256": "dcec2a7994f1330de289e1cac902850d3bb17b141294e73476eb439fcd405460",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.1",
         "notes": "Version-aligned 2013 x86 package; the functional change restores Steam 2026 x64 world-map menu speech.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.4.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.4.0/ffviiold-v0.4.0-amm.zip",
+        "sha256": "46ce49be33ef1683e63d36971bc8e89bfbd784d2c562d757fae8d78b16c3bf29",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.0",
+        "notes": "Field navigation through the Midgar slums, the Mythril Mine and Fort Condor; PHS screen speech restored; a Midgar Zolom marsh warning.",
         "compatibility": null,
         "patreon": null
       }
