@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-20T16:39:51.4817522Z",
+  "generatedAt": "2026-08-20T16:40:20.7670609Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -349,18 +349,6 @@
         "notes": "Version-aligned 2013 x86 package; the functional change restores Steam 2026 x64 world-map menu speech.",
         "compatibility": null,
         "patreon": null
-      },
-      {
-        "gameId": "ffviiold",
-        "pluginId": "buu420",
-        "version": "0.4.0",
-        "channel": "beta",
-        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.4.0/ffviiold-v0.4.0-amm.zip",
-        "sha256": "46ce49be33ef1683e63d36971bc8e89bfbd784d2c562d757fae8d78b16c3bf29",
-        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.0",
-        "notes": "Field navigation through the Midgar slums, the Mythril Mine and Fort Condor; PHS screen speech restored; a Midgar Zolom marsh warning.",
-        "compatibility": null,
-        "patreon": null
       }
     ],
     "ffviinew": [
@@ -625,6 +613,18 @@
         "sha256": "2b7693281ce8c408c5bc50e683356a5ed6ae0fed01621b663b93f85afd258400",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.3.1",
         "notes": "Restores native submenu speech on the Steam 2026 x64 world map. Includes the complete dual-runtime payload.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.4.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.4.0/ffviinew-v0.4.0-amm.zip",
+        "sha256": "d8f8ab5162e6eef4c3235498a6f4a6cd7dddef7d5e96856cfd7b3e56e3ddb855",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.0",
+        "notes": "Field navigation through the Midgar slums, the Mythril Mine and Fort Condor; PHS screen speech restored; a Midgar Zolom marsh warning. Steam 2026 x64 needs play testing.",
         "compatibility": null,
         "patreon": null
       }
