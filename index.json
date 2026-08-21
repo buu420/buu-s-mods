@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-21T04:01:37.9430864Z",
+  "generatedAt": "2026-08-21T04:02:23.7404009Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -649,6 +649,18 @@
         "sha256": "d8f8ab5162e6eef4c3235498a6f4a6cd7dddef7d5e96856cfd7b3e56e3ddb855",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.0",
         "notes": "Field navigation through the Midgar slums, the Mythril Mine and Fort Condor; PHS screen speech restored; a Midgar Zolom marsh warning. Steam 2026 x64 needs play testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.4.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.4.1/ffviinew-v0.4.1-amm.zip",
+        "sha256": "44749f90e563f75779b68f1a1c0f043846e07abee266a2f90e843b153cb2402c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.1",
+        "notes": "JAWS and other non-NVDA screen reader support is fixed across the dual-runtime package. Prism 0.18.0 replaces both speech runtimes, and Blind Soldier now follows a reader started, stopped, or switched during play. Reported by sanslash332. Steam 2026 x64 still needs general play testing.",
         "compatibility": null,
         "patreon": null
       }
