@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-20T16:40:20.7670609Z",
+  "generatedAt": "2026-08-21T04:01:37.9430864Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -359,6 +359,18 @@
         "sha256": "46ce49be33ef1683e63d36971bc8e89bfbd784d2c562d757fae8d78b16c3bf29",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.0",
         "notes": "Field navigation through the Midgar slums, the Mythril Mine and Fort Condor; PHS screen speech restored; a Midgar Zolom marsh warning.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.4.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.4.1/ffviiold-v0.4.1-amm.zip",
+        "sha256": "2d4d1942c946d956231df7b7b9dc27ddb28e433e19ca481b84f65db42dc79ae3",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.1",
+        "notes": "First Blind Soldier build to speak for JAWS and other non-NVDA screen readers on the 2013 runtime. Prism 0.18.0 fixes the x86 backend-selection crash, and Blind Soldier now follows a reader started, stopped, or switched during play. Reported by sanslash332.",
         "compatibility": null,
         "patreon": null
       }
