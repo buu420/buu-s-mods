@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-22T08:04:16.4935109Z",
+  "generatedAt": "2026-08-22T08:04:54.7961118Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -697,6 +697,18 @@
         "sha256": "a2b840c6b77d95a980f0f01480e676e63ad803573a94359562c11596cc7729eb",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.0",
         "notes": "Fixes the accessible launcher, which closed immediately on startup in 0.4.1 for every user. Adds full speech for the Fort Condor fort battle on both the 2026 x64 and 2013 runtimes: the hire list with each unit\u0027s stats, where a unit can be placed and how far, casualties and the enemy advance gauge during the battle, and who won. Steam 2026 x64 still needs general play testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.1/ffviinew-v0.5.1-amm.zip",
+        "sha256": "5c03536c5856bb7afeef3dffc107a128e125012b5bc3035bb0de5b719e03bcf6",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.1",
+        "notes": "No change in play. First build made under the new Prism speech-library guards, which keep the launcher crash fixed in 0.5.0 from ever coming back: the launcher\u0027s description of Prism\u0027s configuration is now checked against the library itself on every build, every push, and at release. Steam 2026 x64 still needs general play testing.",
         "compatibility": null,
         "patreon": null
       }
