@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-22T04:41:47.3108397Z",
+  "generatedAt": "2026-08-22T04:42:59.9917121Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -673,6 +673,18 @@
         "sha256": "44749f90e563f75779b68f1a1c0f043846e07abee266a2f90e843b153cb2402c",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.1",
         "notes": "JAWS and other non-NVDA screen reader support is fixed across the dual-runtime package. Prism 0.18.0 replaces both speech runtimes, and Blind Soldier now follows a reader started, stopped, or switched during play. Reported by sanslash332. Steam 2026 x64 still needs general play testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.0/ffviinew-v0.5.0-amm.zip",
+        "sha256": "a2b840c6b77d95a980f0f01480e676e63ad803573a94359562c11596cc7729eb",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.0",
+        "notes": "Fixes the accessible launcher, which closed immediately on startup in 0.4.1 for every user. Adds full speech for the Fort Condor fort battle on both the 2026 x64 and 2013 runtimes: the hire list with each unit\u0027s stats, where a unit can be placed and how far, casualties and the enemy advance gauge during the battle, and who won. Steam 2026 x64 still needs general play testing.",
         "compatibility": null,
         "patreon": null
       }
