@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-21T04:02:23.7404009Z",
+  "generatedAt": "2026-08-22T04:41:47.3108397Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -371,6 +371,18 @@
         "sha256": "2d4d1942c946d956231df7b7b9dc27ddb28e433e19ca481b84f65db42dc79ae3",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.4.1",
         "notes": "First Blind Soldier build to speak for JAWS and other non-NVDA screen readers on the 2013 runtime. Prism 0.18.0 fixes the x86 backend-selection crash, and Blind Soldier now follows a reader started, stopped, or switched during play. Reported by sanslash332.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.0/ffviiold-v0.5.0-amm.zip",
+        "sha256": "a98a09b1fde92211dfed32115f67b7eec4bf82c33e23c5c40c7bf23165517fef",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.0",
+        "notes": "Fixes the accessible launcher, which closed immediately on startup in 0.4.1 for every user. Adds full speech for the Fort Condor fort battle: the hire list with each unit\u0027s stats, where a unit can be placed and how far, casualties and the enemy advance gauge during the battle, and who won.",
         "compatibility": null,
         "patreon": null
       }
