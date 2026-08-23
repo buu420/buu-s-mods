@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-22T08:04:54.7961118Z",
+  "generatedAt": "2026-08-23T22:53:49.5249993Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -395,6 +395,18 @@
         "sha256": "ffa8de663fbbdbe381ee56bd3298b0e39de0374de4df6d08e789521aad4b95f4",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.1",
         "notes": "No change in play. First build made under the new Prism speech-library guards, which keep the launcher crash fixed in 0.5.0 from ever coming back: the launcher\u0027s description of Prism\u0027s configuration is now checked against the library itself on every build, every push, and at release.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.2/ffviiold-v0.5.2-amm.zip",
+        "sha256": "c70c120a5b0e0e9a8715edaa819c20685469b8c997cc4218c341bb366404667e",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.2",
+        "notes": "Fort Condor battle menus and battlefield movement are now spoken. The I key moves the battlefield cursor to a selected target; ordering an ally to move says Moving once instead of flooding coordinates; moving and stopped units are identified under the cursor; interrupted moves are announced; and P reports the battle line. Field and world-map navigation remain speech-first with progress indicators; the rejected directional audio beacons were removed. Packages no longer include unused sound-source archives.",
         "compatibility": null,
         "patreon": null
       }
