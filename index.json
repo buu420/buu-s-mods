@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-23T22:53:49.5249993Z",
+  "generatedAt": "2026-08-23T22:54:30.4353572Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -721,6 +721,18 @@
         "sha256": "5c03536c5856bb7afeef3dffc107a128e125012b5bc3035bb0de5b719e03bcf6",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.1",
         "notes": "No change in play. First build made under the new Prism speech-library guards, which keep the launcher crash fixed in 0.5.0 from ever coming back: the launcher\u0027s description of Prism\u0027s configuration is now checked against the library itself on every build, every push, and at release. Steam 2026 x64 still needs general play testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.2/ffviinew-v0.5.2-amm.zip",
+        "sha256": "7118783808e2ea530afd82fe3a51b4db705eabbbc156cf7141143ddc9e89a755",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.2",
+        "notes": "Fort Condor battle menus and battlefield movement are now spoken. The I key moves the battlefield cursor to a selected target; ordering an ally to move says Moving once instead of flooding coordinates; moving and stopped units are identified under the cursor; interrupted moves are announced; and P reports the battle line. Field and world-map navigation remain speech-first with progress indicators; the rejected directional audio beacons were removed. Packages no longer include unused sound-source archives. Steam 2026 x64 also gains the Midgar Zolom warning, suspend and resume announcements, the opening-movie description, field-transition cues, and Honey Bee Inn exit profiles. Steam 2026 x64 still needs general play testing.",
         "compatibility": null,
         "patreon": null
       }
