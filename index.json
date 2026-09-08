@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-08-23T22:54:30.4353572Z",
+  "generatedAt": "2026-09-08T21:20:22.6681374Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -409,6 +409,18 @@
         "notes": "Fort Condor battle menus and battlefield movement are now spoken. The I key moves the battlefield cursor to a selected target; ordering an ally to move says Moving once instead of flooding coordinates; moving and stopped units are identified under the cursor; interrupted moves are announced; and P reports the battle line. Field and world-map navigation remain speech-first with progress indicators; the rejected directional audio beacons were removed. Packages no longer include unused sound-source archives.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.3/ffviiold-v0.5.3-amm.zip",
+        "sha256": "fc7f24f21f712d5bdd0cd6d8a500515c0be43522020e47e78748922cb5c76d55",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.3",
+        "notes": "Story guidance now covers required routes from the opening through the ending, built from 1110 field-script definitions. Junon, the cargo ship, Costa del Sol, Mount Corel and North Corel gain route, object and cue improvements. The first Gold Saucer visit adds descriptions, corrected Speed Square registration guidance, spoken feedback for the coaster, G-Bike, 3D Battler, arm wrestling, basketball and Chocobo Square, and recorded narration for six Gold Saucer movies. Chocobo races now speak automatic or manual control, accepted acceleration and slowing, dashing, stamina and your own place, with pace announcements spaced so they cannot flood; K rereads the race status. Auto walk now checks an interaction approach against the player\u0027s collision radius, no longer offers static exits the field scripts disable, and stops with a spoken explanation after five seconds without progress while ordinary navigation stays on. Live play has reached the first Gold Saucer visit and the Corel Prison chocobo race; later chapters have offline verification only and still need playtesting, as does walking while holding Run.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -733,6 +745,18 @@
         "sha256": "7118783808e2ea530afd82fe3a51b4db705eabbbc156cf7141143ddc9e89a755",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.2",
         "notes": "Fort Condor battle menus and battlefield movement are now spoken. The I key moves the battlefield cursor to a selected target; ordering an ally to move says Moving once instead of flooding coordinates; moving and stopped units are identified under the cursor; interrupted moves are announced; and P reports the battle line. Field and world-map navigation remain speech-first with progress indicators; the rejected directional audio beacons were removed. Packages no longer include unused sound-source archives. Steam 2026 x64 also gains the Midgar Zolom warning, suspend and resume announcements, the opening-movie description, field-transition cues, and Honey Bee Inn exit profiles. Steam 2026 x64 still needs general play testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.3/ffviinew-v0.5.3-amm.zip",
+        "sha256": "9402697239e93fed9d4e2478ee57f9b9ca27fa0e497f291cef2df814298ac97c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.3",
+        "notes": "Story guidance now covers required routes from the opening through the ending, built from 1110 field-script definitions. Junon, the cargo ship, Costa del Sol, Mount Corel and North Corel gain route, object and cue improvements. The first Gold Saucer visit adds descriptions, corrected Speed Square registration guidance, spoken feedback for the coaster, G-Bike, 3D Battler, arm wrestling, basketball and Chocobo Square, and recorded narration for six Gold Saucer movies. Chocobo races now speak automatic or manual control, accepted acceleration and slowing, dashing, stamina and your own place, with pace announcements spaced so they cannot flood; K rereads the race status. Auto walk now checks an interaction approach against the player\u0027s collision radius, no longer offers static exits the field scripts disable, and stops with a spoken explanation after five seconds without progress while ordinary navigation stays on. Live play has reached the first Gold Saucer visit and the Corel Prison chocobo race; later chapters have offline verification only and still need playtesting, as does walking while holding Run. Steam 2026 x64 receives all of this through the same shared code and regressions, and still needs broader live testing.",
         "compatibility": null,
         "patreon": null
       }
