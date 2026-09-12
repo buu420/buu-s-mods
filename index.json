@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-08T21:20:22.6681374Z",
+  "generatedAt": "2026-09-12T15:50:58.3076438Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -421,6 +421,18 @@
         "notes": "Story guidance now covers required routes from the opening through the ending, built from 1110 field-script definitions. Junon, the cargo ship, Costa del Sol, Mount Corel and North Corel gain route, object and cue improvements. The first Gold Saucer visit adds descriptions, corrected Speed Square registration guidance, spoken feedback for the coaster, G-Bike, 3D Battler, arm wrestling, basketball and Chocobo Square, and recorded narration for six Gold Saucer movies. Chocobo races now speak automatic or manual control, accepted acceleration and slowing, dashing, stamina and your own place, with pace announcements spaced so they cannot flood; K rereads the race status. Auto walk now checks an interaction approach against the player\u0027s collision radius, no longer offers static exits the field scripts disable, and stops with a spoken explanation after five seconds without progress while ordinary navigation stays on. Live play has reached the first Gold Saucer visit and the Corel Prison chocobo race; later chapters have offline verification only and still need playtesting, as does walking while holding Run.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.4/ffviiold-v0.5.4-amm.zip",
+        "sha256": "bf12630970a106eb9cc3f2e8d31dc2adf0e05579fd6ba2322a70b9798b415175",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.4",
+        "notes": "All recorded movie and cutscene descriptions now use Brice\u0027s approved voice; the previous narrator\u0027s recordings are excluded. Includes the opening and 99 other movie tracks, plus 618 short description clips. The opening has revised pacing, startup synchronization and stronger narration from the title onward. Controller navigation: R3 opens the menu, D-pad Up/Down selects a target, LB/RB changes category, A starts spoken guidance, X starts autowalk, and B or R3 while the menu is open stops and closes it. Steam 2026 x64 autowalk now supplies movement through the native input path. Live story testing reaches Gold Saucer and the Corel Prison race; later story guidance has offline checks. The complete replacement narration set has not yet had an in-game audition, and not every optional scene is described. See the release notes for details.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -757,6 +769,18 @@
         "sha256": "9402697239e93fed9d4e2478ee57f9b9ca27fa0e497f291cef2df814298ac97c",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.3",
         "notes": "Story guidance now covers required routes from the opening through the ending, built from 1110 field-script definitions. Junon, the cargo ship, Costa del Sol, Mount Corel and North Corel gain route, object and cue improvements. The first Gold Saucer visit adds descriptions, corrected Speed Square registration guidance, spoken feedback for the coaster, G-Bike, 3D Battler, arm wrestling, basketball and Chocobo Square, and recorded narration for six Gold Saucer movies. Chocobo races now speak automatic or manual control, accepted acceleration and slowing, dashing, stamina and your own place, with pace announcements spaced so they cannot flood; K rereads the race status. Auto walk now checks an interaction approach against the player\u0027s collision radius, no longer offers static exits the field scripts disable, and stops with a spoken explanation after five seconds without progress while ordinary navigation stays on. Live play has reached the first Gold Saucer visit and the Corel Prison chocobo race; later chapters have offline verification only and still need playtesting, as does walking while holding Run. Steam 2026 x64 receives all of this through the same shared code and regressions, and still needs broader live testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.4/ffviinew-v0.5.4-amm.zip",
+        "sha256": "7ebcf7a7ea37bbfc20a77d6bd1d6a4a650670ef4d0d19d44698f5ca8586b0f71",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.4",
+        "notes": "All recorded movie and cutscene descriptions now use Brice\u0027s approved voice; the previous narrator\u0027s recordings are excluded. Includes the opening and 99 other movie tracks, plus 618 short description clips. The opening has revised pacing, startup synchronization and stronger narration from the title onward. Controller navigation: R3 opens the menu, D-pad Up/Down selects a target, LB/RB changes category, A starts spoken guidance, X starts autowalk, and B or R3 while the menu is open stops and closes it. Steam 2026 x64 autowalk now supplies movement through the native input path. Live story testing reaches Gold Saucer and the Corel Prison race; later story guidance has offline checks. The complete replacement narration set has not yet had an in-game audition, and not every optional scene is described. See the release notes for details.",
         "compatibility": null,
         "patreon": null
       }
