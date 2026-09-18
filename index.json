@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-12T15:50:58.3076438Z",
+  "generatedAt": "2026-09-18T19:05:00.7810663Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -433,6 +433,18 @@
         "notes": "All recorded movie and cutscene descriptions now use Brice\u0027s approved voice; the previous narrator\u0027s recordings are excluded. Includes the opening and 99 other movie tracks, plus 618 short description clips. The opening has revised pacing, startup synchronization and stronger narration from the title onward. Controller navigation: R3 opens the menu, D-pad Up/Down selects a target, LB/RB changes category, A starts spoken guidance, X starts autowalk, and B or R3 while the menu is open stops and closes it. Steam 2026 x64 autowalk now supplies movement through the native input path. Live story testing reaches Gold Saucer and the Corel Prison race; later story guidance has offline checks. The complete replacement narration set has not yet had an in-game audition, and not every optional scene is described. See the release notes for details.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.5/ffviiold-v0.5.5-amm.zip",
+        "sha256": "74341ed13bdc484d19e24cc5c7b64e5ef9e93363f4f59bfe79e98f1a6b0ce5e6",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.5",
+        "notes": "Fixes Steam 2026 x64 controller navigation: R3 can select a PS5 or Xbox controller when both are connected; the world-map menu stays open for L1/R1 category changes; navigation speech takes priority over terrain announcements. Narration and description coverage are unchanged from 0.5.4. The reported controller issue still needs the reporting player to retest this release.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -781,6 +793,18 @@
         "sha256": "7ebcf7a7ea37bbfc20a77d6bd1d6a4a650670ef4d0d19d44698f5ca8586b0f71",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.4",
         "notes": "All recorded movie and cutscene descriptions now use Brice\u0027s approved voice; the previous narrator\u0027s recordings are excluded. Includes the opening and 99 other movie tracks, plus 618 short description clips. The opening has revised pacing, startup synchronization and stronger narration from the title onward. Controller navigation: R3 opens the menu, D-pad Up/Down selects a target, LB/RB changes category, A starts spoken guidance, X starts autowalk, and B or R3 while the menu is open stops and closes it. Steam 2026 x64 autowalk now supplies movement through the native input path. Live story testing reaches Gold Saucer and the Corel Prison race; later story guidance has offline checks. The complete replacement narration set has not yet had an in-game audition, and not every optional scene is described. See the release notes for details.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.5/ffviinew-v0.5.5-amm.zip",
+        "sha256": "38201be5392feb58e4e013177a57d2030929a626f657b300fe588183a3cf335f",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.5",
+        "notes": "Fixes Steam 2026 x64 controller navigation: R3 can select a PS5 or Xbox controller when both are connected; the world-map menu stays open for L1/R1 category changes; navigation speech takes priority over terrain announcements. Narration and description coverage are unchanged from 0.5.4. The reported controller issue still needs the reporting player to retest this release.",
         "compatibility": null,
         "patreon": null
       }
