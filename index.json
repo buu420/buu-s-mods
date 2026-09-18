@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-18T19:05:00.7810663Z",
+  "generatedAt": "2026-09-18T21:30:18.6346975Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -445,6 +445,18 @@
         "notes": "Fixes Steam 2026 x64 controller navigation: R3 can select a PS5 or Xbox controller when both are connected; the world-map menu stays open for L1/R1 category changes; navigation speech takes priority over terrain announcements. Narration and description coverage are unchanged from 0.5.4. The reported controller issue still needs the reporting player to retest this release.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.6/ffviiold-v0.5.6-amm.zip",
+        "sha256": "c0087259f772f173f4574fdaa2d9ce62e10a4af1be36e88c36696dc4cd254059",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.6",
+        "notes": "Fixes the first Junon welcome parade: Steam 2026 x64 alignment uses native game input and keeps held movement active across frames. A stopped assist no longer repeats lost-track warnings over guidance. OK timing remains player-controlled. Narration and description coverage are unchanged from 0.5.5. The reporting player still needs to retest the parade.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -805,6 +817,18 @@
         "sha256": "38201be5392feb58e4e013177a57d2030929a626f657b300fe588183a3cf335f",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.5",
         "notes": "Fixes Steam 2026 x64 controller navigation: R3 can select a PS5 or Xbox controller when both are connected; the world-map menu stays open for L1/R1 category changes; navigation speech takes priority over terrain announcements. Narration and description coverage are unchanged from 0.5.4. The reported controller issue still needs the reporting player to retest this release.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.6/ffviinew-v0.5.6-amm.zip",
+        "sha256": "9fb1934a50b1b128e0bb8d35ae281cb37ea43959c6af397968346f8467cce2b5",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.6",
+        "notes": "Fixes the first Junon welcome parade: Steam 2026 x64 alignment uses native game input and keeps held movement active across frames. A stopped assist no longer repeats lost-track warnings over guidance. OK timing remains player-controlled. Narration and description coverage are unchanged from 0.5.5. The reporting player still needs to retest the parade.",
         "compatibility": null,
         "patreon": null
       }
