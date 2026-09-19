@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-19T19:03:09.143099Z",
+  "generatedAt": "2026-09-19T20:05:07.9995661Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -469,6 +469,18 @@
         "notes": "North Corel residents and shop counters now appear in navigation. Steam 2026 x64 party-menu speech recovers after temporary capture interruptions instead of staying silent for the session. Narration is unchanged. Restart after updating; the reporting player still needs to retest.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.8/ffviiold-v0.5.8-amm.zip",
+        "sha256": "22f086d2524702ca2d3eb067149b4fd74f4b8474b18d966fc26dfb3c0636419d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.8",
+        "notes": "Fixes PHS and Status speech on the x64 world map, adds the Battle Square story exit after Cait Sith joins and waiting-room jockeys, and improves description playback when dialogue opens. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -853,6 +865,18 @@
         "sha256": "45ac56f514b2ade5989654fb308dfdf5bfe56e9b717fac3327b1fcee59e21aef",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.7",
         "notes": "North Corel residents and shop counters now appear in navigation. Steam 2026 x64 party-menu speech recovers after temporary capture interruptions instead of staying silent for the session. Narration is unchanged. Restart after updating; the reporting player still needs to retest.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.8/ffviinew-v0.5.8-amm.zip",
+        "sha256": "8c06da35fed79c7016835f5f4b8dda4005321a4cf48ebfbec4ed756fcbd701d9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.8",
+        "notes": "Fixes PHS and Status speech on the x64 world map, adds the Battle Square story exit after Cait Sith joins and waiting-room jockeys, and improves description playback when dialogue opens. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
