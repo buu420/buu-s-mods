@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-19T20:05:07.9995661Z",
+  "generatedAt": "2026-09-20T03:45:34.0969485Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -481,6 +481,18 @@
         "notes": "Fixes PHS and Status speech on the x64 world map, adds the Battle Square story exit after Cait Sith joins and waiting-room jockeys, and improves description playback when dialogue opens. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.9/ffviiold-v0.5.9-amm.zip",
+        "sha256": "8fef007340e1c7df3a421892f6eab537e2d01dd357983758590118aa4115b4c9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.9",
+        "notes": "Expands town NPC navigation using native character and interaction data, and clearly labels the return ship to Junon at Costa del Sol. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -877,6 +889,18 @@
         "sha256": "8c06da35fed79c7016835f5f4b8dda4005321a4cf48ebfbec4ed756fcbd701d9",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.8",
         "notes": "Fixes PHS and Status speech on the x64 world map, adds the Battle Square story exit after Cait Sith joins and waiting-room jockeys, and improves description playback when dialogue opens. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.9/ffviinew-v0.5.9-amm.zip",
+        "sha256": "11bf762811ebd45c65146ca34d650c93e85b6336f247206e7e93ff84d86217f3",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.9",
+        "notes": "Expands town NPC navigation using native character and interaction data, and clearly labels the return ship to Junon at Costa del Sol. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
