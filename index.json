@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-20T20:12:54.3851282Z",
+  "generatedAt": "2026-09-21T03:29:45.3235401Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -505,6 +505,18 @@
         "notes": "Fixes screen-reader dialogue overlapping FFNx voice acting after loading a save and records voice playback in every field. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.5.11",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.11/ffviiold-v0.5.11-amm.zip",
+        "sha256": "0fa4a2139c8d3e1f5152d04cb30bccf8de30db65c357cb9e0b50dce436822c76",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.11",
+        "notes": "Restores Gongaga village exit navigation and the available Aerith and Tifa conversations following the scene in the family home. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -925,6 +937,18 @@
         "sha256": "514446ccf13c3c2e1a047d03dcc33d86bf9338373a0917c7ff7150e1e5be9bc1",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.10",
         "notes": "Fixes screen-reader dialogue overlapping FFNx voice acting after loading a save and records voice playback in every field. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.5.11",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.5.11/ffviinew-v0.5.11-amm.zip",
+        "sha256": "03a1cf89a326f1c4df98ac32d35da33c69cbfdef385b2671ddd36aec974b1b40",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.11",
+        "notes": "Restores Gongaga village exit navigation and the available Aerith and Tifa conversations following the scene in the family home. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
