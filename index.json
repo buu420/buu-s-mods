@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-21T15:52:42.2822994Z",
+  "generatedAt": "2026-09-21T20:36:05.4308131Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -529,6 +529,18 @@
         "notes": "Adds 220 voice recordings for area and story descriptions, improves Cosmo Canyon routes, and keeps vehicle routes clear of unrelated world-map entrances. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.1/ffviiold-v0.6.1-amm.zip",
+        "sha256": "c43c26a352ae9f97f4dea402bd9873a5c797241a6f67b8430e964bdeee1cdd0a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.1",
+        "notes": "Repairs observatory entry, exit, and Story navigation on both runtimes and adds eight action descriptions in Brice\u0027s voice. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -973,6 +985,18 @@
         "sha256": "f81a87a5569f7cf37913d3a9ec4e2978a382ac1627e909fbeac6c3fadb13adea",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.0",
         "notes": "Adds 220 voice recordings for area and story descriptions, improves Cosmo Canyon routes, and keeps vehicle routes clear of unrelated world-map entrances. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.1/ffviinew-v0.6.1-amm.zip",
+        "sha256": "fc98ffcc90e3574b1ba08985aac6634eba4ccfa0bd48c1da29cff7c1180abb19",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.1",
+        "notes": "Repairs observatory entry, exit, and Story navigation on both runtimes and adds eight action descriptions in Brice\u0027s voice. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
