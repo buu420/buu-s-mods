@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-21T03:29:45.3235401Z",
+  "generatedAt": "2026-09-21T15:52:42.2822994Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -517,6 +517,18 @@
         "notes": "Restores Gongaga village exit navigation and the available Aerith and Tifa conversations following the scene in the family home. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.0/ffviiold-v0.6.0-amm.zip",
+        "sha256": "ace66fe81583a8889546e74b2c6ee60dcb1f69aef41395a79d4e61e2a7e9effe",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.0",
+        "notes": "Adds 220 voice recordings for area and story descriptions, improves Cosmo Canyon routes, and keeps vehicle routes clear of unrelated world-map entrances. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -949,6 +961,18 @@
         "sha256": "03a1cf89a326f1c4df98ac32d35da33c69cbfdef385b2671ddd36aec974b1b40",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.5.11",
         "notes": "Restores Gongaga village exit navigation and the available Aerith and Tifa conversations following the scene in the family home. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.0/ffviinew-v0.6.0-amm.zip",
+        "sha256": "f81a87a5569f7cf37913d3a9ec4e2978a382ac1627e909fbeac6c3fadb13adea",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.0",
+        "notes": "Adds 220 voice recordings for area and story descriptions, improves Cosmo Canyon routes, and keeps vehicle routes clear of unrelated world-map entrances. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
