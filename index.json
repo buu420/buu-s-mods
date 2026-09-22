@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-22T13:51:20.8043585Z",
+  "generatedAt": "2026-09-22T17:49:01.7309357Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -565,6 +565,18 @@
         "notes": "Adds spoken Shinra Mansion safe dial numbers on both runtimes and prevents blank or stale dial speech. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.4/ffviiold-v0.6.4-amm.zip",
+        "sha256": "f414d67b6ea3020e10c09f080d3892a170398d1aef793de1ad3fa2a86e79a2ab",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.4",
+        "notes": "Repairs mansion exits and Vincent interaction navigation, remembers room descriptions per save, and improves Cosmo Canyon auto walk and battle recovery. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1045,6 +1057,18 @@
         "sha256": "3305ceedcd660fca4c0b55b758310d50f36f5d5553c7fe4ce487d5cfb7ca6a9a",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.3",
         "notes": "Adds spoken Shinra Mansion safe dial numbers on both runtimes and prevents blank or stale dial speech. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.4/ffviinew-v0.6.4-amm.zip",
+        "sha256": "ac8b1ff576ff81251fe94850b4d7a869760aa1008f14af506cc7cd39d720eef0",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.4",
+        "notes": "Repairs mansion exits and Vincent interaction navigation, remembers room descriptions per save, and improves Cosmo Canyon auto walk and battle recovery. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
