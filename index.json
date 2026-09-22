@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-21T20:36:05.4308131Z",
+  "generatedAt": "2026-09-22T02:30:42.9018162Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -541,6 +541,18 @@
         "notes": "Repairs observatory entry, exit, and Story navigation on both runtimes and adds eight action descriptions in Brice\u0027s voice. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.2/ffviiold-v0.6.2-amm.zip",
+        "sha256": "f55b7a26936b6c8ead3651dd1ad01b16260bb99a6e3624fa20393173f9cfa5c7",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.2",
+        "notes": "Expands Story and town navigation, adds Great Glacier routes and Gold Saucer platform exits, and repairs autowalk arrivals and the North Corel doorway. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -997,6 +1009,18 @@
         "sha256": "fc98ffcc90e3574b1ba08985aac6634eba4ccfa0bd48c1da29cff7c1180abb19",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.1",
         "notes": "Repairs observatory entry, exit, and Story navigation on both runtimes and adds eight action descriptions in Brice\u0027s voice. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.2/ffviinew-v0.6.2-amm.zip",
+        "sha256": "aa36aa31ae21fd618cbab50e483902401a205c3f658db210e917d8ee9da1205b",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.2",
+        "notes": "Expands Story and town navigation, adds Great Glacier routes and Gold Saucer platform exits, and repairs autowalk arrivals and the North Corel doorway. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
