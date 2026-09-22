@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-22T02:30:42.9018162Z",
+  "generatedAt": "2026-09-22T13:51:20.8043585Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -553,6 +553,18 @@
         "notes": "Expands Story and town navigation, adds Great Glacier routes and Gold Saucer platform exits, and repairs autowalk arrivals and the North Corel doorway. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.3/ffviiold-v0.6.3-amm.zip",
+        "sha256": "348b3975f2a83008dbf7671490ea75765bbbd3075af15dadddea87f658fdeb11",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.3",
+        "notes": "Adds spoken Shinra Mansion safe dial numbers on both runtimes and prevents blank or stale dial speech. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1021,6 +1033,18 @@
         "sha256": "aa36aa31ae21fd618cbab50e483902401a205c3f658db210e917d8ee9da1205b",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.2",
         "notes": "Expands Story and town navigation, adds Great Glacier routes and Gold Saucer platform exits, and repairs autowalk arrivals and the North Corel doorway. Restart the game after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.3/ffviinew-v0.6.3-amm.zip",
+        "sha256": "3305ceedcd660fca4c0b55b758310d50f36f5d5553c7fe4ce487d5cfb7ca6a9a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.3",
+        "notes": "Adds spoken Shinra Mansion safe dial numbers on both runtimes and prevents blank or stale dial speech. Restart the game after updating.",
         "compatibility": null,
         "patreon": null
       }
