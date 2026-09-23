@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-23T01:25:11.5736504Z",
+  "generatedAt": "2026-09-23T04:29:28.9446163Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -589,6 +589,18 @@
         "notes": "Restores Rocket Town and later Story routes, improves ladder and NPC avoidance, and repairs disappearing x64 NPC lists. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.6/ffviiold-v0.6.6-amm.zip",
+        "sha256": "dfea97fbbe565ec986380091d2e8b201ee0869a5dccfed2b7fefba6657503231",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.6",
+        "notes": "Fixes Tiny Bronco disappearing from Transportation, shore approaches and boarding-contact detection. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1093,6 +1105,18 @@
         "sha256": "b1da79bde0ceae90b54b20c312f563a87c6c88be3cb9ac63a30d343cf6708cc1",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.5",
         "notes": "Restores Rocket Town and later Story routes, improves ladder and NPC avoidance, and repairs disappearing x64 NPC lists. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.6/ffviinew-v0.6.6-amm.zip",
+        "sha256": "dfe575f83101f4fa3cf0a39a1ddcb2d06d602535e408418374a03a2045964c49",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.6",
+        "notes": "Fixes Tiny Bronco disappearing from Transportation, shore approaches and boarding-contact detection. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
