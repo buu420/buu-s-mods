@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-23T04:29:28.9446163Z",
+  "generatedAt": "2026-09-23T20:00:53.0459046Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -601,6 +601,18 @@
         "notes": "Fixes Tiny Bronco disappearing from Transportation, shore approaches and boarding-contact detection. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.7/ffviiold-v0.6.7-amm.zip",
+        "sha256": "ede5e98d98c4f42faf1bb6390997024f5817d59c87ca0d9467d3803071a6cbdb",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.7",
+        "notes": "Fixes Wutai pass and bridge navigation, Manipulate action-menu speech, weapon-seller interactions, and Tiny Bronco water routes and landings. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1117,6 +1129,18 @@
         "sha256": "dfe575f83101f4fa3cf0a39a1ddcb2d06d602535e408418374a03a2045964c49",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.6",
         "notes": "Fixes Tiny Bronco disappearing from Transportation, shore approaches and boarding-contact detection. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.7/ffviinew-v0.6.7-amm.zip",
+        "sha256": "6241925bcb5cbe4785cd9eee2873ef9bb071f94c211d12c3a1911e93a6a043cc",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.7",
+        "notes": "Fixes Wutai pass and bridge navigation, Manipulate action-menu speech, weapon-seller interactions, and Tiny Bronco water routes and landings. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
