@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-22T17:49:01.7309357Z",
+  "generatedAt": "2026-09-23T01:25:11.5736504Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -577,6 +577,18 @@
         "notes": "Repairs mansion exits and Vincent interaction navigation, remembers room descriptions per save, and improves Cosmo Canyon auto walk and battle recovery. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.5/ffviiold-v0.6.5-amm.zip",
+        "sha256": "c7d2cd76ca0ab20eaed0bb2f361e675936958b30bf4c319b9f91c802273152b9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.5",
+        "notes": "Restores Rocket Town and later Story routes, improves ladder and NPC avoidance, and repairs disappearing x64 NPC lists. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1069,6 +1081,18 @@
         "sha256": "ac8b1ff576ff81251fe94850b4d7a869760aa1008f14af506cc7cd39d720eef0",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.4",
         "notes": "Repairs mansion exits and Vincent interaction navigation, remembers room descriptions per save, and improves Cosmo Canyon auto walk and battle recovery. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.5/ffviinew-v0.6.5-amm.zip",
+        "sha256": "b1da79bde0ceae90b54b20c312f563a87c6c88be3cb9ac63a30d343cf6708cc1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.5",
+        "notes": "Restores Rocket Town and later Story routes, improves ladder and NPC avoidance, and repairs disappearing x64 NPC lists. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
