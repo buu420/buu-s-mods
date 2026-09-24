@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-23T20:00:53.0459046Z",
+  "generatedAt": "2026-09-24T16:35:24.9838292Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -613,6 +613,18 @@
         "notes": "Fixes Wutai pass and bridge navigation, Manipulate action-menu speech, weapon-seller interactions, and Tiny Bronco water routes and landings. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.8/ffviiold-v0.6.8-amm.zip",
+        "sha256": "a9ca63e5885b833f0a4c726bdfe74a3ccf5cd32365cd72440573dc6b29198c60",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.8",
+        "notes": "Adds Wutai materia-recovery Story guidance, corrects the shop prerequisite, pot, bell passage and scroll return, and reads visible menu gil with G to repeat. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1141,6 +1153,18 @@
         "sha256": "6241925bcb5cbe4785cd9eee2873ef9bb071f94c211d12c3a1911e93a6a043cc",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.7",
         "notes": "Fixes Wutai pass and bridge navigation, Manipulate action-menu speech, weapon-seller interactions, and Tiny Bronco water routes and landings. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.8/ffviinew-v0.6.8-amm.zip",
+        "sha256": "05d688b7f1edaa655a996dcaa63ca8de9e03365af0c36bd573300ef00bb114a0",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.8",
+        "notes": "Adds Wutai materia-recovery Story guidance, corrects the shop prerequisite, pot, bell passage and scroll return, and reads visible menu gil with G to repeat. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
