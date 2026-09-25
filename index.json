@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-24T16:35:24.9838292Z",
+  "generatedAt": "2026-09-25T14:09:12.1838797Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -625,6 +625,18 @@
         "notes": "Adds Wutai materia-recovery Story guidance, corrects the shop prerequisite, pot, bell passage and scroll return, and reads visible menu gil with G to repeat. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.6.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.9/ffviiold-v0.6.9-amm.zip",
+        "sha256": "13db6d5e9f92891631766c51ec7a629139463b94d96663967b18a82b0a6e4cf5",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.9",
+        "notes": "Repairs shared script navigation, movement ownership, contact NPCs and live exit conditions across both runtimes, with additional Story and interaction fixes. Live gameplay testing is still needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1165,6 +1177,18 @@
         "sha256": "05d688b7f1edaa655a996dcaa63ca8de9e03365af0c36bd573300ef00bb114a0",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.8",
         "notes": "Adds Wutai materia-recovery Story guidance, corrects the shop prerequisite, pot, bell passage and scroll return, and reads visible menu gil with G to repeat. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.6.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.6.9/ffviinew-v0.6.9-amm.zip",
+        "sha256": "9998918ed903b3c90875ef6b4a76c8b87e0dbbfdd89638bd57a8d36a98a67026",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.9",
+        "notes": "Repairs shared script navigation, movement ownership, contact NPCs and live exit conditions across both runtimes, with additional Story and interaction fixes. Live gameplay testing is still needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
