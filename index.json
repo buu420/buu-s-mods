@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-25T14:09:12.1838797Z",
+  "generatedAt": "2026-09-25T17:22:36.0567951Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -637,6 +637,18 @@
         "notes": "Repairs shared script navigation, movement ownership, contact NPCs and live exit conditions across both runtimes, with additional Story and interaction fixes. Live gameplay testing is still needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.0/ffviiold-v0.7.0-amm.zip",
+        "sha256": "e2493a96a52633fc879b67f4bfd6f31e5f04d322b8ad7a095f2067593abcc59a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.0",
+        "notes": "Fixes Wutai Pagoda floors, the North Corel approach, the post-date Cait Sith chase, and Temple clock readouts and routes in both runtimes. World dialogue pauses auto walk and retains the destination. Live gameplay testing is still needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1189,6 +1201,18 @@
         "sha256": "9998918ed903b3c90875ef6b4a76c8b87e0dbbfdd89638bd57a8d36a98a67026",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.6.9",
         "notes": "Repairs shared script navigation, movement ownership, contact NPCs and live exit conditions across both runtimes, with additional Story and interaction fixes. Live gameplay testing is still needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.0/ffviinew-v0.7.0-amm.zip",
+        "sha256": "2dd19ac6558d6ecba923ea4a9a94a66c1a8298afa43582b69583ea823b9a3edc",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.0",
+        "notes": "Fixes Wutai Pagoda floors, the North Corel approach, the post-date Cait Sith chase, and Temple clock readouts and routes in both runtimes. World dialogue pauses auto walk and retains the destination. Live gameplay testing is still needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
