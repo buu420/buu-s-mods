@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-26T01:54:22.7230493Z",
+  "generatedAt": "2026-09-26T07:06:05.4547667Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -661,6 +661,18 @@
         "notes": "Fixes Added Effect, Corneo bedside interaction, counter and background-object arrival, missing materia-cave crystals, and other audited field approaches in both runtimes. Includes the chapter-by-chapter native route audit; live testing is still needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.2/ffviiold-v0.7.2-amm.zip",
+        "sha256": "0bf0631dd672e085959e16597a6a36ba4d7cbeb2b2ccd1b1d4869dec3fbf8a3e",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.2",
+        "notes": "Temple clock feedback now gives brief movement and clock time in both runtimes, retains only the current reading, and keeps detailed hand and bridge information on R. Live clock-room testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1237,6 +1249,18 @@
         "sha256": "591d19f347bb51cc082fe226068432d3e67b3aece728e01493668ec85b7b4b42",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.1",
         "notes": "Fixes Added Effect, Corneo bedside interaction, counter and background-object arrival, missing materia-cave crystals, and other audited field approaches in both runtimes. Includes the chapter-by-chapter native route audit; live testing is still needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.2/ffviinew-v0.7.2-amm.zip",
+        "sha256": "f78b5f568eefd80e6cd535a4008a56c68e7d882e832177bc10ed620aefd6d90d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.2",
+        "notes": "Temple clock feedback now gives brief movement and clock time in both runtimes, retains only the current reading, and keeps detailed hand and bridge information on R. Live clock-room testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
