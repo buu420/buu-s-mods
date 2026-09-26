@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-25T17:22:36.0567951Z",
+  "generatedAt": "2026-09-26T01:54:22.7230493Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -649,6 +649,18 @@
         "notes": "Fixes Wutai Pagoda floors, the North Corel approach, the post-date Cait Sith chase, and Temple clock readouts and routes in both runtimes. World dialogue pauses auto walk and retains the destination. Live gameplay testing is still needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.1/ffviiold-v0.7.1-amm.zip",
+        "sha256": "b7669d317aa10cd254d94dfbef53aab8a05eb44cd3ec25b2d2a3fb3f34b43840",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.1",
+        "notes": "Fixes Added Effect, Corneo bedside interaction, counter and background-object arrival, missing materia-cave crystals, and other audited field approaches in both runtimes. Includes the chapter-by-chapter native route audit; live testing is still needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1213,6 +1225,18 @@
         "sha256": "2dd19ac6558d6ecba923ea4a9a94a66c1a8298afa43582b69583ea823b9a3edc",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.0",
         "notes": "Fixes Wutai Pagoda floors, the North Corel approach, the post-date Cait Sith chase, and Temple clock readouts and routes in both runtimes. World dialogue pauses auto walk and retains the destination. Live gameplay testing is still needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.1",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.1/ffviinew-v0.7.1-amm.zip",
+        "sha256": "591d19f347bb51cc082fe226068432d3e67b3aece728e01493668ec85b7b4b42",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.1",
+        "notes": "Fixes Added Effect, Corneo bedside interaction, counter and background-object arrival, missing materia-cave crystals, and other audited field approaches in both runtimes. Includes the chapter-by-chapter native route audit; live testing is still needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
