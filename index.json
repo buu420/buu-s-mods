@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-27T06:26:08.4646768Z",
+  "generatedAt": "2026-09-27T18:21:59.1007051Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -697,6 +697,18 @@
         "notes": "Adds the current Bone Village dig spot to Objects for any treasure search, with reward names and accurate arrival. Repairs reproduced world-map autowalk stalls, Buggy steering, control-pause recovery and field doorway approaches. Both runtimes; live testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.5/ffviiold-v0.7.5-amm.zip",
+        "sha256": "1cd60e072c362f5acdc8ee4758711078b92def8634ac9334c025f10d990ab06a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.5",
+        "notes": "Repairs the Bone Village foreman approach, Corel Valley Cave climbs and junction-choice guidance, duplicate ladder cues, and x64 controller menu timing and native-dialog input handoff. Both runtimes; in-game testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1309,6 +1321,18 @@
         "sha256": "f59f9bf843710aab454507f758e5cec01ac767df3319bb575c26b67968dab0f4",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.4",
         "notes": "Adds the current Bone Village dig spot to Objects for any treasure search, with reward names and accurate arrival. Repairs reproduced world-map autowalk stalls, Buggy steering, control-pause recovery and field doorway approaches. Both runtimes; live testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.5/ffviinew-v0.7.5-amm.zip",
+        "sha256": "022fa1d90a9a8026c69bb577e6c1db1dc92a06bec39a03ce24d846c1ab034e3c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.5",
+        "notes": "Repairs the Bone Village foreman approach, Corel Valley Cave climbs and junction-choice guidance, duplicate ladder cues, and x64 controller menu timing and native-dialog input handoff. Both runtimes; in-game testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
