@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-26T07:06:05.4547667Z",
+  "generatedAt": "2026-09-27T00:01:44.7141942Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -673,6 +673,18 @@
         "notes": "Temple clock feedback now gives brief movement and clock time in both runtimes, retains only the current reading, and keeps detailed hand and bridge information on R. Live clock-room testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.3/ffviiold-v0.7.3-amm.zip",
+        "sha256": "ed86ff079146513acda8cefccc6c98545d4505c8f2e01cdcc43f440e2c998a56",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.3",
+        "notes": "Adds the Temple doorway chase entrances and jump ledges, fixes routes ending on the wrong floor, and reads visible Ancient movements. Bone Village gains ladder and digger targets, excavation stage cues and visible sightline feedback. Both runtimes; live testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1261,6 +1273,18 @@
         "sha256": "f78b5f568eefd80e6cd535a4008a56c68e7d882e832177bc10ed620aefd6d90d",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.2",
         "notes": "Temple clock feedback now gives brief movement and clock time in both runtimes, retains only the current reading, and keeps detailed hand and bridge information on R. Live clock-room testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.3/ffviinew-v0.7.3-amm.zip",
+        "sha256": "5c4a7f93c3fe443b6312b07ec8db1a84c585f7054cc8270915df6ff4524d8fb5",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.3",
+        "notes": "Adds the Temple doorway chase entrances and jump ledges, fixes routes ending on the wrong floor, and reads visible Ancient movements. Bone Village gains ladder and digger targets, excavation stage cues and visible sightline feedback. Both runtimes; live testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
