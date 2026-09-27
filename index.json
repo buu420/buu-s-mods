@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-27T00:01:44.7141942Z",
+  "generatedAt": "2026-09-27T06:26:08.4646768Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -685,6 +685,18 @@
         "notes": "Adds the Temple doorway chase entrances and jump ledges, fixes routes ending on the wrong floor, and reads visible Ancient movements. Bone Village gains ladder and digger targets, excavation stage cues and visible sightline feedback. Both runtimes; live testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.4/ffviiold-v0.7.4-amm.zip",
+        "sha256": "620da67e6746d60548a4ad7f01bca626a54effd97380becf8fe07d893b3885dd",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.4",
+        "notes": "Adds the current Bone Village dig spot to Objects for any treasure search, with reward names and accurate arrival. Repairs reproduced world-map autowalk stalls, Buggy steering, control-pause recovery and field doorway approaches. Both runtimes; live testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1285,6 +1297,18 @@
         "sha256": "5c4a7f93c3fe443b6312b07ec8db1a84c585f7054cc8270915df6ff4524d8fb5",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.3",
         "notes": "Adds the Temple doorway chase entrances and jump ledges, fixes routes ending on the wrong floor, and reads visible Ancient movements. Bone Village gains ladder and digger targets, excavation stage cues and visible sightline feedback. Both runtimes; live testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.4/ffviinew-v0.7.4-amm.zip",
+        "sha256": "f59f9bf843710aab454507f758e5cec01ac767df3319bb575c26b67968dab0f4",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.4",
+        "notes": "Adds the current Bone Village dig spot to Objects for any treasure search, with reward names and accurate arrival. Repairs reproduced world-map autowalk stalls, Buggy steering, control-pause recovery and field doorway approaches. Both runtimes; live testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
