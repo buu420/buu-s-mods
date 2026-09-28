@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-27T18:21:59.1007051Z",
+  "generatedAt": "2026-09-28T01:40:44.8050412Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -709,6 +709,18 @@
         "notes": "Repairs the Bone Village foreman approach, Corel Valley Cave climbs and junction-choice guidance, duplicate ladder cues, and x64 controller menu timing and native-dialog input handoff. Both runtimes; in-game testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.6/ffviiold-v0.7.6-amm.zip",
+        "sha256": "bc62833c7a4b8ef98bc579a2734ace7a9ce9c301dacc5ba7ecae1055c1f86054",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.6",
+        "notes": "Icicle Inn and Great Glacier navigation, story snowboard cues, map and ice-floe readouts, Key Items and Limit speech, x64 battle recovery, and Old Man house approaches. Both runtimes; in-game testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1333,6 +1345,18 @@
         "sha256": "022fa1d90a9a8026c69bb577e6c1db1dc92a06bec39a03ce24d846c1ab034e3c",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.5",
         "notes": "Repairs the Bone Village foreman approach, Corel Valley Cave climbs and junction-choice guidance, duplicate ladder cues, and x64 controller menu timing and native-dialog input handoff. Both runtimes; in-game testing is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.6/ffviinew-v0.7.6-amm.zip",
+        "sha256": "87921f54bc0b25d9cde8e6b09276cd11ce082592fd35ec2ce720659f4f658e97",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.6",
+        "notes": "Icicle Inn and Great Glacier navigation, story snowboard cues, map and ice-floe readouts, Key Items and Limit speech, x64 battle recovery, and Old Man house approaches. Both runtimes; in-game testing is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
       }
