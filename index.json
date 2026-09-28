@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-28T14:12:31.196732Z",
+  "generatedAt": "2026-09-28T22:14:15.0798235Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -733,6 +733,18 @@
         "notes": "Shinra Mansion coffin-room exits, autowalk clearance and NPC counter approaches, Cid house door, and missing optional interactions from the full guide review. Both runtimes; in-game retesting is needed. Restart after updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.8/ffviiold-v0.7.8-amm.zip",
+        "sha256": "f209b8868fc25d089ba57fbe13e973ec88676c65eb948ff972a4fd9e92ebed36",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.8",
+        "notes": "Gaea cave progression, climb and Ribbon routing fixes; Limit Break and summon narration; Materia and dialogue-choice speech; battle drain and status timing. Both runtimes; in-game retesting is needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1381,6 +1393,18 @@
         "sha256": "abc97e38c3031573444af55682fc83bb34ae81556e4301c6a57968d110463a7b",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.7",
         "notes": "Shinra Mansion coffin-room exits, autowalk clearance and NPC counter approaches, Cid house door, and missing optional interactions from the full guide review. Both runtimes; in-game retesting is needed. Restart after updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.8/ffviinew-v0.7.8-amm.zip",
+        "sha256": "000aa697ee35e517a9fd4eff1c2ff744e22f6ef950385ae144481dfca9a7d435",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.8",
+        "notes": "Gaea cave progression, climb and Ribbon routing fixes; Limit Break and summon narration; Materia and dialogue-choice speech; battle drain and status timing. Both runtimes; in-game retesting is needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
