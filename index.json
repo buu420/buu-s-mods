@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-28T22:14:15.0798235Z",
+  "generatedAt": "2026-09-29T16:42:10.3090364Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -745,6 +745,18 @@
         "notes": "Gaea cave progression, climb and Ribbon routing fixes; Limit Break and summon narration; Materia and dialogue-choice speech; battle drain and status timing. Both runtimes; in-game retesting is needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.7.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.9/ffviiold-v0.7.9-amm.zip",
+        "sha256": "134fba5db3579236e967c034e9d461873e3c612d61c91c532f8743f0fec3dff8",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.9",
+        "notes": "Great Glacier: uncollected treasures stay in Objects across the region, with routes by estimated walking distance and destinations retained between screens. Alexander prerequisites included; ice-floe input remains manual. Both runtimes; live testing is needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1405,6 +1417,18 @@
         "sha256": "000aa697ee35e517a9fd4eff1c2ff744e22f6ef950385ae144481dfca9a7d435",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.8",
         "notes": "Gaea cave progression, climb and Ribbon routing fixes; Limit Break and summon narration; Materia and dialogue-choice speech; battle drain and status timing. Both runtimes; in-game retesting is needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.7.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.7.9/ffviinew-v0.7.9-amm.zip",
+        "sha256": "c5f82888d26f20e9dcc1e5de47dd9f0f0883c8ec49cf54998ccbf1f0d14743c4",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.9",
+        "notes": "Great Glacier: uncollected treasures stay in Objects across the region, with routes by estimated walking distance and destinations retained between screens. Alexander prerequisites included; ice-floe input remains manual. Both runtimes; live testing is needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
