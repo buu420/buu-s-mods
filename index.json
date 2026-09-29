@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-29T16:42:10.3090364Z",
+  "generatedAt": "2026-09-29T22:59:05.605988Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -757,6 +757,18 @@
         "notes": "Great Glacier: uncollected treasures stay in Objects across the region, with routes by estimated walking distance and destinations retained between screens. Alexander prerequisites included; ice-floe input remains manual. Both runtimes; live testing is needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.0/ffviiold-v0.8.0-amm.zip",
+        "sha256": "e9b8dc3a47c989af78d04e32020bc43fd7f75c19b6668ea5b559ac7407d7a5a6",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.0",
+        "notes": "Gold Saucer: first-floor Wonder Square machines, route approaches and G-Bike steering improvements. Highwind routes to valid grass near destinations, announces manual landing, and continues on foot after dismounting. Great Glacier treasure routes retained. Both runtimes; live testing is needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1429,6 +1441,18 @@
         "sha256": "c5f82888d26f20e9dcc1e5de47dd9f0f0883c8ec49cf54998ccbf1f0d14743c4",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.7.9",
         "notes": "Great Glacier: uncollected treasures stay in Objects across the region, with routes by estimated walking distance and destinations retained between screens. Alexander prerequisites included; ice-floe input remains manual. Both runtimes; live testing is needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.0",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.0/ffviinew-v0.8.0-amm.zip",
+        "sha256": "026e03a215b48ee50293a2e207265f1c1bde06714707db0cdfdaa40b3b7e184d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.0",
+        "notes": "Gold Saucer: first-floor Wonder Square machines, route approaches and G-Bike steering improvements. Highwind routes to valid grass near destinations, announces manual landing, and continues on foot after dismounting. Great Glacier treasure routes retained. Both runtimes; live testing is needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
