@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-09-30T20:41:24.672827Z",
+  "generatedAt": "2026-10-02T19:25:22.0459887Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -818,6 +818,18 @@
         "notes": "Repairs Highwind routes to Icicle Inn North Side and Great Glacier through a legal grass landing near the south entrance. Landing remains manual. Adds the native snowboarding slope to Exits on eligible return visits. Both runtimes; live testing is needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.2/ffviiold-v0.8.2-amm.zip",
+        "sha256": "112eed2f16dd74ac202e1def806397c7d6909be63ee768103d3900b43ea2813b",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.2",
+        "notes": "Reads the late-game chocobo dismount prompt and highlighted choice, including returning it to the stables. Corrects suppressed world-map dialogue on both runtimes. Automated checks passed; live dismount testing is still needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1514,6 +1526,18 @@
         "sha256": "ce474006f76bd032c8e0bb54e3633f55027b5ee4b7c88c824c6adb40d7285f81",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.1",
         "notes": "Repairs Highwind routes to Icicle Inn North Side and Great Glacier through a legal grass landing near the south entrance. Landing remains manual. Adds the native snowboarding slope to Exits on eligible return visits. Both runtimes; live testing is needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.2",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.2/ffviinew-v0.8.2-amm.zip",
+        "sha256": "3a1d6a540edab332a7be80c8953604b072ba0fc62a0dcdc18e8dbb40546b0309",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.2",
+        "notes": "Reads the late-game chocobo dismount prompt and highlighted choice, including returning it to the stables. Corrects suppressed world-map dialogue on both runtimes. Automated checks passed; live dismount testing is still needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
