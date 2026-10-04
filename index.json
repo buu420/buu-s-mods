@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-03T20:05:04.1408847Z",
+  "generatedAt": "2026-10-04T08:05:09.7010851Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -830,6 +830,18 @@
         "notes": "Reads the late-game chocobo dismount prompt and highlighted choice, including returning it to the stables. Corrects suppressed world-map dialogue on both runtimes. Automated checks passed; live dismount testing is still needed. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.3/ffviiold-v0.8.3-amm.zip",
+        "sha256": "b906e6c64c1aa8e2f1be28ee88964056b91c4f74e805fca15976b0756c186290",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.3",
+        "notes": "Reads GP exchange amounts and Battle Square choices, BP and handicaps on both runtimes. Adds submarine instruments and targeting feedback to x64 and prevents the known R3 Battle Assist collision. The submarine return freeze remains under investigation; new diagnostics capture the next attempt. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1538,6 +1550,18 @@
         "sha256": "3a1d6a540edab332a7be80c8953604b072ba0fc62a0dcdc18e8dbb40546b0309",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.2",
         "notes": "Reads the late-game chocobo dismount prompt and highlighted choice, including returning it to the stables. Corrects suppressed world-map dialogue on both runtimes. Automated checks passed; live dismount testing is still needed. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.3",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.3/ffviinew-v0.8.3-amm.zip",
+        "sha256": "9a89d2ec13c82583406800cfda598a6021f730b5b88a1e78411890cf9c0be580",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.3",
+        "notes": "Reads GP exchange amounts and Battle Square choices, BP and handicaps on both runtimes. Adds submarine instruments and targeting feedback to x64 and prevents the known R3 Battle Assist collision. The submarine return freeze remains under investigation; new diagnostics capture the next attempt. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
