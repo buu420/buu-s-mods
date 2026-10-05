@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-05T17:25:24.760154Z",
+  "generatedAt": "2026-10-05T20:57:00.624062Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -854,6 +854,18 @@
         "notes": "Adds submarine target selection, automatic pursuit and spoken firing guidance on both runtimes, including the story Huge Materia red leader. J/L select, P pursues or stops, I starts and K repeats; R3 opens controller targets, A/X pursues and B/R3 from the list stops. Fire stays manual with Switch. Only visible sightings update positions, and stale contacts expire. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.5/ffviiold-v0.8.5-amm.zip",
+        "sha256": "66dd4e28337ec5de7e7d66b2969cf2dda272f5b80b245a358f0e8e942a31eaef",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.5",
+        "notes": "Fixes submarine pursuit staying in overview. Pursuit changes to normal firing view automatically when close to the selected contact, including the Huge Materia leader. View changes are spoken and existing overview locks remain usable. R3 opens targets, A/X pursues; Fire stays manual with Switch. Uses visible sightings or bounded fixed last-seen positions. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1586,6 +1598,18 @@
         "sha256": "1ec2c6fa1d53e9baa2e7823895f9a8016fe5374e8418241e327b8da69c8a23ba",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.4",
         "notes": "Adds submarine target selection, automatic pursuit and spoken firing guidance on both runtimes, including the story Huge Materia red leader. J/L select, P pursues or stops, I starts and K repeats; R3 opens controller targets, A/X pursues and B/R3 from the list stops. Fire stays manual with Switch. Only visible sightings update positions, and stale contacts expire. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.5",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.5/ffviinew-v0.8.5-amm.zip",
+        "sha256": "a3dfffb93897775dbc86b1a189f2ae157569ab8b2f60e7582794cda2d56734b7",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.5",
+        "notes": "Fixes submarine pursuit staying in overview. Pursuit changes to normal firing view automatically when close to the selected contact, including the Huge Materia leader. View changes are spoken and existing overview locks remain usable. R3 opens targets, A/X pursues; Fire stays manual with Switch. Uses visible sightings or bounded fixed last-seen positions. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
