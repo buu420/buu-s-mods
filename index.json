@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-04T08:05:09.7010851Z",
+  "generatedAt": "2026-10-05T17:25:24.760154Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -842,6 +842,18 @@
         "notes": "Reads GP exchange amounts and Battle Square choices, BP and handicaps on both runtimes. Adds submarine instruments and targeting feedback to x64 and prevents the known R3 Battle Assist collision. The submarine return freeze remains under investigation; new diagnostics capture the next attempt. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.4/ffviiold-v0.8.4-amm.zip",
+        "sha256": "21e04c4a444417d6a1e70bbf9c93e5c355c0fde7ef17adfd0fee57db4d940692",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.4",
+        "notes": "Adds submarine target selection, automatic pursuit and spoken firing guidance on both runtimes, including the story Huge Materia red leader. J/L select, P pursues or stops, I starts and K repeats; R3 opens controller targets, A/X pursues and B/R3 from the list stops. Fire stays manual with Switch. Only visible sightings update positions, and stale contacts expire. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1562,6 +1574,18 @@
         "sha256": "9a89d2ec13c82583406800cfda598a6021f730b5b88a1e78411890cf9c0be580",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.3",
         "notes": "Reads GP exchange amounts and Battle Square choices, BP and handicaps on both runtimes. Adds submarine instruments and targeting feedback to x64 and prevents the known R3 Battle Assist collision. The submarine return freeze remains under investigation; new diagnostics capture the next attempt. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.4",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.4/ffviinew-v0.8.4-amm.zip",
+        "sha256": "1ec2c6fa1d53e9baa2e7823895f9a8016fe5374e8418241e327b8da69c8a23ba",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.4",
+        "notes": "Adds submarine target selection, automatic pursuit and spoken firing guidance on both runtimes, including the story Huge Materia red leader. J/L select, P pursues or stops, I starts and K repeats; R3 opens controller targets, A/X pursues and B/R3 from the list stops. Fire stays manual with Switch. Only visible sightings update positions, and stale contacts expire. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
