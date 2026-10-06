@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-05T20:57:00.624062Z",
+  "generatedAt": "2026-10-06T17:12:41.0785718Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -866,6 +866,18 @@
         "notes": "Fixes submarine pursuit staying in overview. Pursuit changes to normal firing view automatically when close to the selected contact, including the Huge Materia leader. View changes are spoken and existing overview locks remain usable. R3 opens targets, A/X pursues; Fire stays manual with Switch. Uses visible sightings or bounded fixed last-seen positions. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.6/ffviiold-v0.8.6-amm.zip",
+        "sha256": "3dd6e45ae90003e5f14050307d5056a5ef7a82de64eb610f46e175329c835746",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.6",
+        "notes": "Adds world-map submarine destination navigation to the Gelnika, Key of the Ancients and red submarine wreck. Uses native turn/thrust controls and entry-depth travel to avoid Emerald without hidden tracking. Auto walk stops above the destination for manual descent; Emerald can be encountered during descent. Emerald is announced and selectable only from verified current visibility, and explicit approach stops if sight is lost. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1610,6 +1622,18 @@
         "sha256": "a3dfffb93897775dbc86b1a189f2ae157569ab8b2f60e7582794cda2d56734b7",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.5",
         "notes": "Fixes submarine pursuit staying in overview. Pursuit changes to normal firing view automatically when close to the selected contact, including the Huge Materia leader. View changes are spoken and existing overview locks remain usable. R3 opens targets, A/X pursues; Fire stays manual with Switch. Uses visible sightings or bounded fixed last-seen positions. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.6",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.6/ffviinew-v0.8.6-amm.zip",
+        "sha256": "e7b5af2867f544022ce3c9bce0048991e1693dc2cb02fe3489f7b870bced5b9b",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.6",
+        "notes": "Adds world-map submarine destination navigation to the Gelnika, Key of the Ancients and red submarine wreck. Uses native turn/thrust controls and entry-depth travel to avoid Emerald without hidden tracking. Auto walk stops above the destination for manual descent; Emerald can be encountered during descent. Emerald is announced and selectable only from verified current visibility, and explicit approach stops if sight is lost. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
