@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-06T17:12:41.0785718Z",
+  "generatedAt": "2026-10-06T21:29:26.7037546Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -878,6 +878,18 @@
         "notes": "Adds world-map submarine destination navigation to the Gelnika, Key of the Ancients and red submarine wreck. Uses native turn/thrust controls and entry-depth travel to avoid Emerald without hidden tracking. Auto walk stops above the destination for manual descent; Emerald can be encountered during descent. Emerald is announced and selectable only from verified current visibility, and explicit approach stops if sight is lost. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.7/ffviiold-v0.8.7-amm.zip",
+        "sha256": "21cf3329739d1a5631c4c762b5a7b89b27337571d7899881cb681e00081a7413",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.7",
+        "notes": "Track the parked submarine in Transportation. Highwind navigation finds a grass landing spot with a walking route to the boat; use normal Cancel to land and Confirm to board. Isolated docks remain trackable with a truthful unavailable-route explanation. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1634,6 +1646,18 @@
         "sha256": "e7b5af2867f544022ce3c9bce0048991e1693dc2cb02fe3489f7b870bced5b9b",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.6",
         "notes": "Adds world-map submarine destination navigation to the Gelnika, Key of the Ancients and red submarine wreck. Uses native turn/thrust controls and entry-depth travel to avoid Emerald without hidden tracking. Auto walk stops above the destination for manual descent; Emerald can be encountered during descent. Emerald is announced and selectable only from verified current visibility, and explicit approach stops if sight is lost. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.7",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.7/ffviinew-v0.8.7-amm.zip",
+        "sha256": "31af8b04af37c1d87e44bfa8317e9a58a489df1f6cca5f9ea6b8373edd87007c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.7",
+        "notes": "Track the parked submarine in Transportation. Highwind navigation finds a grass landing spot with a walking route to the boat; use normal Cancel to land and Confirm to board. Isolated docks remain trackable with a truthful unavailable-route explanation. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
