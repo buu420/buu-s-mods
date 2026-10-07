@@ -126,6 +126,18 @@
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
+        "version": "0.8.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.8/ffviiold-v0.8.8-amm.zip",
+        "sha256": "c2154fde5ac3198800eb0733ea9dfba4cd17563aed064a98013840b919d3a0a7",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.8",
+        "notes": "Choose an underwater destination and start auto walk to sail to diveable Sea, dive with the native Cancel action, and continue underwater. Includes the Lucrecia lake route, present Key and red wreck destinations, and a closer Highwind boarding approach. Surfacing and boarding use normal controls. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
         "version": "0.1",
         "channel": "beta",
         "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.1/ffviiold-v0.1-amm.zip",
@@ -893,6 +905,18 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.8",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.8/ffviinew-v0.8.8-amm.zip",
+        "sha256": "558fd79636382b800b645d5046b164d8f1e92bbe08dd7c775e952cb4c5f75f7b",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.8",
+        "notes": "Choose an underwater destination and start auto walk to sail to diveable Sea, dive with the native Cancel action, and continue underwater. Includes the Lucrecia lake route, present Key and red wreck destinations, and a closer Highwind boarding approach. Surfacing and boarding use normal controls. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
