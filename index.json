@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-08T15:37:30.8040573Z",
+  "generatedAt": "2026-10-08T17:03:00.472934Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -902,6 +902,18 @@
         "notes": "Track the parked submarine in Transportation. Highwind navigation finds a grass landing spot with a walking route to the boat; use normal Cancel to land and Confirm to board. Isolated docks remain trackable with a truthful unavailable-route explanation. Close the game before updating.",
         "compatibility": null,
         "patreon": null
+      },
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.9/ffviiold-v0.8.9-amm.zip",
+        "sha256": "0e612c2f490137cd832debc0d2c04b81aa0ecc07f9f191f6a78699f3ffc17cef",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.9",
+        "notes": "Adds automatic visible second-hand hazard guidance at the Temple clock and named miniature-temple navigation in Story and Objects after the Red Dragon. Avoid the hand and press Confirm at the temple using normal controls. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
       }
     ],
     "ffviinew": [
@@ -1682,6 +1694,18 @@
         "sha256": "31af8b04af37c1d87e44bfa8317e9a58a489df1f6cca5f9ea6b8373edd87007c",
         "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.7",
         "notes": "Track the parked submarine in Transportation. Highwind navigation finds a grass landing spot with a walking route to the boat; use normal Cancel to land and Confirm to board. Isolated docks remain trackable with a truthful unavailable-route explanation. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.9",
+        "channel": "beta",
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.9/ffviinew-v0.8.9-amm.zip",
+        "sha256": "08b1cee3e58081140ff35b316aa80043409b3e1af8e64ab18cd09ce44f747a85",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.9",
+        "notes": "Adds automatic visible second-hand hazard guidance at the Temple clock and named miniature-temple navigation in Story and Objects after the Red Dragon. Avoid the hand and press Confirm at the temple using normal controls. Close the game before updating.",
         "compatibility": null,
         "patreon": null
       }
