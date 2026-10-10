@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-09T23:52:03.5765133Z",
+  "generatedAt": "2026-10-10T03:05:15.9059558Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.8.11",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.11/ffviiold-v0.8.11-amm.zip",
+        "sha256": "3a4d9b34afd3d0be97a4587a3fdaacae1d7941c13fa9b70017c3440b0f4654f1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.11",
+        "notes": "Repairs Ultimate Weapon tracking, Northern Crater flight guidance and native piano controls and button instructions on both runtimes. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1072,6 +1086,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.8.11",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.8.11/ffviinew-v0.8.11-amm.zip",
+        "sha256": "b62307d9902b1af2cb9562a209b35390ad789b29f76b53eb4ac331b1351210df",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.8.11",
+        "notes": "Repairs Ultimate Weapon tracking, Northern Crater flight guidance and native piano controls and button instructions on both runtimes. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
