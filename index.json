@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-10T20:35:24.6244891Z",
+  "generatedAt": "2026-10-10T20:42:50.8643693Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.0/ffviiold-v0.9.0-amm.zip",
+        "sha256": "8bede3d3f1fd9b3764fc121feb1a31f1b1ba1b832156093e51491cf98798b043",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.0",
+        "notes": "Adds Story guidance through the late Midgar tunnels before and after the Turks encounter on both runtimes; verifies visible uncollected pickup coverage. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1086,6 +1100,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.0/ffviinew-v0.9.0-amm.zip",
+        "sha256": "f8816f01101ef02b96e36f35fd4a01d6d0148d88a7fe6d1561a020640327ee31",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.0",
+        "notes": "Adds Story guidance through the late Midgar tunnels before and after the Turks encounter on both runtimes; verifies visible uncollected pickup coverage. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
