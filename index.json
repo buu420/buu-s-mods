@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-10T22:58:31.6488504Z",
+  "generatedAt": "2026-10-10T23:13:33.943856Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.1",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.1/ffviiold-v0.9.1-amm.zip",
+        "sha256": "ca756a81c4d824802e4885416ae7ed2748b844cf60b77c0dac8cdc881b134065",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.1",
+        "notes": "Names ordinary Highwind rooms, return doors, pilot and service crew on both runtimes; resolves the current bridge destination. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1100,6 +1114,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.1",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.1/ffviinew-v0.9.1-amm.zip",
+        "sha256": "cc93a47fd68e23455cb6857877c54f862805f50d6985f42f319cde062b4badd4",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.1",
+        "notes": "Names ordinary Highwind rooms, return doors, pilot and service crew on both runtimes; resolves the current bridge destination. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
