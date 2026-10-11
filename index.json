@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-11T00:17:09.6615004Z",
+  "generatedAt": "2026-10-11T02:05:38.5053418Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.2",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.2/ffviiold-v0.9.2-amm.zip",
+        "sha256": "c1cee2eac128ba4ccb2cd4111176703877e52df0b2e7f49c39210a7c7b4840b9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.2",
+        "notes": "Fixes Emerald Weapon underwater visibility and tracking in Events on both runtimes; explicit approach follows visible sightings and other submarine routes retain avoidance. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1114,6 +1128,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.2",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.2/ffviinew-v0.9.2-amm.zip",
+        "sha256": "fb43f20134affe0aaec0ffb731ab2d3d334e0c8ed9d3d70fc02cd0abb0184a89",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.2",
+        "notes": "Fixes Emerald Weapon underwater visibility and tracking in Events on both runtimes; explicit approach follows visible sightings and other submarine routes retain avoidance. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
