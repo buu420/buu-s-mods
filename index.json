@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-11T07:47:40.4281453Z",
+  "generatedAt": "2026-10-11T17:11:14.2646315Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.4",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.4/ffviiold-v0.9.4-amm.zip",
+        "sha256": "ee82e4f2a4d0868b29ea23a1ad559b4ca27799106d07fd7833e39295f20eb235",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.4",
+        "notes": "Enables native chocobo terrain pathfinding, including gold-bird Materia cave routes and normal dismount guidance; preserves visible Emerald tracking and adds loaded-build and visibility diagnostics. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1142,6 +1156,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.4",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.4/ffviinew-v0.9.4-amm.zip",
+        "sha256": "43b6713fee912a6fe79e7071e8c2b61315d4320390d16d01efb88cd7a4b3c7ec",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.4",
+        "notes": "Enables native chocobo terrain pathfinding, including gold-bird Materia cave routes and normal dismount guidance; preserves visible Emerald tracking and adds loaded-build and visibility diagnostics. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
