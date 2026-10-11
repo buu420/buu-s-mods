@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-11T02:05:38.5053418Z",
+  "generatedAt": "2026-10-11T07:47:40.4281453Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.3",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.3/ffviiold-v0.9.3-amm.zip",
+        "sha256": "36a12a56b8c59d1ad96b3cf46af32cf01abe58cb6f1c7cd821e2053727022b05",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.3",
+        "notes": "Fixes Sector 7 bar re-entry, hideout lifts and the combined Item/Materia shopkeeper; current Echo-S identities drive NPCs, Objects and Story on both runtimes. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1128,6 +1142,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.3",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.3/ffviinew-v0.9.3-amm.zip",
+        "sha256": "d3894bb8a4290036ea68077df473a1b47600a838ae5ab6b80caa4b9772370b9b",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.3",
+        "notes": "Fixes Sector 7 bar re-entry, hideout lifts and the combined Item/Materia shopkeeper; current Echo-S identities drive NPCs, Objects and Story on both runtimes. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
