@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-11T17:11:14.2646315Z",
+  "generatedAt": "2026-10-11T23:52:58.6180289Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.5",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.5/ffviiold-v0.9.5-amm.zip",
+        "sha256": "e3573c6665d54a6c741595f1523ab5ce35e6d042fb9d6d1e94e3564471962da9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.5",
+        "notes": "Repairs moving Emerald target publication and lost keyboard accessibility taps while preserving normal controls. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1156,6 +1170,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.5",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.5/ffviinew-v0.9.5-amm.zip",
+        "sha256": "e5950684a54f4c97734c88f44f8493deab9699d07deb0943d9a4b2a6d29f1b2a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.5",
+        "notes": "Repairs moving Emerald target publication and lost keyboard accessibility taps while preserving normal controls. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
