@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-12T20:05:08.7164465Z",
+  "generatedAt": "2026-10-12T23:15:06.9950151Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.8",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.8/ffviiold-v0.9.8-amm.zip",
+        "sha256": "6ca3c6ee3b424de632d219a8ce3f6a4acc5c27861957f63e7f95bce430661e0d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.8",
+        "notes": "Adds native visible-creature descriptions at Northern Crater, including checked movement, speech completion and scene lifetime in both runtimes. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1198,6 +1212,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.8",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.8/ffviinew-v0.9.8-amm.zip",
+        "sha256": "fa1c2315c8ad973d484ea8461bc4918428634de57f014e8c1456d27b8b169339",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.8",
+        "notes": "Adds native visible-creature descriptions at Northern Crater, including checked movement, speech completion and scene lifetime in both runtimes. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
