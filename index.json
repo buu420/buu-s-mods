@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-11T23:52:58.6180289Z",
+  "generatedAt": "2026-10-12T06:38:16.7090306Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.6",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.6/ffviiold-v0.9.6-amm.zip",
+        "sha256": "82946d8dab62aa36530a7b7c1cdda1e443db7fefad435c38274c5a1310d86707",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.6",
+        "notes": "Repairs Northern Crater ledge and cave guidance and restores navigation during the playable final background movies. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1170,6 +1184,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.6",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.6/ffviinew-v0.9.6-amm.zip",
+        "sha256": "cf6b556df485c7f2b09c67e67ef282c1440ba2066aca6b44de0126f2849bdf71",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.6",
+        "notes": "Repairs Northern Crater ledge and cave guidance and restores navigation during the playable final background movies. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
