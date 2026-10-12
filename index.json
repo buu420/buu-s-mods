@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-12T16:46:29.0214565Z",
+  "generatedAt": "2026-10-12T20:05:08.7164465Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.7",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.7/ffviiold-v0.9.7-amm.zip",
+        "sha256": "018b64288bd6717ddcf1704b019b8d8056288d6dcf40e76bfa38238f32e48d7a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.7",
+        "notes": "Adds whole-game Echo-S 7 compatibility, reliable bike steering announcements, and approved-voice descriptions through the ending and credits. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1184,6 +1198,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.7",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.7/ffviinew-v0.9.7-amm.zip",
+        "sha256": "c669fd702dbb834c7ef58c61005c3f52aa3bcf1b6a37cf398b2b529a07d0e7fb",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.7",
+        "notes": "Adds whole-game Echo-S 7 compatibility, reliable bike steering announcements, and approved-voice descriptions through the ending and credits. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
