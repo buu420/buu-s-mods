@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-13T02:17:37.5828444Z",
+  "generatedAt": "2026-10-13T09:10:10.2445297Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -132,6 +132,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.9.9",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.9/ffviiold-v0.9.9-amm.zip",
+        "sha256": "157a4a962ee4e3a526c8c6876b78303d784b2617b4acdebb4b7fa416ba1ee574",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.9",
+        "notes": "Adds verified Postscript 1.78 equipment, battle menus, displayed help, loaded names and randomized field guidance through 7th Heaven. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1212,6 +1226,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.9.9",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.9.9/ffviinew-v0.9.9-amm.zip",
+        "sha256": "bfe273ac3b1096235f89994c5eb433bdb49fec67884f0eaccf50d03034e4f4cd",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.9.9",
+        "notes": "Adds verified Postscript 1.78 equipment, battle menus, displayed help, loaded names and randomized field guidance through 7th Heaven. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
