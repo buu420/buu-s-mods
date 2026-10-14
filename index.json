@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-13T19:25:58.4553087Z",
+  "generatedAt": "2026-10-14T01:39:44.0141732Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -122,6 +122,113 @@
         "what": "checks the supported game, closed-game state and loader ownership; removes obsolete Foresight launch registration only when present",
         "why": "Foresight uses a game-folder loader and needs no registry entries; an older redirect must be cleared once",
         "modifies": "no registry entries on fresh installs; migration removes only matching Foresight-owned IFEO Debugger and owner values, preserving unrelated settings",
+        "installToGameFolder": false,
+        "runOnUpdate": true,
+        "runFromGameFolder": false
+      },
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "master-duel",
+      "displayName": "Yu-Gi-Oh! Master Duel",
+      "modName": "Millennium Eye (Beta)",
+      "description": "# Millennium Eye\n\nMillennium Eye is a screen reader accessibility mod for the Windows Steam\nversion of **Yu-Gi-Oh! Master Duel**. It continues **BlindDuel**, originally\ncreated by **RealAmethyst**, with contributions from the BlindDuel community.\nIt reads native menus, selected cards and public duel information through Tolk.\n\n**[Download 0.1.0 beta](https://github.com/buu420/MillenniumEye/releases/tag/v0.1.0)**\nor install through Amethyst\u0027s Accessibility Mod Manager: add the **buu420**\nsource under **Sources**, refresh it, and choose **Yu-Gi-Oh! Master Duel \u2014\nMillennium Eye (Beta)**. The catalog is [buu-s-mods](https://github.com/buu420/buu-s-mods).\n\nVersion **0.1.0** is the first release under this name. It is a community\ncontinuation, with a fresh version sequence. The inherited menus and repaired\nduel features need broader player testing; this release does not claim a\nverified complete playthrough.\n\n## Duel repairs\n\n- Read the opponent\u0027s hand, main-deck and extra-deck counts, including zero.\n- Read both current ATK and DEF for visible monsters in either battle position.\n  Link monsters retain their native absence of DEF; active Trap Monsters use\n  their current monster values.\n- Refresh card details when selection, card information or a public effect\n  changes. Empty or hidden selections clear previous readable details.\n- Announce the named card when the public duel log reveals an opponent\u0027s\n  deck-to-hand search. Hidden draws and unrevealed searches stay unidentified.\n- Read and cycle the game\u0027s visible activation-confirmation toggle using its\n  existing action. The player chooses every effect and response.\n- Repair the duel confirmation and home submenu hooks for the current game.\n\n## Controls\n\n| Key | Action |\n| --- | --- |\n| Shift\u002BP | Read all three opponent pile counts |\n| Shift\u002BC | Focus opponent hand, announcing its count |\n| Shift\u002BD | Focus opponent extra deck, announcing its count |\n| F8 | Cycle the native activation-confirmation toggle |\n| Ctrl\u002BF8 | Read the visible On / Auto / Off mode |\n| Ctrl\u002BUp / Ctrl\u002BDown | Read previous / next card-detail line |\n| Right stick Up / Down | Read previous / next card-detail line |\n\nIf the native toggle is disabled, choose **Switch** or **Switch\u002BHold** for\nActivation Confirmation in the game\u0027s Duel settings. The mod announces that\nrequirement and preserves the setting. Draw/standby response timing still\nneeds live verification. Existing native controller toggle actions are also\nannounced. See [the inherited controls](docs/CONTROLS.md) for navigation.\n\n## Installation\n\nInitial supported target: **Windows x64, Master Duel 2.8.0, Steam build\n24462996**, with **MelonLoader 0.7.2 x64** and **.NET 6 Desktop Runtime**.\nThe installer checks the supported game binary. Updated game builds need a\ncompatibility check before this package will install.\n\nThe manager package declares pinned, hash-verified automatic downloads for\nMelonLoader and its runtime. It includes Tolk, the NVDA controller client and\nSDL3. Its read-only pre-install script checks the game and conflicts; the\nmanager handles file replacements, backups and uninstall receipts.\n\nFor the standalone ZIP:\n\n1. Close Master Duel and install the prerequisites above. The\n   [MelonLoader 0.7.2 installer](https://github.com/LavaGang/MelonLoader/releases/tag/v0.7.2)\n   supplies the loader and its runtime.\n2. Extract \u0060MillenniumEye-v0.1.0-beta-win-x64.zip\u0060 into a separate folder.\n3. Open PowerShell in that folder and run:\n\n   \u0060\u0060\u0060powershell\n   powershell -NoProfile -ExecutionPolicy Bypass -File .\\Install-MillenniumEye.ps1 -GamePath \u0027YOUR MASTER DUEL FOLDER\u0027\n   \u0060\u0060\u0060\n\n4. Start your screen reader, then launch Master Duel through Steam. The first\n   launch may take longer while MelonLoader generates current game bindings.\n\nThe package deliberately replaces **\u0060Mods/BlindDuel.dll\u0060 in place**. Its\nassembly is now named MillenniumEye and the loader displays Millennium Eye\n0.1.0. Keep one copy of the reader; a second \u0060Mods/MillenniumEye.dll\u0060 would\nduplicate hooks. Recognized older BlindDuel builds are backed up. Unknown\nreaders or shared libraries are preserved and reported as conflicts.\n\nThe standalone installer prints its rollback directory. Close the game, then\nrun \u0060Restore-MillenniumEye.ps1 -GamePath \u0027YOUR MASTER DUEL FOLDER\u0027 -BackupPath\n\u0027THE PRINTED BACKUP FOLDER\u0027\u0060 from the extracted release. It restores original\nfiles and refuses to overwrite files that changed after installation.\nSaves, game settings and loader preferences are outside the replacement list.\n\n## Validation and reports\n\nThe repaired reader passed 21 offline checks, 72 current patch-target checks\nand a Steam startup check. The 25 installation checks cover backup,\nrestoration, duplicate readers, unsupported builds, corrupt payloads and copy\nfailure rollback and resuming an interrupted restore. Live duel features and\ncontroller input remain unconfirmed. The player has confirmed audible\ntitle-screen and card/menu speech with this release. See\n[validation and native research](docs/VALIDATION.md).\n\n[Report a problem](https://github.com/buu420/MillenniumEye/issues) with your\ngame version, control used, screen or duel phase, expected information and\nwhat was spoken. The log is \u0060Mods/MillenniumEye_debug.log\u0060; review it before\nsharing because duel/menu logs may contain player-visible personal text.\n\n## Development and credits\n\n[Build instructions](docs/BUILDING.md), [source provenance](docs/PROVENANCE.md),\nand [third-party notices](THIRD-PARTY-NOTICES.md) are included. The source\nrepository excludes the game, generated game bindings, saves and player logs.\n\nOriginal mod: RealAmethyst and the BlindDuel contributors, including\nvandercast\u0027s zone-browsing contribution. Millennium Eye recovery, repairs,\npackaging and maintenance: buu420. This project is an independent community\ncontinuation and does not claim to be an official Konami or Amethyst release.\n\nLicensed under **GNU LGPL v3**, retaining the original license. See [LICENSE](LICENSE)\nand the incorporated [GPL v3 terms](COPYING). Dependency licenses are separate.",
+      "steamAppId": "1449850",
+      "linuxSteamAppId": null,
+      "exeName": "masterduel.exe",
+      "linuxExeName": null,
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "masterduel.exe"
+        },
+        {
+          "type": "fileExists",
+          "relativePath": "GameAssembly.dll"
+        }
+      ],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [
+        {
+          "id": "melonloader",
+          "type": "framework",
+          "targetPlatforms": [
+            "windows"
+          ],
+          "minVersion": null,
+          "check": {
+            "registryKey": null,
+            "registryValue": null,
+            "registryHive": null,
+            "registryView": null,
+            "filePath": "version.dll"
+          },
+          "fix": {
+            "downloadUrl": "https://github.com/LavaGang/MelonLoader/releases/download/v0.7.2/MelonLoader.x64.zip",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "extractZip",
+              "targetDir": ".",
+              "blocklist": [],
+              "sha256": "5cedb66dc5595de19fd4dd6b4c178440da293c6d7f511e14bdf0fea407c9a1f7"
+            },
+            "xlm": null
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        },
+        {
+          "id": "dotnet-6-desktop-x64",
+          "type": "system",
+          "targetPlatforms": [
+            "windows"
+          ],
+          "minVersion": "6.0.36",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": "6.0.36",
+            "registryHive": null,
+            "registryView": null,
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-x64.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "0d20debb26fc8b2bc84f25fbd9d4596a6364af8517ebf012e8b871127b798941"
+            },
+            "xlm": null
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
+      "tags": [
+        "accessibility",
+        "beta"
+      ],
+      "languages": [
+        "en"
+      ],
+      "defaultPreInstall": {
+        "executable": "files/Manager-PreInstall.ps1",
+        "needsAdmin": false,
+        "failureFatal": true,
+        "what": "Validate the package and supported game build, require the game to be closed, and detect duplicate or unrecognized readers and shared libraries.",
+        "why": "Prevent two accessibility readers from loading together and avoid replacing files owned by an unknown mod.",
+        "modifies": "No files or settings. Reads only the selected game folder and the verified package staging folder.",
         "installToGameFolder": false,
         "runOnUpdate": true,
         "runFromGameFolder": false
@@ -2569,6 +2676,22 @@
         "sha256": "56edc24add9c710733b89a4e13114921fd5f6be973a98ea0533e72535760120b",
         "changelogUrl": "https://github.com/buu420/foresight/releases/tag/v0.3.59",
         "notes": "Fixes New Game name entry rejecting native localized names such as French/German Chrono and German Frosch. Reads the actual native name throughout the grid, keyboard entry, and confirmation without applying a global five-character limit. Also preserves longer saved names in battle, formation reserve cards and navigation. Preserves the game\u0027s input rules and exact confirmation arguments. Localized native text remains readable; mod-owned announcements remain mainly English. Existing navigation, narration, voice packs, saves and settings are preserved. Automated/native checks passed; live New Game, controller and speech testing still needed. Close the game before updating. Built with AMM Author CLI 0.30.0.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "master-duel": [
+      {
+        "gameId": "master-duel",
+        "pluginId": "buu420",
+        "version": "0.1.0",
+        "channel": "beta",
+        "targetPlatform": null,
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/MillenniumEye/releases/download/v0.1.0/MillenniumEye-v0.1.0-beta-amm.zip",
+        "sha256": "068f0e9a53bdd38ebf9eb4b45984d19049bda71832ab2f6ff5be0de93d5a1c3a",
+        "changelogUrl": null,
+        "notes": "First Millennium Eye community beta, continuing RealAmethyst and contributors\u0027 BlindDuel. Opponent pile counts; current ATK/DEF; fresh card/effect details; public search announcements; F8/Ctrl\u002BF8 native activation controls. Windows x64 Master Duel 2.8.0 / Steam build 24462996, MelonLoader 0.7.2. Startup and card/menu speech confirmed by the player; live duel behavior, controller play and activation timing remain unconfirmed. If BlindDuel is registered as installed in the manager, uninstall that entry before installing Millennium Eye. Source, controls, licenses and complete release notes: https://github.com/buu420/MillenniumEye/releases/tag/v0.1.0",
         "compatibility": null,
         "patreon": null
       }
