@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-14T01:39:44.0141732Z",
+  "generatedAt": "2026-10-14T02:49:45.8675183Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -239,6 +239,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.0/ffviiold-v0.10.0-amm.zip",
+        "sha256": "cf7873a66aa11b766200efe62b1bd0ef66f59c5a35c70be678366447544df0d1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.0",
+        "notes": "Makes the Shinra Mansion flashback bookcase navigable and guides through its passage after normal Confirm, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1333,6 +1347,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.0/ffviinew-v0.10.0-amm.zip",
+        "sha256": "5f2c67ae64ca4cad456c1b1ad9bf772c8e8ea2c043007fdef240f53171f32909",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.0",
+        "notes": "Makes the Shinra Mansion flashback bookcase navigable and guides through its passage after normal Confirm, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
