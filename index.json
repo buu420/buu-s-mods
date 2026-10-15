@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-15T20:58:47.1733575Z",
+  "generatedAt": "2026-10-15T21:25:08.136898Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -239,6 +239,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.1",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.1/ffviiold-v0.10.1-amm.zip",
+        "sha256": "0afd310b92fd11cc14a3c1656e758efaf218898efa7463a230730bbb41178458",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.1",
+        "notes": "Restores Priscilla at Dolphin Cove and wounded Tifa in the flashback reactor, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1347,6 +1361,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.1",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.1/ffviinew-v0.10.1-amm.zip",
+        "sha256": "5e0d954f4b87800c4d914b5f06d1cec99434d94348baf00f255c78c308a901ea",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.1",
+        "notes": "Restores Priscilla at Dolphin Cove and wounded Tifa in the flashback reactor, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
