@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-17T18:12:18.7930926Z",
+  "generatedAt": "2026-10-18T06:02:58.6605625Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -239,6 +239,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.2",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.2/ffviiold-v0.10.2-amm.zip",
+        "sha256": "08310e174f4717c42c73b6bdc7904d988c7a897b68e5fb91fade6d7ec545d231",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.2",
+        "notes": "Corrects the legacy x86 snowboarding text renderer ABI that can crash the game with Echo-S enabled or disabled. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1361,6 +1375,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.2",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.2/ffviinew-v0.10.2-amm.zip",
+        "sha256": "a0fa1c8db77feb33f53dcf163e8597b9d48172f917a530790832cc386fc840a9",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.2",
+        "notes": "Corrects the legacy x86 snowboarding text renderer ABI that can crash the game with Echo-S enabled or disabled. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
