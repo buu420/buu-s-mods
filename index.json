@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-18T06:02:58.6605625Z",
+  "generatedAt": "2026-10-20T22:19:27.6061676Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -239,6 +239,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.3",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.3/ffviiold-v0.10.3-amm.zip",
+        "sha256": "ce475874206731774772d8e63c8743d71d6f496739c88f5c307651a133d3a3d3",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.3",
+        "notes": "Repairs Huge Materia observatory exit guidance and moves repeatable stored Materia into Objects, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1375,6 +1389,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.3",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.3/ffviinew-v0.10.3-amm.zip",
+        "sha256": "8c15dfdd0b4f86a7f580757b2d7a6851a7d57d3bbfc572b04e83e184323eba5c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.3",
+        "notes": "Repairs Huge Materia observatory exit guidance and moves repeatable stored Materia into Objects, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
