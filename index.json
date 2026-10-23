@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-22T04:52:55.8403699Z",
+  "generatedAt": "2026-10-23T06:55:55.7293789Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -239,6 +239,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.4",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.4/ffviiold-v0.10.4-amm.zip",
+        "sha256": "9f1ef7bdd9b996a645bb080e996af5282481ffdf30a0be8cb2d2042962d19b0e",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.4",
+        "notes": "Repairs visible Emerald approaches and Sector 8 underground ladder exits, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1389,6 +1403,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.4",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.4/ffviinew-v0.10.4-amm.zip",
+        "sha256": "6a008e25addca243ee3fa7037ee74bb4677c5e2f29764865fb31219ccc5ee9d7",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.4",
+        "notes": "Repairs visible Emerald approaches and Sector 8 underground ladder exits, with stock and Echo-S checks. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
