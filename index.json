@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-29T00:15:52.9220267Z",
+  "generatedAt": "2026-10-29T04:34:38.6251718Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -386,6 +386,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.5",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.5/ffviiold-v0.10.5-amm.zip",
+        "sha256": "b0e49da38a8b84d7c1128058d728351def5e1832b4ed573d551ed5f3e2921a58",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.5",
+        "notes": "Repairs missing and incorrectly named NPC targets, native script-cache handling and Echo-S character/model coverage. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1550,6 +1564,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.5",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.5/ffviinew-v0.10.5-amm.zip",
+        "sha256": "a7c290ca1ccfefe2275a602505ca8d50c6fcfaa07f0f59d9624d1bf5e4ead8c1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.5",
+        "notes": "Repairs missing and incorrectly named NPC targets, native script-cache handling and Echo-S character/model coverage. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
