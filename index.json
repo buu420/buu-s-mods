@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-31T11:03:15.3541221Z",
+  "generatedAt": "2026-10-31T21:13:26.8378048Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -380,6 +380,36 @@
         "runOnUpdate": true,
         "runFromGameFolder": false
       },
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "ultra-street-fighter-iv",
+      "displayName": "Ultra Street Fighter IV",
+      "modName": "Fighting Chance (Beta)",
+      "description": "Fighting Chance adds screen-reader speech to the English Steam version of Ultra Street Fighter IV: native menus/dialogs, character and stage selection, Training pause and command names/inputs, results, health/damage feedback, Ultra/Super gauge announcements, a distance beep and your fighter\u0027s side changes.\n\nF8 repeats the current screen; Ctrl\u002BF8 toggles automatic menu speech. F9 reads both health bars and your Ultra/Super gauges; Ctrl\u002BF9 toggles health/damage speech. F10 toggles the distance beep. F11 repeats your side; Ctrl\u002BF11 selects Automatic, Player 1 or Player 2 identity. Use normal game controls to navigate and fight.\n\nStart NVDA before launching through Steam. Windows x86 loader, Prism and licenses are included; original code is GPLv3. Existing USF4Access internal paths are retained for upgrades. This package targets Steam app 45760/build 834219 only; the reader checks the executable before enabling hooks. Preserve a shared dinput8.dll used by other mods and resolve loader conflicts before installation.\n\nPublic beta: earlier menus and command inputs were listener-confirmed, but new Ultra/Super gauge behavior, controller coverage, Amethyst installation and recipient-PC compatibility still need live testing. Not every screen has been listener-verified. Source, exact coverage, recipient checklist and manual-install ZIP: https://github.com/buu420/fighting-chance .",
+      "steamAppId": "45760",
+      "linuxSteamAppId": null,
+      "exeName": "SSFIV.exe",
+      "linuxExeName": null,
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "SSFIV.exe"
+        }
+      ],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [],
+      "tags": [
+        "accessibility",
+        "beta"
+      ],
+      "languages": [
+        "en"
+      ],
+      "defaultPreInstall": null,
       "defaultPostInstall": null,
       "defaultPostUninstall": null
     }
@@ -3429,6 +3459,22 @@
         "sha256": "c205ffa39ea8cfae2cfe47c3e9fae39cd3df3258fc564c9f2e59f159eb7edf65",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.4",
         "notes": "Quieter map and controller speech: stable Windows title during screen-reader use; native localized field names use existing region-announcement and dialogue/narration gates. Controller trigger opening reads the category and selected target. Hold a navigation trigger and press Triangle/Y for controls help. Pause messages are brief; route instructions, arrival and failure messages remain. Windows ZIP retains the accessible double-click installer. Close FFIX and its launcher before updating. Saves, settings and all 608 recordings are preserved. Original Mono compatibility and automated checks passed; recipient-PC NVDA listening, physical-controller testing and a complete playthrough remain unverified. Game diagnostics: %LOCALAPPDATA%/FF9Access; include speech.log, navigation.log and the newest game-session Memoria.log. Installer logs: %LOCALAPPDATA%/EchosOfGaia/Installer.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "ultra-street-fighter-iv": [
+      {
+        "gameId": "ultra-street-fighter-iv",
+        "pluginId": "buu420",
+        "version": "0.6.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/fighting-chance/releases/download/v0.6.0/FightingChance-0.6.0-Amethyst.zip",
+        "sha256": "99589365e70c32f50492f68f6d961d1a7af3f6217efa3d5cbb95898b8620a81a",
+        "changelogUrl": "https://github.com/buu420/fighting-chance/releases/tag/v0.6.0",
+        "notes": "First Fighting Chance GPLv3 beta for English Steam USFIV app 45760/build 834219. Native menu and command-list speech, results, health/damage feedback, distance beep, own-fighter side changes, Ultra ready/full and new Super stock/full announcements. F9 reads health plus your Ultra and Super gauges. 23 automated suites pass; new gauges, controllers, Amethyst installation and recipient-PC listening remain unverified. Close the game before updating. See the release page and included TESTING.txt for controls, supported executable and exact coverage.",
         "compatibility": null,
         "patreon": null
       }
