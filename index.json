@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-31T08:42:23.4509719Z",
+  "generatedAt": "2026-10-31T11:03:15.3541221Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -386,6 +386,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.6",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.6/ffviiold-v0.10.6-amm.zip",
+        "sha256": "5f3985643e7b4afc172f12364935fe95e3e4333f5ff104a70fcff168a19a9b08",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.6",
+        "notes": "Repairs late Midgar ladder choices, native climb guidance and the route to Shinra HQ. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1564,6 +1578,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.6",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.6/ffviinew-v0.10.6-amm.zip",
+        "sha256": "773a76442ba87baf6850c9b2d02a8c8a04821e4970bc15424c97945b2322d02d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.6",
+        "notes": "Repairs late Midgar ladder choices, native climb guidance and the route to Shinra HQ. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
