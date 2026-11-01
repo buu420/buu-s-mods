@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-10-31T21:13:26.8378048Z",
+  "generatedAt": "2026-11-01T16:43:58.2061668Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -387,7 +387,7 @@
       "gameId": "ultra-street-fighter-iv",
       "displayName": "Ultra Street Fighter IV",
       "modName": "Fighting Chance (Beta)",
-      "description": "Fighting Chance adds screen-reader speech to the English Steam version of Ultra Street Fighter IV: native menus/dialogs, character and stage selection, Training pause and command names/inputs, results, health/damage feedback, Ultra/Super gauge announcements, a distance beep and your fighter\u0027s side changes.\n\nF8 repeats the current screen; Ctrl\u002BF8 toggles automatic menu speech. F9 reads both health bars and your Ultra/Super gauges; Ctrl\u002BF9 toggles health/damage speech. F10 toggles the distance beep. F11 repeats your side; Ctrl\u002BF11 selects Automatic, Player 1 or Player 2 identity. Use normal game controls to navigate and fight.\n\nStart NVDA before launching through Steam. Windows x86 loader, Prism and licenses are included; original code is GPLv3. Existing USF4Access internal paths are retained for upgrades. This package targets Steam app 45760/build 834219 only; the reader checks the executable before enabling hooks. Preserve a shared dinput8.dll used by other mods and resolve loader conflicts before installation.\n\nPublic beta: earlier menus and command inputs were listener-confirmed, but new Ultra/Super gauge behavior, controller coverage, Amethyst installation and recipient-PC compatibility still need live testing. Not every screen has been listener-verified. Source, exact coverage, recipient checklist and manual-install ZIP: https://github.com/buu420/fighting-chance .",
+      "description": "Fighting Chance adds screen-reader speech to the Steam version of Ultra Street Fighter IV: native menus/dialogs, character and stage selection, Training pause and command names/inputs, results, health/damage feedback, Ultra/Super gauge announcements, a distance beep and your fighter\u0027s side changes.\n\n0.7.0 beta adds displayed movie/battle subtitle reading when the game\u0027s Subtitles setting is on, and support for all 13 game languages including mod announcements. It follows the game\u0027s selected language; use an appropriate voice in your screen reader. The Portuguese option maps to English in this executable; Brazilian Portuguese uses its own catalog.\n\nF8 repeats the current readable menu/dialog, or the active subtitle outside menus. Ctrl\u002BF8 toggles automatic menu speech only; the game subtitle setting controls subtitles. F9 reads both health bars and your Ultra/Super gauges; Ctrl\u002BF9 toggles health/damage speech. F10 toggles the distance beep. F11 repeats your side; Ctrl\u002BF11 selects Automatic, Player 1 or Player 2 identity. Use normal game controls to navigate and fight.\n\nStart NVDA before launching through Steam. Windows x86 loader, Prism and licenses are included; original code is GPLv3. Existing USF4Access internal paths are retained for upgrades. This package targets Steam app 45760/build 834219 only; the reader checks the executable before enabling hooks. Close the game before installing. Preserve a shared dinput8.dll used by other mods and resolve loader conflicts before installation.\n\nTesting beta: subtitle timing, language changes, native-speaker translations, controller behavior, Amethyst installation and recipient-PC compatibility need live testing. Image-based subtitles, titles and victory quotes have known caption gaps and report unknown text as unavailable. New translations and OCR-derived captions are drafts; no OCR, translation model or network service runs during play. All 37 offline test suites passed, but this update was not launched in-game. See CAPTIONS.txt and TESTING.txt in the package for coverage and checks. Source, detailed limits and manual-install ZIP: https://github.com/buu420/fighting-chance/releases/tag/v0.7.0 .",
       "steamAppId": "45760",
       "linuxSteamAppId": null,
       "exeName": "SSFIV.exe",
@@ -407,7 +407,19 @@
         "beta"
       ],
       "languages": [
-        "en"
+        "en",
+        "fr",
+        "de",
+        "it",
+        "es",
+        "cs",
+        "nl",
+        "ja",
+        "ko",
+        "pl",
+        "pt-BR",
+        "ru",
+        "zh-CN"
       ],
       "defaultPreInstall": null,
       "defaultPostInstall": null,
@@ -3475,6 +3487,20 @@
         "sha256": "99589365e70c32f50492f68f6d961d1a7af3f6217efa3d5cbb95898b8620a81a",
         "changelogUrl": "https://github.com/buu420/fighting-chance/releases/tag/v0.6.0",
         "notes": "First Fighting Chance GPLv3 beta for English Steam USFIV app 45760/build 834219. Native menu and command-list speech, results, health/damage feedback, distance beep, own-fighter side changes, Ultra ready/full and new Super stock/full announcements. F9 reads health plus your Ultra and Super gauges. 23 automated suites pass; new gauges, controllers, Amethyst installation and recipient-PC listening remain unverified. Close the game before updating. See the release page and included TESTING.txt for controls, supported executable and exact coverage.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "ultra-street-fighter-iv",
+        "pluginId": "buu420",
+        "version": "0.7.0",
+        "channel": "beta",
+        "targetPlatform": null,
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/fighting-chance/releases/download/v0.7.0/FightingChance-0.7.0-Amethyst.zip",
+        "sha256": "8774a2e2b2da4d6a46f8068aeb44d1a9eb73eedd239460d95408a1dadf0179b7",
+        "changelogUrl": "https://github.com/buu420/fighting-chance/releases/tag/v0.7.0",
+        "notes": "0.7.0 testing beta adds enabled/displayed movie and battle subtitle speech, F8 subtitle repeat outside menus, and all 13 game languages including mod announcements. Captions follow actual loaded artwork. New translations and bitmap captions are drafts with documented gaps. All 37 offline suites passed; subtitle timing, native-speaker listening, controller/manager installation and recipient-PC behavior need live testing. Close the game before updating. Full controls, coverage and tester checklist are in the release notes, CAPTIONS.txt and TESTING.txt.",
         "compatibility": null,
         "patreon": null
       }
