@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-01T21:57:08.9996878Z",
+  "generatedAt": "2026-11-02T00:45:52.6241447Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field/world navigation, deliberate automatic walking, battle/menu speech and optional audio descriptions to the Windows Steam version of Final Fantasy IX. Beta 0.1.6 corrects prerequisite guidance in Pinnacle Rocks, Fossil Roo and Mount Gulug; expands reviewed chest/frog appearances; and repairs visible card details, initial card focus, auction bids and Daguerreo numeric readings. Includes the accessible launcher, installer, controller navigation and prior menu/label fixes. A guide comparison accounts for 818 native fields, 44 story chapters and 23 optional topics; generic labels, visual/timed minigames and some puzzle steps remain partial. No complete accessible playthrough is claimed. Recipient-PC NVDA, physical-controller speech and scene transitions still need player testing.",
+      "description": "Echos of Gaia adds screen reader support, field/world navigation, deliberate automatic walking, battle/menu speech and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.7 repairs opening Story travel through Alexandria: local exits identify the next area, the rendered ticket stand supplies its native interaction spot, and informational steps explain the next area without planning toward a remote objective. Story remains selected across maps; each walking leg requires the normal deliberate command. Includes the accessible launcher/installer and prior story, card, numeric-input, label and menu fixes. Whole-game coverage remains partial; visual/timed minigames, generic labels and some puzzles still need work. Live controller/NVDA and full-playthrough proof remain separate from offline checks.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3499,6 +3499,20 @@
         "sha256": "35af8cb428bf1b009bb6c138ab2aef2fd0f22cb9433880fa16dc68b057af31ea",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.6",
         "notes": "Guide-audited prerequisite fixes for Pinnacle Rocks, Fossil Roo and Mount Gulug; current card details/first focus, auction and Daguerreo numeric speech; exact touch cues, two inn interaction bindings and additional reviewed chest/frog appearances. Native Confirm, choices and clocks remain player controlled; unverified approaches stay manual. The included audit accounts for 818 fields, 44 story chapters and 23 optional topics, with remaining generic-label, visual, timed and puzzle gaps. Full accessibility and a complete playthrough are not claimed. Close FFIX and its launcher before updating. Saves/settings and 608 recordings are preserved. Recipient-PC NVDA, physical-controller and full scene-transition tests remain open. Logs: %LOCALAPPDATA%/FF9Access speech.log/navigation.log and the newest game-session Memoria.log.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.7",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.7/EchosOfGaia-v0.1.7-beta-amm.zip",
+        "sha256": "e6d16965bccfc9cdb34383092e07d16885f867f992bb74a80d6805b7101d7af7",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.7",
+        "notes": "Opening Story now follows actual street exits to Alexandria Square, then the visible ticket stand\u0027s native interaction spot. Travel targets name the next area; informational steps explain it without scheduling a route to a remote objective. Native Confirm/choices remain player controlled, and each new-map walking leg requires the normal deliberate command. Includes prior 0.1.6 fixes. Real native script and walkmesh fixtures, both architectures and original Mono checks passed; live tester/controller/NVDA and a full opening playthrough remain unverified. Close FFIX and its launcher before updating. Saves, settings and 608 recordings are preserved. The standalone Windows ZIP includes the accessible double-click installer.",
         "compatibility": null,
         "patreon": null
       }
