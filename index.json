@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-02T00:45:52.6241447Z",
+  "generatedAt": "2026-11-02T02:53:03.3610661Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -428,6 +428,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.7",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.7/ffviiold-v0.10.7-amm.zip",
+        "sha256": "1d1287287d2a7f922dbfe48856d931b336779a7b65fa56ade31f21ea3102d000",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.7",
+        "notes": "Repairs the Winding Tunnel HQ entrance, sealed-exit routes and misleading ladder cues. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1620,6 +1634,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.7",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.7/ffviinew-v0.10.7-amm.zip",
+        "sha256": "06bffe1b714749557008770973d90486778b78d977e43c645de147e429b7dd2c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.7",
+        "notes": "Repairs the Winding Tunnel HQ entrance, sealed-exit routes and misleading ladder cues. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
