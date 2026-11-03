@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-03T01:47:56.8168236Z",
+  "generatedAt": "2026-11-03T22:06:08.1463542Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -428,6 +428,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.8",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.8/ffviiold-v0.10.8-amm.zip",
+        "sha256": "8ff3c6fff04998b91f0a90671e11ef9d680887f710fd9fad777653ca89bb733c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.8",
+        "notes": "Repairs Ancient Forest navigation, persistent Emerald selection and Bone Village excavation pickup. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1634,6 +1648,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.8",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.8/ffviinew-v0.10.8-amm.zip",
+        "sha256": "172b019bf67edb9e16342fbb9fce4e2ef43c82e840c121b3a857dbfab901a1ed",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.8",
+        "notes": "Repairs Ancient Forest navigation, persistent Emerald selection and Bone Village excavation pickup. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
