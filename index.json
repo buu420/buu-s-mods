@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-04T19:24:05.8410476Z",
+  "generatedAt": "2026-11-04T23:05:49.6524598Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -428,6 +428,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.9",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.9/ffviiold-v0.10.9-amm.zip",
+        "sha256": "f18748530465454a727e921fc0a5580fc693a73627e5b3e4cffd17e721edc992",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.9",
+        "notes": "Adds Ancient Forest carrying and plant feedback, distinct puzzle targets and safe flytrap routing. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1648,6 +1662,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.9",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.9/ffviinew-v0.10.9-amm.zip",
+        "sha256": "485a9d51875a03210784f107835840aebde39efc569bf5130357ff9fa0751408",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.9",
+        "notes": "Adds Ancient Forest carrying and plant feedback, distinct puzzle targets and safe flytrap routing. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
