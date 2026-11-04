@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-03T22:06:08.1463542Z",
+  "generatedAt": "2026-11-04T07:39:00.1641475Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field/world navigation, deliberate automatic walking, battle/menu speech and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.8 stabilizes manual route directions, gives clearer corrections after sideways drift, quiets equivalent route refreshes, and keeps distance counts consistent across control orientations. Reviewed opening street exits remain available across camera scrolling on the way to the ticket booth. Includes the accessible launcher and double-click installer, the previous Story/card/numeric/label/menu fixes and 608 narration recordings. Whole-game coverage remains partial; visual/timed minigames, generic labels and some puzzles still need work. Physical-controller/NVDA and complete-playthrough proof remain separate from automated checks.",
+      "description": "Echos of Gaia adds screen reader support, field/world navigation, deliberate automatic walking, battle/menu speech and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.9 repairs current-area NPC/exit presentation, distinguishes same-name zones, fixes opening alley/steeple/rooftop Story steps and the first Evil Forest rescue approach, and restores masked dialogue-choice speech. Native-filtered interaction points survive route planning, and Main Street short steps respect native arrival tolerance. Includes the accessible launcher, double-click installer and 608 narration recordings. Whole-game coverage remains partial; some scenery bindings, generic NPC labels, puzzles and timed minigames still need work. Complete opening/forest, physical-controller and audible screen-reader testing remain separate from automated/native checks.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3583,6 +3583,20 @@
         "sha256": "42b1edafc02090304d2c7e4b3cd6b1ce1517e0b27c8f6645ce1805778922c764",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.8",
         "notes": "Manual guidance keeps stable route legs, gives clearer corrections after sideways drift, retains the actual native input orientation when the stick is released, and quiets equivalent route refreshes. Distance counts use map length consistently across control angles; walking/running consume the same rounded units at their actual pace. Reviewed opening street exits remain available across camera scrolling on the way to the ticket booth. Native controls and Confirm stay player controlled; each new-map automatic leg remains deliberate. Automated and original-Mono checks passed, with broader controller/NVDA/dynamic-collision and full-playthrough testing still needed. Close FFIX and its launcher before updating. Saves, settings and 608 recordings are preserved. The standalone ZIP includes the accessible double-click installer.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.9",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.9/EchosOfGaia-v0.1.9-beta-amm.zip",
+        "sha256": "f13f0a8afd793129e1eb55b74b0de94b2154046c02af4064904a1266b1320cae",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.9",
+        "notes": "Repairs current-area NPC/exit presentation, distinct same-name zones, opening alley/steeple/rooftop Story steps, first Evil Forest rescue approach, masked dialogue choices and Main Street short-step arrival. Native-filtered interaction points survive planning, and unavailable endpoints release old routes. Native Confirm, choices and timers remain player controlled. Both architectures passed automated and original-Mono checks; complete opening/forest, controller, audible speech and full-playthrough testing are still needed. Some scenery bindings and NPC labels remain incomplete. Close FFIX and its launcher before updating. Saves/settings and all 608 recordings are retained. Standalone ZIP includes the accessible double-click installer; no PowerShell commands are required.",
         "compatibility": null,
         "patreon": null
       }
