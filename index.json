@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-05T17:44:33.1580185Z",
+  "generatedAt": "2026-11-05T22:18:44.6829775Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.11 expands Story guidance for doors, switches, ladders and other intermediate actions. Exits speak destination names, and distinct rooms with the same name get area numbers. More NPCs and objects have labels, including visible save spheres. The opening sword fight speaks the current command using the active controller or keyboard. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Some interactions still have generic labels, and full playthrough, alternate routes and live controller speech need more testing.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.12 repairs guidance and auto-walk on the West Tower stairs, including both exits and Breireicht. Automatic walking aims inside exit triggers, and background retries stay quiet when the same route remains unavailable. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Full playthrough and live controller speech need more testing.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3695,6 +3695,20 @@
         "sha256": "569eb3aac0586959930d59b77af5e34ddcd3e9ea096613296627a5f1b381c109",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.11",
         "notes": "Story follows more current doors, switches, ladders and boarding actions. Exits speak destination names and distinct rooms that share a name get stable area numbers. More objects have labels. The opening sword fight speaks the current command with controller or keyboard names. This beta passed automated checks for both game architectures. Some objects still use generic labels. A full live playthrough, alternate routes and physical controller speech need more testing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.12",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.12/EchosOfGaia-v0.1.12-beta-amm.zip",
+        "sha256": "c76d4eaa3f54e8825d7a533bfdafd6475ffd41b693e4d914c97fcbdd05316207",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.12",
+        "notes": "Repairs manual guidance and auto-walk through the West Tower stairs, including routes to Breireicht and both exits. Auto-walk aims inside exit triggers. Background retries stay quiet when the same route is unavailable. Reviewed interaction prompts load again, and exit approaches are recorded in route snapshots. The West Tower routes passed offline checks on both game runtimes and are ready for a live retest.",
         "compatibility": null,
         "patreon": null
       }
