@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-05T22:18:44.6829775Z",
+  "generatedAt": "2026-11-05T22:26:47.994283Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -428,6 +428,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.11",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.11/ffviiold-v0.10.11-amm.zip",
+        "sha256": "5c5cc30a965e3a6c3afd8c3fce0d23142957c8e6d60f8b445d395fcd46de9169",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.11",
+        "notes": "Choose Normal Treasure in Bone Village to find the available Key to Sector 5 in Objects. Ancient Forest adds location cues for insects and frogs and reads pitcher plant states. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1676,6 +1690,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.11",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.11/ffviinew-v0.10.11-amm.zip",
+        "sha256": "73a8a1bf9a34325dca63a9f3ef6d50839dac57c4488b524940ac8ce772becdfc",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.11",
+        "notes": "Choose Normal Treasure in Bone Village to find the available Key to Sector 5 in Objects. Ancient Forest adds location cues for insects and frogs and reads pitcher plant states. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
