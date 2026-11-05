@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-05T05:55:54.8230427Z",
+  "generatedAt": "2026-11-05T17:44:33.1580185Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field/world navigation, deliberate automatic walking, battle/menu speech and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.10 repairs post-play castle Story guidance for Zidane and Steiner, binds exits serving multiple floors to the correct approach, and adds recovery for stalled main-menu speech with clearer diagnostics. Includes earlier opening/forest navigation and dialogue-choice repairs, the accessible launcher, double-click installer and 608 narration recordings. Whole-game coverage remains partial; some scenery bindings, generic NPC labels, puzzles and timed minigames still need work. Live castle, physical-controller and audible menu testing remain necessary; the reported Date modified failure is not confirmed resolved by automated/native checks.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.11 expands Story guidance for doors, switches, ladders and other intermediate actions. Exits speak destination names, and distinct rooms with the same name get area numbers. More NPCs and objects have labels, including visible save spheres. The opening sword fight speaks the current command using the active controller or keyboard. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Some interactions still have generic labels, and full playthrough, alternate routes and live controller speech need more testing.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3681,6 +3681,20 @@
         "sha256": "0331942c9da6ec70f723191f347892917a79c8aeb2865a5c53b927c9279e49a9",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.10",
         "notes": "Repairs post-play castle Story guidance: Zidane uses the stairs rather than Blank warning doors, and Steiner follows the current castle sequence. Exits serving multiple floors use destination-specific approaches. Adds recovery for stalled main-menu speech after native animations settle, plus clearer diagnostics. Native controls, choices and timers remain player controlled. Automated and original-Mono x86/x64 checks passed; live castle/controller and audible menu testing are still needed. The tester report of Date modified is not confirmed resolved. Whole-game coverage remains partial. Close FFIX and its launcher before updating. Saves/settings and all 608 recordings are retained. The standalone ZIP includes the accessible double-click installer; no PowerShell commands are required.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.11",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.11/EchosOfGaia-v0.1.11-beta-amm.zip",
+        "sha256": "569eb3aac0586959930d59b77af5e34ddcd3e9ea096613296627a5f1b381c109",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.11",
+        "notes": "Story follows more current doors, switches, ladders and boarding actions. Exits speak destination names and distinct rooms that share a name get stable area numbers. More objects have labels. The opening sword fight speaks the current command with controller or keyboard names. This beta passed automated checks for both game architectures. Some objects still use generic labels. A full live playthrough, alternate routes and physical controller speech need more testing.",
         "compatibility": null,
         "patreon": null
       }
