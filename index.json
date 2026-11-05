@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-04T23:05:49.6524598Z",
+  "generatedAt": "2026-11-05T05:55:54.8230427Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -428,6 +428,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.10",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.10/ffviiold-v0.10.10-amm.zip",
+        "sha256": "57d7dff29c3b81699f64c04180e08413a662dea0b6d14995e9a61b3a6a5ee411",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.10",
+        "notes": "Track Emerald Weapon underwater before any sighting. In Bone Village, Story guides the Key to Sector 5 after the clue at Midgar\u0027s gate. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1662,6 +1676,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.10",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.10/ffviinew-v0.10.10-amm.zip",
+        "sha256": "6a2ea370e6b80cd18c60bc760e388843c06068df4098fe39fcee318b86826d65",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.10",
+        "notes": "Track Emerald Weapon underwater before any sighting. In Bone Village, Story guides the Key to Sector 5 after the clue at Midgar\u0027s gate. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
