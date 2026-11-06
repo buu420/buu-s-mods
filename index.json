@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-05T22:26:47.994283Z",
+  "generatedAt": "2026-11-06T22:58:10.3701303Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -420,6 +420,37 @@
         "pt-BR",
         "ru",
         "zh-CN"
+      ],
+      "defaultPreInstall": null,
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "marvel-vs-capcom-infinite",
+      "displayName": "Marvel vs. Capcom: Infinite",
+      "modName": "Echo Stone",
+      "description": "First public beta for English on Windows x64 and Steam build 18789511. Echo Stone adds Prism narration for menus, character and stage selection, Missions, Command List and Story prompts. It reads both active fighters\u0027 health and your tracked team\u0027s Hyper Combo and Infinity gauges, and adds distance and side cues. Includes recorded descriptions for 80 Story movie files.\n\nF5 selects the tracked player. F6 toggles distance beeps, F7 reads combat status, F8 repeats the current screen, F9 toggles side announcements, and F10 toggles movie descriptions. Distance, side and movie descriptions start enabled.\n\nClose the game before installing, updating, or removing the mod. If you previously installed with a ZIP, remove it with its uninstaller before switching to Amethyst. If that uninstaller reports preserved files, keep using the Windows ZIP until the ownership conflict is resolved. The manager runs a read-only compatibility check. Live online narration and cutscene timing still need testing. Source and Windows installer at https://github.com/buu420/echo-stone/releases/tag/v0.1.0",
+      "steamAppId": "493840",
+      "linuxSteamAppId": null,
+      "exeName": "MVCI.exe",
+      "linuxExeName": null,
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "MVCI/Binaries/Win64/MVCI.exe"
+        }
+      ],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [],
+      "tags": [
+        "accessibility",
+        "screen-reader",
+        "beta"
+      ],
+      "languages": [
+        "en"
       ],
       "defaultPreInstall": null,
       "defaultPostInstall": null,
@@ -3767,6 +3798,22 @@
         "sha256": "8774a2e2b2da4d6a46f8068aeb44d1a9eb73eedd239460d95408a1dadf0179b7",
         "changelogUrl": "https://github.com/buu420/fighting-chance/releases/tag/v0.7.0",
         "notes": "0.7.0 testing beta adds enabled/displayed movie and battle subtitle speech, F8 subtitle repeat outside menus, and all 13 game languages including mod announcements. Captions follow actual loaded artwork. New translations and bitmap captions are drafts with documented gaps. All 37 offline suites passed; subtitle timing, native-speaker listening, controller/manager installation and recipient-PC behavior need live testing. Close the game before updating. Full controls, coverage and tester checklist are in the release notes, CAPTIONS.txt and TESTING.txt.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "marvel-vs-capcom-infinite": [
+      {
+        "gameId": "marvel-vs-capcom-infinite",
+        "pluginId": "buu420",
+        "version": "0.1.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echo-stone/releases/download/v0.1.0/EchoStone-0.1.0-Amethyst.zip",
+        "sha256": "09645cac383d273b5799ed182f3f06db7fe272d5a314a10eeee15055a4538ef7",
+        "changelogUrl": "https://github.com/buu420/echo-stone/releases/tag/v0.1.0",
+        "notes": "First public Echo Stone beta. English Prism menu and Story narration, both fighters\u0027 health, Hyper Combo and Infinity status, distance and side cues, and recorded descriptions for 80 Story movie files. Supports Windows x64 and Steam build 18789511. Live online and cutscene timing checks are still pending.",
         "compatibility": null,
         "patreon": null
       }
