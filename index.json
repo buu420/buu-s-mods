@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-07T00:04:19.2233669Z",
+  "generatedAt": "2026-11-07T20:48:38.537638Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.12 repairs guidance and auto-walk on the West Tower stairs, including both exits and Breireicht. Automatic walking aims inside exit triggers, and background retries stay quiet when the same route remains unavailable. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Full playthrough and live controller speech need more testing.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.13 reads the highlighted battle command, ability, item, and target, including separate labels for Garnet and Prison Cage in Evil Forest. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Full playthrough and live controller speech need more testing.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3782,6 +3782,20 @@
         "sha256": "c76d4eaa3f54e8825d7a533bfdafd6475ffd41b693e4d914c97fcbdd05316207",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.12",
         "notes": "Repairs manual guidance and auto-walk through the West Tower stairs, including routes to Breireicht and both exits. Auto-walk aims inside exit triggers. Background retries stay quiet when the same route is unavailable. Reviewed interaction prompts load again, and exit approaches are recorded in route snapshots. The West Tower routes passed offline checks on both game runtimes and are ready for a live retest.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.13",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.13/EchosOfGaia-v0.1.13-beta-amm.zip",
+        "sha256": "57cd1fb042ea3d8fdd8616a02385f53d52a9ca2646d5e21fb9b23a3d0c59ec8a",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.13",
+        "notes": "Reads the highlighted battle command, ability, item, and target. Speech retries the current selection when output fails. Garnet and Prison Cage are read as separate targets. Both game runtimes passed offline checks. Live controller speech needs tester verification.",
         "compatibility": null,
         "patreon": null
       }
