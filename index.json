@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-07T20:48:38.537638Z",
+  "generatedAt": "2026-11-07T20:58:08.1440122Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -429,7 +429,7 @@
       "gameId": "marvel-vs-capcom-infinite",
       "displayName": "Marvel vs. Capcom: Infinite",
       "modName": "Echo Stone",
-      "description": "Echo Stone 0.1.1 beta supports all 15 interface languages on Windows x64 Steam build 18789511. Echo Stone adds Prism narration for menus, character and stage selection, Missions, Command List and Story prompts. It reads both active fighters\u0027 health and your tracked team\u0027s Hyper Combo and Infinity gauges, and adds distance and side cues. Includes recorded descriptions for 80 Story movie files.\n\nPrism follows the game\u0027s active language for visible interface text and Echo Stone\u0027s own labels, command icons, and combat announcements. Use a suitable voice in your screen reader. F10 controls the English Story recordings. Live language switching and pronunciation still need in-game checks.\n\nF5 selects the tracked player. F6 toggles distance beeps, F7 reads combat status, F8 repeats the current screen, F9 toggles side announcements, and F10 toggles movie descriptions. Distance, side and movie descriptions start enabled.\n\nClose the game before installing, updating, or removing the mod. If you previously installed with a ZIP, remove it with its uninstaller before switching to Amethyst. If that uninstaller reports preserved files, keep using the Windows ZIP until the ownership conflict is resolved. The manager runs a read-only compatibility check. Live online narration and cutscene timing still need testing. Source and Windows installer at https://github.com/buu420/echo-stone/releases/tag/v0.1.1",
+      "description": "Echo Stone 0.1.2 beta supports all 15 interface languages on Windows x64 Steam build 18789511. Echo Stone adds Prism narration for menus, character and stage selection, Missions, Command List and Story prompts. It reads both active fighters\u0027 health and your tracked team\u0027s Hyper Combo and Infinity gauges, and adds distance and side cues. Includes recorded descriptions for 80 Story movie files.\n\nPrism follows the game\u0027s active language for visible interface text and Echo Stone\u0027s own labels, command icons, and combat announcements. Use a suitable voice in your screen reader. F10 controls the English Story recordings. Live language switching and pronunciation still need in-game checks.\n\nF5 selects the tracked player. F6 toggles distance beeps, F7 reads combat status, F8 repeats the current screen, F9 toggles side announcements, and F10 toggles movie descriptions. Distance, side and movie descriptions start enabled.\n\nClose the game before installing, updating, or removing the mod. Choose Install and allow the read-only compatibility check. Amethyst can install over an intact Echo Stone 0.1.0, 0.1.1 or 0.1.2 Windows ZIP installation. Uninstall restores that copy if one was present. Use Amethyst for updates and removal while it manages Echo Stone. Live online narration and cutscene timing still need testing. Source and Windows installer at https://github.com/buu420/echo-stone/releases/tag/v0.1.2",
       "steamAppId": "493840",
       "linuxSteamAppId": null,
       "exeName": "MVCI.exe",
@@ -3856,6 +3856,20 @@
         "sha256": "6240bb734e669348db4e9c827b2102a70aa128e7488daa8b88ac4d2f1eab6c74",
         "changelogUrl": "https://github.com/buu420/echo-stone/releases/tag/v0.1.1",
         "notes": "Echo Stone follows the active game language for Prism menu, Mission, Story and combat narration in all 15 interface languages. F10 controls the English Story recordings. Windows x64 Steam build 18789511. Live switching and pronunciation still need listening checks.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "marvel-vs-capcom-infinite",
+        "pluginId": "buu420",
+        "version": "0.1.2",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echo-stone/releases/download/v0.1.2/EchoStone-0.1.2-Amethyst.zip",
+        "sha256": "6d72635a4ac8bbb7fed0a88bcdc66d50a5b79e79fb3bee37aceec0a775ade179",
+        "changelogUrl": "https://github.com/buu420/echo-stone/releases/tag/v0.1.2",
+        "notes": "Install over an intact official Windows ZIP installation from Amethyst. Uninstall restores the previous Windows ZIP copy if one was present. Windows x64 Steam build 18789511.",
         "compatibility": null,
         "patreon": null
       }
