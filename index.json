@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-07T20:58:08.1440122Z",
+  "generatedAt": "2026-11-07T22:46:32.8858155Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -467,6 +467,79 @@
         "zh-Hant"
       ],
       "defaultPreInstall": null,
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "dragon-ball-fighterz",
+      "displayName": "DRAGON BALL FighterZ",
+      "modName": "Z Sense",
+      "description": "Z Sense brings screen reader speech to supported DRAGON BALL FighterZ menus, Story navigation, and combat cues. Offline play only. Online matches are unavailable while Z Sense is installed. Uninstall the mod before playing online, then launch FighterZ normally through Steam.\n\nRequires Windows x64 and Steam FighterZ 01.50 (build 22154755). Close the game before installing. After installation, open Steam and your screen reader, run LaunchFighterZAccess.cmd in the game folder, and choose Play offline.\n\nF8 repeats the selection. Shift\u002BF8 reads a screen overview. F5 switches the tracked player, F6 toggles the distance beep, and F7 reads health, Ki and Sparking. See the GitHub release for full instructions and coverage.",
+      "steamAppId": "678950",
+      "linuxSteamAppId": null,
+      "exeName": "DBFighterZ.exe",
+      "linuxExeName": null,
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "RED/Binaries/Win64/RED-Win64-Shipping.exe"
+        }
+      ],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [
+        {
+          "id": "visual-cpp-v14-x64",
+          "type": "system",
+          "targetPlatforms": [
+            "windows"
+          ],
+          "minVersion": "51",
+          "check": {
+            "registryKey": "SOFTWARE\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\x64",
+            "registryValue": "Minor",
+            "registryHive": "HKLM",
+            "registryView": "both",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c"
+            },
+            "xlm": null
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
+      "tags": [
+        "screen-reader"
+      ],
+      "languages": [
+        "en"
+      ],
+      "defaultPreInstall": {
+        "executable": "files/tools/check_amm_install.ps1",
+        "needsAdmin": false,
+        "failureFatal": true,
+        "what": "Check that FighterZ is closed and verify its Steam executable and existing loader files.",
+        "why": "Z Sense uses a version-specific game reader and loader. This check prevents installing over incompatible files or a standalone copy.",
+        "modifies": "Read-only check of FighterZ processes and game files.",
+        "installToGameFolder": false,
+        "runOnUpdate": true,
+        "runFromGameFolder": false
+      },
       "defaultPostInstall": null,
       "defaultPostUninstall": null
     }
@@ -3870,6 +3943,22 @@
         "sha256": "6d72635a4ac8bbb7fed0a88bcdc66d50a5b79e79fb3bee37aceec0a775ade179",
         "changelogUrl": "https://github.com/buu420/echo-stone/releases/tag/v0.1.2",
         "notes": "Install over an intact official Windows ZIP installation from Amethyst. Uninstall restores the previous Windows ZIP copy if one was present. Windows x64 Steam build 18789511.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "dragon-ball-fighterz": [
+      {
+        "gameId": "dragon-ball-fighterz",
+        "pluginId": "buu420",
+        "version": "0.1.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/z-sense/releases/download/v0.1.0/ZSense-0.1.0-Amethyst.zip",
+        "sha256": "5e4559a34f34bb1c520bdf5b2b21d9bb0cd5ab0ec52c3283716d192efa0209a5",
+        "changelogUrl": "https://github.com/buu420/z-sense/releases/tag/v0.1.0",
+        "notes": "First public Z Sense beta for Steam FighterZ 01.50 (build 22154755) on Windows x64. Offline play only. Online matches are unavailable while the mod is installed. Uninstall before playing online. Close FighterZ to install. After setup, run LaunchFighterZAccess.cmd from the game folder and choose Play offline. Includes Prism menu and Story narration, HP, half-bar Ki, Sparking, distance and side-switch cues. The package and pre-install guard passed offline checks.",
         "compatibility": null,
         "patreon": null
       }
