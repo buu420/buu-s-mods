@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-08T19:14:43.9266501Z",
+  "generatedAt": "2026-11-08T23:54:02.5844218Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.13 reads the highlighted battle command, ability, item, and target, including separate labels for Garnet and Prison Cage in Evil Forest. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Full playthrough and live controller speech need more testing.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.14 repairs the route to Vivi in the wrecked Prima Vista crew cabin and guides Steiner to the Alexandria prison ladder. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Full playthrough and live controller speech need more testing.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3897,6 +3897,20 @@
         "sha256": "57cd1fb042ea3d8fdd8616a02385f53d52a9ca2646d5e21fb9b23a3d0c59ec8a",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.13",
         "notes": "Reads the highlighted battle command, ability, item, and target. Speech retries the current selection when output fails. Garnet and Prison Cage are read as separate targets. Both game runtimes passed offline checks. Live controller speech needs tester verification.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.14",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.14/EchosOfGaia-v0.1.14-beta-amm.zip",
+        "sha256": "34adc0ba51bee31263e824ed5907e1afd3f423fd9d97314675a4a696277ba9a9",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.14",
+        "notes": "Repairs manual guidance and auto-walk to Vivi in the wrecked Prima Vista crew cabin. Story guides Zidane down from the upper platform and Steiner up the Alexandria prison ladder. Live controller and scene progression are ready for tester feedback.",
         "compatibility": null,
         "patreon": null
       }
