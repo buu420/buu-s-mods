@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-07T22:46:32.8858155Z",
+  "generatedAt": "2026-11-08T19:14:43.9266501Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -546,6 +546,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.12",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.12/ffviiold-v0.10.12-amm.zip",
+        "sha256": "c7939db976f0ba6be0a2ae5770d8447cd7e46d05e9f9a6d32699ec72c6009f2d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.12",
+        "notes": "Open Story in Ancient Forest for each puzzle step and all seven treasures. It follows the current plants, carried creatures, and collected rewards. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1808,6 +1822,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.12",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.12/ffviinew-v0.10.12-amm.zip",
+        "sha256": "ff4b370bad6805bd28e91fea0e049bd918cf1aff8aacc040aa0437963d199bab",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.12",
+        "notes": "Open Story in Ancient Forest for each puzzle step and all seven treasures. It follows the current plants, carried creatures, and collected rewards. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
