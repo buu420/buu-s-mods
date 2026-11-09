@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-08T23:54:02.5844218Z",
+  "generatedAt": "2026-11-09T03:44:03.2534714Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.14 repairs the route to Vivi in the wrecked Prima Vista crew cabin and guides Steiner to the Alexandria prison ladder. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Full playthrough and live controller speech need more testing.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.15 reduces field navigation stalls, including the Alexandria Castle hallways. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Live gameplay performance, controller speech and full playthrough coverage need more testing.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3911,6 +3911,20 @@
         "sha256": "34adc0ba51bee31263e824ed5907e1afd3f423fd9d97314675a4a696277ba9a9",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.14",
         "notes": "Repairs manual guidance and auto-walk to Vivi in the wrecked Prima Vista crew cabin. Story guides Zidane down from the upper platform and Steiner up the Alexandria prison ladder. Live controller and scene progression are ready for tester feedback.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.15",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.15/EchosOfGaia-v0.1.15-beta-amm.zip",
+        "sha256": "50d8a953442d3e2af121c3dc4a4773bdda142b0cc6b1c2e769e95b1854c42faa",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.15",
+        "notes": "Reduces field navigation stalls, including Alexandria Castle Hallway. Route searches and snapshot writes run in the background. Recorded routes kept the same waypoints in offline checks. Live gameplay performance is ready for testing.",
         "compatibility": null,
         "patreon": null
       }
