@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-09T03:44:03.2534714Z",
+  "generatedAt": "2026-11-10T01:33:23.5612811Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -546,6 +546,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.13",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.13/ffviiold-v0.10.13-amm.zip",
+        "sha256": "adcdc120ddbc81f9e081ed7a9244566397d443b0afe81bfb50faa6aa9030ac4a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.13",
+        "notes": "Hear battle reward notices and the Chocobo Ranch\u0027s visible menus and colors. This update also fixes Tifa\u0027s desk and time-sensitive Junon commands. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1822,6 +1836,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.13",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.13/ffviinew-v0.10.13-amm.zip",
+        "sha256": "1163ded5333209207ca5a2eb91a2027101bc450835d81a49e37107f7a494bf82",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.13",
+        "notes": "Hear battle reward notices and the Chocobo Ranch\u0027s visible menus and colors. This update also fixes Tifa\u0027s desk and time-sensitive Junon commands. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
