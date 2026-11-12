@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-10T02:22:53.8962748Z",
+  "generatedAt": "2026-11-12T02:17:31.2741644Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.16 uses Prism for screen reader speech, interrupts previous item descriptions when selection moves, and improves battle command announcements. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Live controller speech and full playthrough coverage need more testing.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.17 improves moogle save menu speech, holds game speech while another window has focus, and adds Riverbank\u0027s return exit. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3967,6 +3967,20 @@
         "sha256": "8167f02a61b806da12b58af9969ea5e7ec0b990585f26f3b134860961bd887b7",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.16",
         "notes": "Moving the selection in Item or Equip interrupts the previous description. Battle speech follows the highlighted command, including in the Baku fight. The game and launcher use Prism, with one retry after reconnecting. Live controller speech is ready for tester feedback.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.17",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.17/EchosOfGaia-v0.1.17-beta-amm.zip",
+        "sha256": "de5823c751a912a6648c9a6a354b5deab6a7f127356f152b49f8c3d653b73722",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.17",
+        "notes": "Moogle save menus read the question and first option together. Game speech waits for focus and a rejected line leaves later choices readable. Riverbank lists the return exit to the Evil Forest trail. Live checks for moogle speech, Alt\u002BTab and Riverbank are ready for testers.",
         "compatibility": null,
         "patreon": null
       }
