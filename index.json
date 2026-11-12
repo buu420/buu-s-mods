@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-12T02:17:31.2741644Z",
+  "generatedAt": "2026-11-12T18:02:09.5181455Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.17 improves moogle save menu speech, holds game speech while another window has focus, and adds Riverbank\u0027s return exit. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.18 improves navigation to Monty at the Evil Forest Spring, controller movement after Plant Spider battles, and speech during the camp and Mogster scenes. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -3981,6 +3981,20 @@
         "sha256": "de5823c751a912a6648c9a6a354b5deab6a7f127356f152b49f8c3d653b73722",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.17",
         "notes": "Moogle save menus read the question and first option together. Game speech waits for focus and a rejected line leaves later choices readable. Riverbank lists the return exit to the Evil Forest trail. Live checks for moogle speech, Alt\u002BTab and Riverbank are ready for testers.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.18",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.18/EchosOfGaia-v0.1.18-beta-amm.zip",
+        "sha256": "0d680907225fc875945b3fdeaac415eb7b63adfc65b64ce4f46725a641973823",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.18",
+        "notes": "Improves navigation to Monty in the Evil Forest Spring. Movement remains available when field control returns after a Plant Spider battle. Camp and Mogster dialogue queue in order, and the Active Time Event prompt is read. Please test the Spring, chase and camp-to-world-map sequence.",
         "compatibility": null,
         "patreon": null
       }
