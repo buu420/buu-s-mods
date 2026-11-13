@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-12T18:02:09.5181455Z",
+  "generatedAt": "2026-11-13T22:34:10.1415669Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -536,6 +536,79 @@
         "what": "Check that FighterZ is closed and verify its Steam executable and existing loader files.",
         "why": "Z Sense uses a version-specific game reader and loader. This check prevents installing over incompatible files or a standalone copy.",
         "modifies": "Read-only check of FighterZ processes and game files.",
+        "installToGameFolder": false,
+        "runOnUpdate": true,
+        "runFromGameFolder": false
+      },
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "dragon-ball-sparking-zero",
+      "displayName": "DRAGON BALL: Sparking! ZERO",
+      "modName": "Sparking Instinct (Beta)",
+      "description": "Sparking Instinct adds screen reader speech to supported menus, character selection, training, controls, battle gauges and story screens. It includes audio description for the main opening and post-tutorial movie. Original Sparking Zero Access reader by Jessica Tegner and contributors. Reloaded II and Prism port by Buu420.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). Close the game before install, update, or removal. Setup fetches the original reader directly from AccessForge and checks the files before installing. Remove a standalone Reloaded preview or active UE4SS loader through its own installer first. Once installed, start the game as usual from Steam or the Steam desktop shortcut.\n\nF6 reads the screen. F7 and F8 review the previous and next item. F9 toggles automatic subtitle speech and can also mute unvoiced text in subtitle windows. Visible tutorial instructions repeat every 20 seconds.\n\nTested with NVDA in the title screen, menus, offline training and controls. Story coverage, player-two gauges and audio description timing need more live testing.",
+      "steamAppId": "1790600",
+      "linuxSteamAppId": null,
+      "exeName": "SparkingZERO.exe",
+      "linuxExeName": null,
+      "probeRules": [
+        {
+          "type": "fileExists",
+          "relativePath": "SparkingZERO/Binaries/Win64/SparkingZERO-Win64-Shipping.exe"
+        }
+      ],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [
+        {
+          "id": "dotnet-9-desktop-x64",
+          "type": "system",
+          "targetPlatforms": [
+            "windows"
+          ],
+          "minVersion": "9.0.8",
+          "check": {
+            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\sharedfx\\Microsoft.WindowsDesktop.App",
+            "registryValue": "9.0.23",
+            "registryHive": null,
+            "registryView": "both",
+            "filePath": null
+          },
+          "fix": {
+            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe",
+            "bundledPath": null,
+            "autoInstall": {
+              "kind": "runInstaller",
+              "args": [
+                "/install",
+                "/quiet",
+                "/norestart"
+              ],
+              "needsAdmin": true,
+              "sha256": "eefb60bd0f3fb33c0787074cebc0467ffba32bcb01088613121649fc3bdb4a27"
+            },
+            "xlm": null
+          },
+          "required": true,
+          "isGameInstaller": false,
+          "versionDiscovery": null
+        }
+      ],
+      "tags": [
+        "screen-reader"
+      ],
+      "languages": [
+        "en"
+      ],
+      "defaultPreInstall": {
+        "executable": "setup/Prepare-AmethystInstall.ps1",
+        "needsAdmin": false,
+        "failureFatal": true,
+        "what": "Verify the Steam game build, check for another loader, and download and prepare the original Sparking Zero Access reader.",
+        "why": "Sparking Instinct uses build-specific bindings. Setup fetches Jessica Tegner\u2019s original reader directly from AccessForge and checks it before use.",
+        "modifies": "Reads the selected game folder. Writes verified reader scripts and narration to Amethyst\u0027s package staging folder. Amethyst copies and records those files as part of installation.",
         "installToGameFolder": false,
         "runOnUpdate": true,
         "runFromGameFolder": false
@@ -4085,6 +4158,22 @@
         "sha256": "5e4559a34f34bb1c520bdf5b2b21d9bb0cd5ab0ec52c3283716d192efa0209a5",
         "changelogUrl": "https://github.com/buu420/z-sense/releases/tag/v0.1.0",
         "notes": "First public Z Sense beta for Steam FighterZ 01.50 (build 22154755) on Windows x64. Offline play only. Online matches are unavailable while the mod is installed. Uninstall before playing online. Close FighterZ to install. After setup, run LaunchFighterZAccess.cmd from the game folder and choose Play offline. Includes Prism menu and Story narration, HP, half-bar Ki, Sparking, distance and side-switch cues. The package and pre-install guard passed offline checks.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "dragon-ball-sparking-zero": [
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.1.2",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.1.2/SparkingInstinct-0.1.2-Amethyst.zip",
+        "sha256": "afb879501ae633baf1512c84bb08d29d5279f0c5a8f732ecda24fad77a0a9a20",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.1.2",
+        "notes": "Initial Sparking Instinct beta for Windows x64 Steam build 24953175. Jessica Tegner and contributors created the original Sparking Zero Access reader. Install fetches and verifies the reader from AccessForge. The port runs automatically through Steam with Reloaded II and Prism. F6 reads the screen, F7 and F8 review items, and F9 toggles automatic subtitle speech. Close the game before installing, updating, or uninstalling.",
         "compatibility": null,
         "patreon": null
       }
