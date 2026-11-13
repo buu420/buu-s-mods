@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-13T22:34:10.1415669Z",
+  "generatedAt": "2026-11-13T22:56:52.4282083Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -547,7 +547,7 @@
       "gameId": "dragon-ball-sparking-zero",
       "displayName": "DRAGON BALL: Sparking! ZERO",
       "modName": "Sparking Instinct (Beta)",
-      "description": "Sparking Instinct adds screen reader speech to supported menus, character selection, training, controls, battle gauges and story screens. It includes audio description for the main opening and post-tutorial movie. Original Sparking Zero Access reader by Jessica Tegner and contributors. Reloaded II and Prism port by Buu420.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). Close the game before install, update, or removal. Setup fetches the original reader directly from AccessForge and checks the files before installing. Remove a standalone Reloaded preview or active UE4SS loader through its own installer first. Once installed, start the game as usual from Steam or the Steam desktop shortcut.\n\nF6 reads the screen. F7 and F8 review the previous and next item. F9 toggles automatic subtitle speech and can also mute unvoiced text in subtitle windows. Visible tutorial instructions repeat every 20 seconds.\n\nTested with NVDA in the title screen, menus, offline training and controls. Story coverage, player-two gauges and audio description timing need more live testing.",
+      "description": "Sparking Instinct adds screen reader speech to supported menus, character selection, training, controls, battle gauges and story screens. It includes audio description for the main opening and post-tutorial movie. Original Sparking Zero Access reader by Jessica Tegner and contributors. Reloaded II and Prism port by Buu420.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). Close the game before install, update, or removal. Setup downloads and verifies the original reader from GitHub. You can install and play without the AccessForge app. Remove a standalone Reloaded preview or active UE4SS loader through its own installer first. Once installed, start the game as usual from Steam or the Steam desktop shortcut.\n\nF6 reads the screen. F7 and F8 review the previous and next item. F9 toggles automatic subtitle speech and can also mute unvoiced text in subtitle windows. Visible tutorial instructions repeat every 20 seconds.\n\nTested with NVDA in the title screen, menus, offline training and controls. Story coverage, player-two gauges and audio description timing need more live testing.",
       "steamAppId": "1790600",
       "linuxSteamAppId": null,
       "exeName": "SparkingZERO.exe",
@@ -607,7 +607,7 @@
         "needsAdmin": false,
         "failureFatal": true,
         "what": "Verify the Steam game build, check for another loader, and download and prepare the original Sparking Zero Access reader.",
-        "why": "Sparking Instinct uses build-specific bindings. Setup fetches Jessica Tegner\u2019s original reader directly from AccessForge and checks it before use.",
+        "why": "Sparking Instinct uses build-specific bindings. Setup fetches Jessica Tegner\u2019s original reader from GitHub and verifies it before use.",
         "modifies": "Reads the selected game folder. Writes verified reader scripts and narration to Amethyst\u0027s package staging folder. Amethyst copies and records those files as part of installation.",
         "installToGameFolder": false,
         "runOnUpdate": true,
