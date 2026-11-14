@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-14T03:26:36.8271994Z",
+  "generatedAt": "2026-11-14T17:51:41.1828472Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -547,7 +547,7 @@
       "gameId": "dragon-ball-sparking-zero",
       "displayName": "DRAGON BALL: Sparking! ZERO",
       "modName": "Sparking Instinct (Beta)",
-      "description": "Sparking Instinct reads supported menus, character selection, training, controls, battle gauges, and story screens. Buu420 made the audio descriptions for the main opening and post-tutorial movie.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). The ZIP includes the native reader, narration, Reloaded II, and Prism. Amethyst can install the .NET Desktop Runtime separately if needed. Close the game before installing, updating, or uninstalling. Start the game from Steam or its desktop shortcut.\n\nF6 reads the screen. F7 and F8 review items. F9 toggles automatic subtitle speech. Visible tutorial instructions repeat every 20 seconds.\r\n\r\nJessica Tegner and the Sparking Zero Access contributors built the earlier reader that inspired this work.",
+      "description": "Sparking Instinct reads supported menus, character selection, training, controls, battle gauges, and story screens. Buu420 made the audio descriptions for the main opening and post-tutorial movie.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). The ZIP includes the native reader, narration, Reloaded II, and Prism. Amethyst setup reuses x64 .NET 9 Desktop Runtime 9.0.8 or a later .NET 9 patch. If needed, setup offers the Microsoft installer. Close the game before installing, updating, or uninstalling. Start the game from Steam or its desktop shortcut.\n\nF6 reads the screen. F7 and F8 review items. F9 toggles automatic subtitle speech. Visible tutorial instructions repeat every 20 seconds.\r\n\r\nJessica Tegner and the Sparking Zero Access contributors built the earlier reader that inspired this work.",
       "steamAppId": "1790600",
       "linuxSteamAppId": null,
       "exeName": "SparkingZERO.exe",
@@ -561,41 +561,7 @@
       "linuxProbeRules": [],
       "registryProbe": null,
       "asciiPathShim": null,
-      "dependencies": [
-        {
-          "id": "dotnet-9-desktop-x64",
-          "type": "system",
-          "targetPlatforms": [
-            "windows"
-          ],
-          "minVersion": "9.0.8",
-          "check": {
-            "registryKey": "SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\sharedfx\\Microsoft.WindowsDesktop.App",
-            "registryValue": "9.0.23",
-            "registryHive": null,
-            "registryView": "both",
-            "filePath": null
-          },
-          "fix": {
-            "downloadUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/9.0.23/windowsdesktop-runtime-9.0.23-win-x64.exe",
-            "bundledPath": null,
-            "autoInstall": {
-              "kind": "runInstaller",
-              "args": [
-                "/install",
-                "/quiet",
-                "/norestart"
-              ],
-              "needsAdmin": true,
-              "sha256": "eefb60bd0f3fb33c0787074cebc0467ffba32bcb01088613121649fc3bdb4a27"
-            },
-            "xlm": null
-          },
-          "required": true,
-          "isGameInstaller": false,
-          "versionDiscovery": null
-        }
-      ],
+      "dependencies": [],
       "tags": [
         "screen-reader"
       ],
@@ -606,9 +572,9 @@
         "executable": "setup/Prepare-AmethystInstall.ps1",
         "needsAdmin": false,
         "failureFatal": true,
-        "what": "Verify the Steam game build and check for another loader before installing Sparking Instinct.",
-        "why": "Sparking Instinct reads game data using build-specific bindings. The check also prevents overwriting another loader.",
-        "modifies": "Reads the game folder and package file list. Amethyst copies and records the bundled files after this check.",
+        "what": "Verify the Steam build and check for a loader conflict and a compatible x64 .NET 9 Desktop Runtime.",
+        "why": "Sparking Instinct uses build-specific bindings and Reloaded II needs the .NET 9 Desktop Runtime.",
+        "modifies": "Reads the game folder and installed runtime versions. If the runtime is missing, downloads Microsoft\u0027s installer and asks for Windows administrator approval. Amethyst copies the mod files after setup.",
         "installToGameFolder": false,
         "runOnUpdate": true,
         "runFromGameFolder": false
@@ -4230,6 +4196,20 @@
         "sha256": "1761d461fa47d7ff9908225da5549ffa7841a4d234eb364c748baeb5e85d4c71",
         "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.0",
         "notes": "The native Reloaded II reader, Prism, and Buu420\u0027s audio descriptions come in one ZIP. Start from Steam or its desktop shortcut. This beta supports Windows x64 Steam build 24953175.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.2.1",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.2.1/SparkingInstinct-0.2.1-Amethyst.zip",
+        "sha256": "c3bc1141d3ad028ab3bf5218ec1fdee30bdb2a114b26aab5456b326a5b1e2592",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.1",
+        "notes": "Fixes installation stopping at the .NET dependency check. Setup reuses a compatible x64 .NET 9 Desktop Runtime and offers the official Microsoft installer when needed. Windows x64 Steam build 24953175.",
         "compatibility": null,
         "patreon": null
       }
