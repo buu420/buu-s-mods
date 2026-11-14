@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-14T00:53:57.9703148Z",
+  "generatedAt": "2026-11-14T01:54:06.5382609Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -619,6 +619,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.14",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.14/ffviiold-v0.10.14-amm.zip",
+        "sha256": "d81cdd98ec2315e9e3ab068187a310b49fcdbd11d647271bb494fc94fece248c",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.14",
+        "notes": "Ancient Forest pitcher plants stay closed roughly twice as long. Find your parked chocobo under Transportation after dismounting. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1909,6 +1923,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.14",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.14/ffviinew-v0.10.14-amm.zip",
+        "sha256": "522e9079692c60b48dbe0102bde1c97cd2b93b33b3b0c566bcbcaf5d214ac66f",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.14",
+        "notes": "Ancient Forest pitcher plants stay closed roughly twice as long. Find your parked chocobo under Transportation after dismounting. Close the game before updating.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
