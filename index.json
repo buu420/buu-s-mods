@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-14T22:00:34.4616953Z",
+  "generatedAt": "2026-11-14T23:23:40.3060349Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -585,6 +585,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.15",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.15/ffviiold-v0.10.15-amm.zip",
+        "sha256": "b26c69375539950ddc176afac7c1136afe36109ce4ee30a1c1953d2dc3760f95",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.15",
+        "notes": "Fixes startup with stock 7th Heaven and ReShade. Close FFVII and 7th Heaven before updating. If upgrading, back up any old Blind Soldier Version DLLs and remove empty ff7_en.exe.local or ff7.exe.local folders. See the release notes.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1889,6 +1903,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.15",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.15/ffviinew-v0.10.15-amm.zip",
+        "sha256": "850d13cbfbcc51b1e6caecef738eab0764b7c99e4cb8ea1cd7dc197ed6626dd1",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.15",
+        "notes": "Fixes startup with stock 7th Heaven and ReShade. Close FFVII and 7th Heaven before updating. If upgrading, back up any old Blind Soldier Version DLLs and remove empty ff7_en.exe.local or ff7.exe.local folders. See the release notes.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
