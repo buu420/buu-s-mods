@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-13T23:16:31.9093019Z",
+  "generatedAt": "2026-11-14T00:53:57.9703148Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -547,7 +547,7 @@
       "gameId": "dragon-ball-sparking-zero",
       "displayName": "DRAGON BALL: Sparking! ZERO",
       "modName": "Sparking Instinct (Beta)",
-      "description": "Sparking Instinct adds screen reader speech to supported menus, character selection, training, controls, battle gauges and story screens. It includes audio description for the main opening and post-tutorial movie. Original Sparking Zero Access reader by Jessica Tegner and contributors. Reloaded II and Prism port by Buu420.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). Close the game before install, update, or removal. Setup automatically downloads and verifies the reader and narration from Buu420\u0027s GitHub fork. You can install and play without the AccessForge app. Remove a standalone Reloaded preview or active UE4SS loader through its own installer first. Once installed, start the game as usual from Steam or the Steam desktop shortcut.\n\nF6 reads the screen. F7 and F8 review the previous and next item. F9 toggles automatic subtitle speech and can also mute unvoiced text in subtitle windows. Visible tutorial instructions repeat every 20 seconds.\n\nTested with NVDA in the title screen, menus, offline training and controls. Story coverage, player-two gauges and audio description timing need more live testing.",
+      "description": "Sparking Instinct adds screen reader speech to supported menus, character selection, training, controls, battle gauges and story screens. Jessica Tegner and the Sparking Zero Access contributors created the original Lua reader. Buu420 ported the mod to Reloaded II and Prism and made the audio descriptions for the main opening and post-tutorial movie.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). Close the game before install, update, or removal. Setup automatically downloads and verifies the reader and narration from Buu420\u0027s GitHub fork. You can install and play without the AccessForge app. Remove a standalone Reloaded preview or active UE4SS loader through its own installer first. Once installed, start the game as usual from Steam or the Steam desktop shortcut.\n\nF6 reads the screen. F7 and F8 review the previous and next item. F9 toggles automatic subtitle speech and can also mute unvoiced text in subtitle windows. Visible tutorial instructions repeat every 20 seconds.\n\nTested with NVDA in the title screen, menus, offline training and controls. Story coverage, player-two gauges and audio description timing need more live testing.",
       "steamAppId": "1790600",
       "linuxSteamAppId": null,
       "exeName": "SparkingZERO.exe",
@@ -607,7 +607,7 @@
         "needsAdmin": false,
         "failureFatal": true,
         "what": "Verify the Steam game build, check for another loader, and download and prepare the original Sparking Zero Access reader.",
-        "why": "Sparking Instinct uses build-specific bindings. Setup fetches Jessica Tegner\u2019s original reader and narration from the Buu420 GitHub fork and verifies them before use.",
+        "why": "Sparking Instinct uses build-specific bindings. Setup verifies the original Lua reader by Jessica Tegner and contributors and the audio descriptions by Buu420. Both come from Buu420\u0027s GitHub fork.",
         "modifies": "Reads the selected game folder. Writes verified reader scripts and narration to Amethyst\u0027s package staging folder. Amethyst copies and records those files as part of installation.",
         "installToGameFolder": false,
         "runOnUpdate": true,
@@ -4187,7 +4187,7 @@
         "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.1.3/SparkingInstinct-0.1.3-Amethyst.zip",
         "sha256": "86f4be17eb31530dfb1b2c8ced9d718fa3bc512236e5f92a3f19809db7d8bdd4",
         "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.1.3",
-        "notes": "Setup now fetches and verifies the reader and narration from Buu420\u0027s GitHub fork. Jessica Tegner and contributors created the original reader. Amethyst handles the download automatically. Start the game from Steam or its desktop shortcut.",
+        "notes": "Setup now fetches and verifies the reader and narration from Buu420\u0027s GitHub fork. Jessica Tegner and contributors created the original Lua reader. Buu420 made the opening and post-tutorial audio descriptions. Amethyst handles the download automatically. Start the game from Steam or its desktop shortcut.",
         "compatibility": null,
         "patreon": null
       }
