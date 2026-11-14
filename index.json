@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-14T17:51:41.1828472Z",
+  "generatedAt": "2026-11-14T19:19:17.8799816Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.18 improves navigation to Monty at the Evil Forest Spring, controller movement after Plant Spider battles, and speech during the camp and Mogster scenes. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.19 restores both Ice Cavern approaches, improves named exits and Story routes across the game, and adds cues for Jump Rope, owned Chocographs, PC Blackjack and several puzzles. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4062,6 +4062,20 @@
         "sha256": "0d680907225fc875945b3fdeaac415eb7b63adfc65b64ce4f46725a641973823",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.18",
         "notes": "Improves navigation to Monty in the Evil Forest Spring. Movement remains available when field control returns after a Plant Spider battle. Camp and Mogster dialogue queue in order, and the Active Time Event prompt is read. Please test the Spring, chase and camp-to-world-map sequence.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.19",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.19/EchosOfGaia-v0.1.19-beta-amm.zip",
+        "sha256": "2b1ec9d88c8d66bee764ac4d194a56ddd8199997dad378957e3afdbeed6346db",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.19",
+        "notes": "Restores both Ice Cavern approaches, improves named field exits and follows Story routes across the world map. Adds cues for Jump Rope, owned Chocographs, PC Blackjack and several puzzles. Please test Ice Cavern from the Evil Forest save and report any missing targets or routes.",
         "compatibility": null,
         "patreon": null
       }
