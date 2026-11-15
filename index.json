@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-15T04:02:42.3348137Z",
+  "generatedAt": "2026-11-15T07:01:07.321205Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4280,6 +4280,20 @@
         "sha256": "496bba2824670157256938cf3b3b68200e7e1620dd100dd668a678dd7903f03e",
         "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.3",
         "notes": "Improves Episode Battle choices, story pause and RT map navigation, Bonus Battles, Shop and Customize, character move review, and parts of Limit-Breaker Journey. See the release for live testing details.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.2.4",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.2.4/SparkingInstinct-0.2.4-Amethyst.zip",
+        "sha256": "08ed0ec75aa09ba4039c93201359d3c7a4d74e4ba4a3d21b4983dfadb08931d2",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.4",
+        "notes": "Fixes the one-character tournament roster and the RT episode menu. Announces the highlighted fighter or episode and its visible area. See the release for live testing details.",
         "compatibility": null,
         "patreon": null
       }
