@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-15T07:01:07.321205Z",
+  "generatedAt": "2026-11-15T23:31:26.3470525Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4199,6 +4199,20 @@
       }
     ],
     "dragon-ball-sparking-zero": [
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.2.5",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.2.5/SparkingInstinct-0.2.5-Amethyst.zip",
+        "sha256": "1bd3cf87d9711121179dd6f5edd28a225efd6fd8b05283145cefc4b3a5ca2f3d",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.5",
+        "notes": "Reads the selected fighter in Single Battle, DP Battle, and one-character tournaments, including Random. Captures menu and speech diagnostics automatically.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "dragon-ball-sparking-zero",
         "pluginId": "buu420",
