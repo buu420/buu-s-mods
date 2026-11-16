@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-16T03:43:52.6762146Z",
+  "generatedAt": "2026-11-16T04:23:43.4541468Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -616,6 +616,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.16",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.16/ffviiold-v0.10.16-amm.zip",
+        "sha256": "20e40d6c4825170d4f8b890b9cdafcdc91fe2233aacce3e5922d57365d251ec5",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.16",
+        "notes": "Restores Echo-S 7 Materia and shop speech on FFNx 1.25.2, makes two missing chests selectable, and shortens Ancient Forest puzzle announcements.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1934,6 +1948,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.16",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.16/ffviinew-v0.10.16-amm.zip",
+        "sha256": "0573f8bc0b48a48e5122981147091f46e1e185f8be37802ac7cd31c7a2c612fe",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.16",
+        "notes": "Restores Echo-S 7 Materia and shop speech on FFNx 1.25.2, makes two missing chests selectable, and shortens Ancient Forest puzzle announcements.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
