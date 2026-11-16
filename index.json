@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-15T23:31:26.3470525Z",
+  "generatedAt": "2026-11-16T01:35:57.5107598Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.19 restores both Ice Cavern approaches, improves named exits and Story routes across the game, and adds cues for Jump Rope, owned Chocographs, PC Blackjack and several puzzles. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.20 reduces field movement stalls during the Alexandria escape and removes duplicate cage cue updates. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4104,6 +4104,20 @@
         "sha256": "2b1ec9d88c8d66bee764ac4d194a56ddd8199997dad378957e3afdbeed6346db",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.19",
         "notes": "Restores both Ice Cavern approaches, improves named field exits and follows Story routes across the world map. Adds cues for Jump Rope, owned Chocographs, PC Blackjack and several puzzles. Please test Ice Cavern from the Evil Forest save and report any missing targets or routes.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.20",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.20/EchosOfGaia-v0.1.20-beta-amm.zip",
+        "sha256": "b58c131f8b2ab198c1ca865dc3b01bc09c39479f52a23db38bf50c46aa29b123",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.20",
+        "notes": "Reduces field movement stalls and removes duplicate cage cue updates. Please test the Alexandria escape from the cage through the guard corridor and timed rescue.",
         "compatibility": null,
         "patreon": null
       }
