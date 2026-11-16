@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-16T02:50:47.9953948Z",
+  "generatedAt": "2026-11-16T03:36:28.5333415Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4244,6 +4244,20 @@
       }
     ],
     "dragon-ball-sparking-zero": [
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.2.7",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.2.7/SparkingInstinct-0.2.7-Amethyst.zip",
+        "sha256": "cbf6c8ff595e2c015bdff04ad1dfeaf0cb827c6d3b84b565f4b505db73503ba5",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.7",
+        "notes": "Fixes the F9 filter so a matching game voice suppresses its caption. Text-only lines still speak.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "dragon-ball-sparking-zero",
         "pluginId": "buu420",
