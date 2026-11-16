@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-16T03:36:28.5333415Z",
+  "generatedAt": "2026-11-16T03:43:52.6762146Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -546,7 +546,7 @@
     {
       "gameId": "dragon-ball-sparking-zero",
       "displayName": "DRAGON BALL: Sparking! ZERO",
-      "modName": "Sparking Instinct (Beta)",
+      "modName": "Sparking Instinct",
       "description": "Sparking Instinct reads supported menus, character selection, training, controls, battle gauges, and story screens. Buu420 made the audio descriptions for the main opening and post-tutorial movie.\n\nRequires Windows x64 and Steam build 24953175 (game version 3022.021.003.012.015). The ZIP includes the native reader, narration, Reloaded II, and Prism. Amethyst setup reuses x64 .NET 9 Desktop Runtime 9.0.8 or a later .NET 9 patch. If needed, setup offers the Microsoft installer. Close the game before installing, updating, or uninstalling. Start the game from Steam or its desktop shortcut.\n\nF6 reads the screen. F7 and F8 review items. F9 switches between reading all visible dialogue and skipping verified voiced lines. Text-only story dialogue keeps reading. Visible tutorial instructions repeat every 20 seconds.\r\n\r\nJessica Tegner and the Sparking Zero Access contributors built the earlier reader that inspired this work.",
       "steamAppId": "1790600",
       "linuxSteamAppId": null,
@@ -4244,6 +4244,20 @@
       }
     ],
     "dragon-ball-sparking-zero": [
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.2.7",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.2.7/SparkingInstinct-0.2.7-Amethyst.zip",
+        "sha256": "cbf6c8ff595e2c015bdff04ad1dfeaf0cb827c6d3b84b565f4b505db73503ba5",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.7",
+        "notes": "Fixes the F9 filter so a matching game voice suppresses its caption. Text-only lines still speak.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "dragon-ball-sparking-zero",
         "pluginId": "buu420",
