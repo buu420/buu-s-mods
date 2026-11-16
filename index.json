@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-16T04:23:43.4541468Z",
+  "generatedAt": "2026-11-16T18:03:11.0605061Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -616,6 +616,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.17",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.17/ffviiold-v0.10.17-amm.zip",
+        "sha256": "e801d8d14478dd74d3df3036e2de129d2414c68c3a8bfbe9ff8d6fb2dcec1cdb",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.17",
+        "notes": "Advances Ancient Forest Story and Auto Walk after native actions, improves entrance staging and gives directions to dropped insects.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -1948,6 +1962,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.17",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.17/ffviinew-v0.10.17-amm.zip",
+        "sha256": "0b4bea7cba919a138c7b032b54d22374f5f0b2cfa1f02c56fef850f8e624df8a",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.17",
+        "notes": "Advances Ancient Forest Story and Auto Walk after native actions, improves entrance staging and gives directions to dropped insects.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
