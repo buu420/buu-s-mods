@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-16T01:35:57.5107598Z",
+  "generatedAt": "2026-11-16T02:08:16.9397098Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4213,6 +4213,20 @@
       }
     ],
     "dragon-ball-sparking-zero": [
+      {
+        "gameId": "dragon-ball-sparking-zero",
+        "pluginId": "buu420",
+        "version": "0.2.6",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/sparking-instinct/releases/download/v0.2.6/SparkingInstinct-0.2.6-Amethyst.zip",
+        "sha256": "21a3992cafb067caf1aa20600b754f1b591328fc8636d2f8319373ee458a1f86",
+        "changelogUrl": "https://github.com/buu420/sparking-instinct/releases/tag/v0.2.6",
+        "notes": "Reads the selected fighter when the roster lacks keyboard focus. Adds automatic detail to the roster diagnostics.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "dragon-ball-sparking-zero",
         "pluginId": "buu420",
