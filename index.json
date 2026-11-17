@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-17T04:05:05.7909417Z",
+  "generatedAt": "2026-11-17T18:01:02.8830886Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -617,7 +617,7 @@
       "gameId": "final-fantasy-resonance",
       "displayName": "FINAL FANTASY RESONANCE",
       "modName": "Visions of Grandshelt",
-      "description": "Visions of Grandshelt adds screen reader menus, dialogue, combat review, audio description and field navigation to FINAL FANTASY RESONANCE. The first public beta supports Windows x64 Steam build 24250053 in all eight game text languages.\n\nPress F10 for help. In the field, hold RB or R1 and use the D-pad to choose a category and target. Click the left stick for the positional beacon or the right stick for auto-walk. Find cue settings in System, Accessibility Options.\n\nInstall Microsoft .NET 9 Desktop Runtime for Windows x64. Close the game before installing. Start your screen reader and launch from Steam. The package includes Reloaded, Prism and the recorded descriptions.\n\nSource and Windows ZIP at https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.52",
+      "description": "Visions of Grandshelt adds screen reader menus, dialogue, combat review, audio description and field navigation to FINAL FANTASY RESONANCE. The beta supports Windows x64 Steam build 24250053 in all eight game text languages.\r\n\r\nPress F10 for help. In the field, hold RB or R1 and use the D-pad to choose a category and target. Click the left stick for the positional beacon or the right stick for auto-walk. Find cue settings in System, Accessibility Options.\r\n\r\nInstall Microsoft .NET 9 Desktop Runtime for Windows x64. Close the game before installing. Start your screen reader and launch from Steam. The package includes Reloaded, Prism and English recordings and localized description text.\r\n\r\nSource and Windows ZIP at https://github.com/buu420/visions-of-grandshelt/releases",
       "steamAppId": "3259780",
       "linuxSteamAppId": null,
       "exeName": "FFRS.exe",
@@ -4522,6 +4522,20 @@
         "sha256": "9bb826384c444ed30671fd1237036f2b7a0f2610befa47285597022c8c09e64a",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.52",
         "notes": "First public beta for the Windows x64 Steam build 24250053. Includes eight text and narration languages, positional guidance, auto-walk and Story routes through the Crystal Tower.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.54",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.54/Visions-of-Grandshelt-0.2.54-Amethyst.zip",
+        "sha256": "2aac89ec6ea80d56a185219d9774eb596f3e25f606e4fefde782243b85e11583",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.54",
+        "notes": "Post-credits Story and Ultima Weapon guidance, lower rear beacon, screen-reader descriptions in seven languages, interruptible attack speech and browsable victory results.",
         "compatibility": null,
         "patreon": null
       }
