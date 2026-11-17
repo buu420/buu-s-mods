@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-17T19:32:02.7389928Z",
+  "generatedAt": "2026-11-17T21:46:08.2621133Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4564,6 +4564,20 @@
         "sha256": "2aac89ec6ea80d56a185219d9774eb596f3e25f606e4fefde782243b85e11583",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.54",
         "notes": "Post-credits Story and Ultima Weapon guidance, lower rear beacon, screen-reader descriptions in seven languages, interruptible attack speech and browsable victory results.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.57",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.57/Visions-of-Grandshelt-0.2.57-Amethyst.zip",
+        "sha256": "83bd219f0adb625a7524ccaef72481b1a55daa65358f6500d7d98a6f63031ad1",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.57",
+        "notes": "Spoken subtitles in all seven non-English text languages, Earth Shrine save-point and entrance routing, menu help and quest passage reading.",
         "compatibility": null,
         "patreon": null
       }
