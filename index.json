@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-17T18:01:02.8830886Z",
+  "generatedAt": "2026-11-17T19:32:02.7389928Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -655,6 +655,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.18",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.18/ffviiold-v0.10.18-amm.zip",
+        "sha256": "f606a05b85603837eafeb917ac9f69ee85a6776d77115e89df52edb8f0ecba51",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.18",
+        "notes": "Guides the manual Left jump after pitcher plant 2 and resumes Auto Walk toward the staged insect after landing.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2001,6 +2015,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.18",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.18/ffviinew-v0.10.18-amm.zip",
+        "sha256": "9c59e1efa6d3c620bc9b197e891ec32fafe6b1b42ed9e5a5d3852d544e079d4d",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.18",
+        "notes": "Guides the manual Left jump after pitcher plant 2 and resumes Auto Walk toward the staged insect after landing.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
