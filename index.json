@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-17T21:46:08.2621133Z",
+  "generatedAt": "2026-11-18T02:03:04.9076556Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.20 reduces field movement stalls during the Alexandria escape and removes duplicate cage cue updates. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.21 fixes the opening candle objective in Japanese and reads the title screen\u0027s language picker. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4272,6 +4272,20 @@
         "sha256": "b58c131f8b2ab198c1ca865dc3b01bc09c39479f52a23db38bf50c46aa29b123",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.20",
         "notes": "Reduces field movement stalls and removes duplicate cage cue updates. Please test the Alexandria escape from the cage through the guard corridor and timed rescue.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.21",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.21/EchosOfGaia-v0.1.21-beta-amm.zip",
+        "sha256": "df2b0a1283e1b79b64a1693be963ff95185c2426cd7778d2dfdc6ce792d6880c",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.21",
+        "notes": "Fixes the opening candle Story target in Japanese and reads the title screen language picker. Please try the candle in Japanese, then switch to English (United States) from the title screen.",
         "compatibility": null,
         "patreon": null
       }
