@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-18T02:03:04.9076556Z",
+  "generatedAt": "2026-11-18T08:53:06.1386705Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4592,6 +4592,20 @@
         "sha256": "83bd219f0adb625a7524ccaef72481b1a55daa65358f6500d7d98a6f63031ad1",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.57",
         "notes": "Spoken subtitles in all seven non-English text languages, Earth Shrine save-point and entrance routing, menu help and quest passage reading.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.58",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.58/Visions-of-Grandshelt-0.2.58-Amethyst.zip",
+        "sha256": "776ea45485bb1c816d011c0c056501b41667b10f301c4a5b88e0de5c4d42b55b",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.58",
+        "notes": "Enemy targeting reads the stagger gauge and visible elemental affinities. F9 reads the actor and focused enemy during targeting.",
         "compatibility": null,
         "patreon": null
       }
