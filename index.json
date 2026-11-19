@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-19T00:06:13.1402466Z",
+  "generatedAt": "2026-11-19T14:06:21.888853Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4634,6 +4634,20 @@
         "sha256": "776ea45485bb1c816d011c0c056501b41667b10f301c4a5b88e0de5c4d42b55b",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.58",
         "notes": "Enemy targeting reads the stagger gauge and visible elemental affinities. F9 reads the actor and focused enemy during targeting.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.59",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.59/Visions-of-Grandshelt-0.2.59-Amethyst.zip",
+        "sha256": "a8cd70d19bb248fb617dc5238f08a14cfc7412b1facc818173bd66913f56116b",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.59",
+        "notes": "Exit browsing refreshes after shop visits, treasure chests require a verified approach, and guidance recalculates from your live position.",
         "compatibility": null,
         "patreon": null
       }
