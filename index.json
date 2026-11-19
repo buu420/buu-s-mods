@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-19T14:06:21.888853Z",
+  "generatedAt": "2026-11-19T18:27:49.7089074Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -655,6 +655,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.20",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.20/ffviiold-v0.10.20-amm.zip",
+        "sha256": "a11418ddd161acbc01401d8cd3fa85e65e28c8c5e01c2f29458c3a0b21225680",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.20",
+        "notes": "Repairs Ancient Forest room-three insect order and the missing return to pitcher plant 1\u0027s throwing approach.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2029,6 +2043,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.20",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.20/ffviinew-v0.10.20-amm.zip",
+        "sha256": "26d482218c051fb980aeabc0d91f86a6a0059a357ef5c763c4b60b0bdfbeba55",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.20",
+        "notes": "Repairs Ancient Forest room-three insect order and the missing return to pitcher plant 1\u0027s throwing approach.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
