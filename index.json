@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-18T08:53:06.1386705Z",
+  "generatedAt": "2026-11-19T00:06:13.1402466Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -655,6 +655,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "0.10.19",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.19/ffviiold-v0.10.19-amm.zip",
+        "sha256": "b19550ca350b4115e1fba91e532be30659842c7287652ac34828f67957852666",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.19",
+        "notes": "Repairs Ancient Forest second-screen Story progression through the insect, vine, frog and beehive sequence.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2015,6 +2029,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "0.10.19",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v0.10.19/ffviinew-v0.10.19-amm.zip",
+        "sha256": "fadcdf4567a06735aebf5ccc00dcfff9e58a196bd105c8e753ec419c0f198eed",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v0.10.19",
+        "notes": "Repairs Ancient Forest second-screen Story progression through the insect, vine, frog and beehive sequence.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
