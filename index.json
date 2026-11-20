@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-19T18:27:49.7089074Z",
+  "generatedAt": "2026-11-20T03:40:08.2750102Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4676,6 +4676,20 @@
         "sha256": "a8cd70d19bb248fb617dc5238f08a14cfc7412b1facc818173bd66913f56116b",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.59",
         "notes": "Exit browsing refreshes after shop visits, treasure chests require a verified approach, and guidance recalculates from your live position.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.60",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.60/Visions-of-Grandshelt-0.2.60-Amethyst.zip",
+        "sha256": "b7cdc3fa2e6e2b71d2af06779ee53e3ea568eaee1bd189aa73c0da3382cc00a4",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.60",
+        "notes": "Story guides you up the west staircase at Grandshelt Castle. Auto-walk pauses before the Antlion quicksand and warns you to cross by chocobo.",
         "compatibility": null,
         "patreon": null
       }
