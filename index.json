@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-20T08:17:19.9295817Z",
+  "generatedAt": "2026-11-20T17:40:34.6620526Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4704,6 +4704,20 @@
         "sha256": "b7cdc3fa2e6e2b71d2af06779ee53e3ea568eaee1bd189aa73c0da3382cc00a4",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.60",
         "notes": "Story guides you up the west staircase at Grandshelt Castle. Auto-walk pauses before the Antlion quicksand and warns you to cross by chocobo.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.61",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.61/Visions-of-Grandshelt-0.2.61-Amethyst.zip",
+        "sha256": "d84769b801240395e8ca28accb0ae362d462dbdb35aa0fe668e89219eec2ab79",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.61",
+        "notes": "Story guides you to the inn and stablehand in Kol. Target browsing, directions, the beacon and auto-walk work while riding a chocobo. The Mobliz Shipyard service elevator has a verified approach.",
         "compatibility": null,
         "patreon": null
       }
