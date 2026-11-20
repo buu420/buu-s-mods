@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-20T03:40:08.2750102Z",
+  "generatedAt": "2026-11-20T08:17:19.9295817Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.21 fixes the opening candle objective in Japanese and reads the title screen\u0027s language picker. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.22 lists usable world entrances before their first visit and retains reachable ground approaches for marked cliff pins when entrance data is unavailable. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4342,6 +4342,20 @@
         "sha256": "df2b0a1283e1b79b64a1693be963ff95185c2426cd7778d2dfdc6ce792d6880c",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.21",
         "notes": "Fixes the opening candle Story target in Japanese and reads the title screen language picker. Please try the candle in Japanese, then switch to English (United States) from the title screen.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.22",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.22/EchosOfGaia-v0.1.22-beta-amm.zip",
+        "sha256": "347aa22af61a2efa610c2ef3f2251679c1aafedde330f990a59b61d963d37a88",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.22",
+        "notes": "Lists usable world entrances before their first visit and retains reachable ground approaches for marked cliff pins when entrance data is unavailable. Please test Ice Cavern after Evil Forest; send Memoria.log and navigation.log if it is still missing.",
         "compatibility": null,
         "patreon": null
       }
