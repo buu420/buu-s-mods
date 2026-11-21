@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-21T18:57:52.8935114Z",
+  "generatedAt": "2026-11-21T22:44:49.45642Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -649,6 +649,43 @@
         "zh-Hant"
       ],
       "defaultPreInstall": null,
+      "defaultPostInstall": null,
+      "defaultPostUninstall": null
+    },
+    {
+      "gameId": "soulcalibur-vi",
+      "displayName": "SOULCALIBUR VI",
+      "modName": "Soul Guide",
+      "description": "Soul Guide adds screen reader speech, combat cues, and audio description to Soulcalibur VI on Steam.\n\n- Read supported menus, character selection, Creation presets, Training move lists, and setup dialogs.\n- Follow Libra of Soul\u2019s map, mission conditions, dialogue choices, tutorial objectives, and rewards. Press **F8** to review the current caption or visible lesson progress.\n- Hear the current Arcade matchup, both fighters\u2019 health, distance beeps, and side changes. Use **F6** and **F9** to toggle the two cues independently.\n- Play four included audio description tracks in game, including the English Soul Chronicle prologue. The narration uses gaps in the game\u2019s original speech.\n\nThis first public beta targets 64-bit Windows and the Steam build **7575299** (in-game version **02.31.01**). Use English game text and the Microsoft x64 **.NET 9 Desktop Runtime** (9.0.8 or a newer 9.0 patch). [Microsoft download](https://dotnet.microsoft.com/download/dotnet/9.0)\n\nIn Amethyst, refresh the **buu420** source and choose the **Soul Guide 0.1.0 Beta** release for Soulcalibur VI. For manual installation, download **SoulGuide-0.1.0-Windows.zip** and read **Start Here.txt**. The reader, loader, and all four description tracks are included in both packages. Start your screen reader before using Steam\u2019s normal Play button.\n\nLive testing of the underlying tester build covered the opening of Libra of Soul through Chapter 1, Creation, and consecutive Arcade matchups. Later missions and some movies still need playtesting. [Report a problem](https://github.com/buu420/soul-guide/issues)\n",
+      "steamAppId": "544750",
+      "linuxSteamAppId": null,
+      "exeName": "SoulcaliburVI/Binaries/Win64/SoulcaliburVI.exe",
+      "linuxExeName": null,
+      "probeRules": [],
+      "linuxProbeRules": [],
+      "registryProbe": null,
+      "asciiPathShim": null,
+      "dependencies": [],
+      "tags": [
+        "accessibility",
+        "screen-reader",
+        "audio-description",
+        "beta"
+      ],
+      "languages": [
+        "en"
+      ],
+      "defaultPreInstall": {
+        "executable": "files/setup/Test-SoulGuideInstall.ps1",
+        "needsAdmin": false,
+        "failureFatal": true,
+        "what": "Check the Steam executable, the x64 .NET 9 Desktop Runtime, and any existing dinput8.dll.",
+        "why": "Soul Guide needs the supported game build and runtime. A different startup proxy uses the same file path.",
+        "modifies": "Reads the game folder and installed runtime. It makes no changes.",
+        "installToGameFolder": false,
+        "runOnUpdate": true,
+        "runFromGameFolder": false
+      },
       "defaultPostInstall": null,
       "defaultPostUninstall": null
     }
@@ -4732,6 +4769,22 @@
         "sha256": "3639aed29d0e73bcfd15bff1d8cd84e0130674b0adab4c0eeb73da0db3e5d3bd",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.62",
         "notes": "Story guides you through Kolobos Ruins, recalculates after side-room detours, and resumes auto-walk after the bridge fight and ladder. The next objective has a route to the Felicitas exit.",
+        "compatibility": null,
+        "patreon": null
+      }
+    ],
+    "soulcalibur-vi": [
+      {
+        "gameId": "soulcalibur-vi",
+        "pluginId": "buu420",
+        "version": "0.1.0",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/soul-guide/releases/download/v0.1.0/SoulGuide-0.1.0-Amethyst.zip",
+        "sha256": "b8a3e163f9759e7e66595bc89aac0778126908c7930f26c484d363f24ad9fce1",
+        "changelogUrl": "https://github.com/buu420/soul-guide/releases/tag/v0.1.0",
+        "notes": "Soul Guide adds screen reader speech, combat cues, and audio description to Soulcalibur VI on Steam.\n\n- Read supported menus, character selection, Creation presets, Training move lists, and setup dialogs.\n- Follow Libra of Soul\u2019s map, mission conditions, dialogue choices, tutorial objectives, and rewards. Press **F8** to review the current caption or visible lesson progress.\n- Hear the current Arcade matchup, both fighters\u2019 health, distance beeps, and side changes. Use **F6** and **F9** to toggle the two cues independently.\n- Play four included audio description tracks in game, including the English Soul Chronicle prologue. The narration uses gaps in the game\u2019s original speech.\n\nThis first public beta targets 64-bit Windows and the Steam build **7575299** (in-game version **02.31.01**). Use English game text and the Microsoft x64 **.NET 9 Desktop Runtime** (9.0.8 or a newer 9.0 patch). [Microsoft download](https://dotnet.microsoft.com/download/dotnet/9.0)\n\nIn Amethyst, refresh the **buu420** source and choose the **Soul Guide 0.1.0 Beta** release for Soulcalibur VI. For manual installation, download **SoulGuide-0.1.0-Windows.zip** and read **Start Here.txt**. The reader, loader, and all four description tracks are included in both packages. Start your screen reader before using Steam\u2019s normal Play button.\n\nLive testing of the underlying tester build covered the opening of Libra of Soul through Chapter 1, Creation, and consecutive Arcade matchups. Later missions and some movies still need playtesting. [Report a problem](https://github.com/buu420/soul-guide/issues)\n",
         "compatibility": null,
         "patreon": null
       }
