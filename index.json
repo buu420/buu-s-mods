@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-22T22:57:19.441993Z",
+  "generatedAt": "2026-11-22T23:00:50.243481Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.24 reduces severe navigation stalls through faster exit processing and shared native scene lookups. Retains the previous navigation and speech repairs, accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.25 repairs the chest and Story exit routes in Cleyra\u0027s Trunk, Area 7. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4449,6 +4449,20 @@
         "sha256": "0b578d6bce4a004d0dad2e61ab75eeabb1460edfc62646db137f682409297066",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.24",
         "notes": "Reduces severe field navigation stalls with indexed exit processing and shared scene lookups; retains all approved approaches and existing speech/narration support. The reproduced castle save sustained about 49 FPS locally; broader tester feedback is needed.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.25",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.25/EchosOfGaia-v0.1.25-beta-amm.zip",
+        "sha256": "86dd26ce25c33096cc52f9329269893cad0a8df6fee11633c9a6449de2c5b2c5",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.25",
+        "notes": "Repairs navigation to the treasure chest and the Story exit to Cleyra, Bridge in Cleyra\u0027s Trunk, Area 7. Verified in movement replays for both game builds. Live gameplay checks continue.",
         "compatibility": null,
         "patreon": null
       }
