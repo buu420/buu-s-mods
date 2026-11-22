@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-22T18:13:09.5211566Z",
+  "generatedAt": "2026-11-22T18:33:05.9290865Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -692,6 +692,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "1.0.0",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.0/ffviiold-v1.0.0-amm.zip",
+        "sha256": "664085707352f2b1e89f3ec22f76a85b3ed1e606a2fd7fa9bca46453c28ede18",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.0",
+        "notes": "First stable release for both FFVII runtimes; repairs chocobo registration name speech.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2080,6 +2094,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "1.0.0",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.0/ffviinew-v1.0.0-amm.zip",
+        "sha256": "d1dca035b23943ed4670b29496c28ed2d4d7cec887bef06337044681956f0519",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.0",
+        "notes": "First stable release for both FFVII runtimes; repairs chocobo registration name speech.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
