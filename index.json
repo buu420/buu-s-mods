@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-22T17:02:09.2322998Z",
+  "generatedAt": "2026-11-22T18:13:09.5211566Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4797,6 +4797,20 @@
         "sha256": "3639aed29d0e73bcfd15bff1d8cd84e0130674b0adab4c0eeb73da0db3e5d3bd",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.62",
         "notes": "Story guides you through Kolobos Ruins, recalculates after side-room detours, and resumes auto-walk after the bridge fight and ladder. The next objective has a route to the Felicitas exit.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.63",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.63/Visions-of-Grandshelt-0.2.63-Amethyst.zip",
+        "sha256": "e8cc03f6186ae4a18cf1a4b19b5e77ac7c3de575a12402d6a0bfcdf8c8c3cae2",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.63",
+        "notes": "Story guides you through Siren\u2019s Tower. Exits lists both lifts when reachable. Objects lists reachable chests and pickups and the pot while it can be used. Start new routes after a lift lands.",
         "compatibility": null,
         "patreon": null
       }
