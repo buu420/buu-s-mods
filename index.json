@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-22T00:36:32.2116155Z",
+  "generatedAt": "2026-11-22T17:02:09.2322998Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.23 repairs field route corners, Ice Cavern climb guidance, Treno entrances, shopkeeper and model airship approaches, controller shop speech and localized spoken party names. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Live tester confirmation remains necessary.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.24 reduces severe navigation stalls through faster exit processing and shared native scene lookups. Retains the previous navigation and speech repairs, accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4407,6 +4407,20 @@
         "sha256": "d06ffd100bbec5538f4053af4b743b8b34e13803bc0d0d236fd3f0957f688efa",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.23",
         "notes": "Field route, Ice Cavern, Treno entrance, shopkeeper and model airship approach repairs; controller shop speech interruption and localized spoken party names. Please send Memoria.log and field-routes snapshots for remaining navigation failures.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.24",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.24/EchosOfGaia-v0.1.24-beta-amm.zip",
+        "sha256": "0b578d6bce4a004d0dad2e61ab75eeabb1460edfc62646db137f682409297066",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.24",
+        "notes": "Reduces severe field navigation stalls with indexed exit processing and shared scene lookups; retains all approved approaches and existing speech/narration support. The reproduced castle save sustained about 49 FPS locally; broader tester feedback is needed.",
         "compatibility": null,
         "patreon": null
       }
