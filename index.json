@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-22T18:33:05.9290865Z",
+  "generatedAt": "2026-11-22T22:57:19.441993Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -4839,6 +4839,20 @@
         "sha256": "e8cc03f6186ae4a18cf1a4b19b5e77ac7c3de575a12402d6a0bfcdf8c8c3cae2",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.63",
         "notes": "Story guides you through Siren\u2019s Tower. Exits lists both lifts when reachable. Objects lists reachable chests and pickups and the pot while it can be used. Start new routes after a lift lands.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.64",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.64/Visions-of-Grandshelt-0.2.64-Amethyst.zip",
+        "sha256": "9020714586088a4e4fd2d6bb5fa8c859b1f2930c7575937beb70311e67caabff",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.64",
+        "notes": "Town navigation improves shop, house and ladder routes in Grandport and Felicitas. Objects includes usable bulletin boards. Exits includes reachable Zoldaad streetcar stops and Mysidia portals.",
         "compatibility": null,
         "patreon": null
       }
