@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-21T22:44:49.45642Z",
+  "generatedAt": "2026-11-22T00:36:32.2116155Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.22 lists usable world entrances before their first visit and retains reachable ground approaches for marked cliff pins when entrance data is unavailable. Includes the accessible launcher, double-click standalone installer and 608 narration recordings.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.23 repairs field route corners, Ice Cavern climb guidance, Treno entrances, shopkeeper and model airship approaches, controller shop speech and localized spoken party names. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Live tester confirmation remains necessary.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4393,6 +4393,20 @@
         "sha256": "347aa22af61a2efa610c2ef3f2251679c1aafedde330f990a59b61d963d37a88",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.22",
         "notes": "Lists usable world entrances before their first visit and retains reachable ground approaches for marked cliff pins when entrance data is unavailable. Please test Ice Cavern after Evil Forest; send Memoria.log and navigation.log if it is still missing.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.23",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.23/EchosOfGaia-v0.1.23-beta-amm.zip",
+        "sha256": "d06ffd100bbec5538f4053af4b743b8b34e13803bc0d0d236fd3f0957f688efa",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.23",
+        "notes": "Field route, Ice Cavern, Treno entrance, shopkeeper and model airship approach repairs; controller shop speech interruption and localized spoken party names. Please send Memoria.log and field-routes snapshots for remaining navigation failures.",
         "compatibility": null,
         "patreon": null
       }
