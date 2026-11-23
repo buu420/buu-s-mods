@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-22T23:00:50.243481Z",
+  "generatedAt": "2026-11-23T06:31:15.2921305Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.25 repairs the chest and Story exit routes in Cleyra\u0027s Trunk, Area 7. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.26 identifies the upstairs Lindblum save moogle and repairs both the route to it and the route from Main Street into the inn. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4463,6 +4463,20 @@
         "sha256": "86dd26ce25c33096cc52f9329269893cad0a8df6fee11633c9a6449de2c5b2c5",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.25",
         "notes": "Repairs navigation to the treasure chest and the Story exit to Cleyra, Bridge in Cleyra\u0027s Trunk, Area 7. Verified in movement replays for both game builds. Live gameplay checks continue.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.26",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.26/EchosOfGaia-v0.1.26-beta-amm.zip",
+        "sha256": "c9121d0eede9a32eb9ae2a036d0f83033e6bac7d74242160cbeccaebe65f67ba",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.26",
+        "notes": "Lists the upstairs Lindblum save moogle as Moogle under People and repairs the route to it. Repairs the return route from Main Street into the inn. Both game builds passed movement replays.",
         "compatibility": null,
         "patreon": null
       }
