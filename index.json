@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-23T06:31:15.2921305Z",
+  "generatedAt": "2026-11-23T10:23:12.4602442Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -692,6 +692,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "1.0.1",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.1/ffviiold-v1.0.1-amm.zip",
+        "sha256": "e80b9f821cdd0eef6890537a1fc78f76113f25bc8b3b994cb06d0f1b09aaff70",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.1",
+        "notes": "Repairs Echo-S voiced dialogue; adds full description reset, Honeybee lobby narration and GOG compatibility integration.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2094,6 +2108,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "1.0.1",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.1/ffviinew-v1.0.1-amm.zip",
+        "sha256": "1ca687672a5e3ce551549a8be0b1d14730abd6b63a5b143296bbc8e11e22c872",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.1",
+        "notes": "Repairs Echo-S voiced dialogue; adds full description reset, Honeybee lobby narration and GOG compatibility integration.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
