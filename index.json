@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-23T22:27:14.5129197Z",
+  "generatedAt": "2026-11-23T22:34:19.3966434Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.27 repairs Lindblum inn and castle routes, adds Story guidance across the city, and improves Castle Lift and trolley navigation. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.28 identifies Lindblum\u0027s air cab entrance before Vivi\u0027s scene and adds D-pad directions and Confirm cues for the castle telescope. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4519,6 +4519,20 @@
         "sha256": "e575da7cbd93b9e0c8f46a912416fbbff70f1b1250ea09f9df336ed472e3dc00",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.27",
         "notes": "Repairs the Lindblum inn return, door approaches, and Steiner\u0027s castle hallway. Story guides you to Tantalus, the post-Hunt departure, the fountain conversation, and Blue Narciss. Includes Castle Lift and trolley improvements.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.28",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.28/EchosOfGaia-v0.1.28-beta-amm.zip",
+        "sha256": "a484d901bca07886e259bad1dadf236edb6cccf947232f55f921c126c6af2415",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.28",
+        "notes": "Identifies Lindblum\u0027s air cab entrance before Vivi\u0027s scene and adds D-pad directions and Confirm cues for all six castle telescope landmarks.",
         "compatibility": null,
         "patreon": null
       }
