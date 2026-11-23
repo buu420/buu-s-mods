@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-23T10:23:12.4602442Z",
+  "generatedAt": "2026-11-23T13:50:56.7458734Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.26 identifies the upstairs Lindblum save moogle and repairs both the route to it and the route from Main Street into the inn. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.27 repairs Lindblum inn and castle routes, adds Story guidance across the city, and improves Castle Lift and trolley navigation. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4505,6 +4505,20 @@
         "sha256": "c9121d0eede9a32eb9ae2a036d0f83033e6bac7d74242160cbeccaebe65f67ba",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.26",
         "notes": "Lists the upstairs Lindblum save moogle as Moogle under People and repairs the route to it. Repairs the return route from Main Street into the inn. Both game builds passed movement replays.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.27",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.27/EchosOfGaia-v0.1.27-beta-amm.zip",
+        "sha256": "e575da7cbd93b9e0c8f46a912416fbbff70f1b1250ea09f9df336ed472e3dc00",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.27",
+        "notes": "Repairs the Lindblum inn return, door approaches, and Steiner\u0027s castle hallway. Story guides you to Tantalus, the post-Hunt departure, the fountain conversation, and Blue Narciss. Includes Castle Lift and trolley improvements.",
         "compatibility": null,
         "patreon": null
       }
