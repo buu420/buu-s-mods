@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-23T22:34:19.3966434Z",
+  "generatedAt": "2026-11-24T00:45:59.1219925Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -692,6 +692,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "1.0.2",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.2/ffviiold-v1.0.2-amm.zip",
+        "sha256": "c35cc27ea42b006a5252f66dac54439801ab3c1ce3a04c11e7c784ac5ae5dea8",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.2",
+        "notes": "Repairs optional battery routing, keeps Aeris\u0027s bed visible with Echo-S, and reuses navigation cue audio outputs.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2108,6 +2122,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "1.0.2",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.2/ffviinew-v1.0.2-amm.zip",
+        "sha256": "361c1074d212c4ab947aeb3bea9a83d0117f9fd417e30505761b12771dcc7210",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.2",
+        "notes": "Repairs optional battery routing, keeps Aeris\u0027s bed visible with Echo-S, and reuses navigation cue audio outputs.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
