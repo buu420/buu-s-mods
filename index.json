@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-25T00:14:03.1987123Z",
+  "generatedAt": "2026-11-25T08:39:09.5309298Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.29 repairs the timed Story route to Garnet in Alexandria Castle and announces the rotating bridge\u0027s boarding and landing prompts. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.30 adds routes for Ramuh\u0027s fragments, improves chest and ground pickup navigation, and fills Story gaps in Qu\u0027s Marsh and Crystal World. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4575,6 +4575,20 @@
         "sha256": "45d8c67bed9892612dca4ebac50c72ff4b30d8c1d1b595af54a28aede8639bd5",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.29",
         "notes": "Repairs the timed Story route to Garnet in Alexandria Castle and adds boarding and landing cues for the rotating bridge.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.30",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.30/EchosOfGaia-v0.1.30-beta-amm.zip",
+        "sha256": "dd22db33a903dc8ed98bcdc520eb89a5270e33dff815a1c85567b455d7bc67b8",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.30",
+        "notes": "Repairs Pinnacle Rocks navigation, improves chest and ground pickup access, and fills Story gaps in Qu\u2019s Marsh and Crystal World.",
         "compatibility": null,
         "patreon": null
       }
