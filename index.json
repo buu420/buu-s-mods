@@ -1,13 +1,13 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-25T08:39:09.5309298Z",
+  "generatedAt": "2026-11-25T13:05:53.3804099Z",
   "games": [
     {
       "gameId": "ffviiold",
       "displayName": "Final Fantasy VII (2013)",
       "modName": "Blind Soldier (2013)",
-      "description": "Blind Soldier makes Final Fantasy VII accessible to blind players by speaking menus, dialogue, battles, navigation targets, story objectives, objects, exits, and other information normally conveyed visually.\n\n## Included runtime\n\nThis entry installs the self-contained x86 components required by Final Fantasy VII 2013. The private .NET runtime and Reloaded components are included. It does not install or modify 7th Heaven or FFNx.\n\n## Hotkeys\n\n- \u0060R\u0060 - Repeat the last message Blind Soldier spoke\n- \u0060U\u0060 - Previous navigation category\n- \u0060O\u0060 - Next navigation category\n- \u0060J\u0060 - Previous target in the selected category\n- \u0060L\u0060 - Next target in the selected category\n- \u0060K\u0060 - Repeat the selected target, or report the active route and progress\n- \u0060I\u0060 - Start navigation to the selected target, or stop the active route\n- \u0060P\u0060 - Start or stop automatic walking to the selected navigation target\n- \u0060F5\u0060 - Turn route progress indicators off or on\n- \u0060F6\u0060 - Select the previous progress interval\n- \u0060F7\u0060 - Select the next progress interval\n- \u0060F8\u0060 - Toggle automatic steering during the motorcycle minigame\n\n## Battle status hotkeys\n\nThese keys are active only during battle. \u0060L\u0060 checks the selected member\u0027s limit gauge in battle and remains the next-target navigation key everywhere else.\n\n- \u00601\u0060 - Select and identify party member 1\n- \u00602\u0060 - Select and identify party member 2\n- \u00603\u0060 - Select and identify party member 3\n- \u0060H\u0060 - Read current and maximum HP\n- \u0060M\u0060 - Read current and maximum MP\n- \u0060D\u0060 - Read active debuffs and other harmful conditions\n- \u0060S\u0060 - Read active buffs\n- \u0060L\u0060 - Read the native limit gauge percentage\n\n## Navigation\n\nUse \u0060U\u0060 and \u0060O\u0060 to choose a category, \u0060J\u0060 and \u0060L\u0060 to choose a target, and \u0060I\u0060 to start or stop a route. Press \u0060K\u0060 to repeat the route and progress. Keeping progress indicators enabled is recommended; \u0060F5\u0060 toggles them, while \u0060F6\u0060 and \u0060F7\u0060 select 5, 10, 15, or 20 percent intervals.\n\n## Controller navigation\n\nHold either trigger, LT/L2 or RT/R2, to browse navigation in fields, on the world\nmap, and in the submarine mission. Automatic movement pauses while you browse.\n\n| While holding a trigger | Action |\n| --- | --- |\n| D-pad Left / Right | Previous / next category |\n| D-pad Up / Down | Previous / next target |\n| L3, click the left stick | Start spoken guidance |\n| R3, click the right stick | Start automatic travel |\n| B / Circle | Stop navigation and automatic travel |\n\nRelease the trigger to return to ordinary play. After starting or stopping a\nroute, release it before browsing again. D-pad selection repeats after a short\nhold. The controller uses the same targets as keyboard navigation. In the\nsubmarine mission either stick click starts pursuit; firing remains manual.\n\nIn battle, hold LT/L2 for party information. D-pad Left/Right selects the previous\nor next present member, Up reads HP, MP and limit, Down reads buffs and debuffs,\nand Y/Triangle reads the limit gauge. These readouts use the game\u0027s visible party\nstate and do not select a battle action.\n\nAccessibility chords and their release tails are captured before the game reads\nthem, including buttons and movement axes. With multiple controllers, a fresh\ntrigger press selects the browsing controller when the previous controller has\nreleased its controls. R3 is reserved on every controller while the mod\u0027s capture\nhooks are active, even outside a trigger chord, because Steam\u0027s Battle Assist\nshortcut toggles on release. Use the game\u0027s Boosts menu for Battle Assist.\n\n## Mod settings\n\nPress \u0060F11\u0060, or hold both triggers and press Y/Triangle, to open spoken settings.\nThe controller menu stays open when you release the triggers. It stays audible\nwith Mod speech turned off, and automatic movement pauses while it is open.\n\n| Action | Keyboard | Controller |\n| --- | --- | --- |\n| Previous / next setting | J / L | D-pad Up / Down |\n| Decrease / increase value | U / O | D-pad Left / Right |\n| Toggle or activate | I | A / Cross |\n| Repeat setting | K | Read the setting again by selecting it |\n| Close | F11 | B / Circle |\n\nDescription volume is the first setting: 50-300 percent in steps of 25. It\nchanges currently playing recorded descriptions as well as later playback;\nscreen-reader volume remains separate. A limiter controls boosted peaks.\n\nReset battle descriptions is the second setting. Activate it twice to confirm\nthe reset for the current save. Summons and limits are described again when they\nnext occur. A recording already in progress finishes normally. Other saves and\narea-description history are preserved.\n\nAll player toggles are listed. Settings announce when a change requires restarting\nthe game or is unavailable in that runtime. Choices are saved in\n\u0060Configuration/player-settings.json\u0060; \u0060config.json\u0060 remains the base configuration.\nThe installer preserves overrides and description histories on updates.",
+      "description": "Blind Soldier makes Final Fantasy VII accessible to blind players by speaking menus, dialogue, battles, navigation targets, story objectives, objects, exits, and other information normally conveyed visually.\n\n## Included runtime\n\nThis entry installs the self-contained x86 reader for the English Final Fantasy VII 2013 engine and compatible 7th Heaven setups. The private .NET runtime and Reloaded components are included. It does not install or modify 7th Heaven or FFNx.\n\nOriginal 2013 installations also receive an accessible launcher. Other launchers and 7th Heaven launch methods are kept. Start the original 2013 game normally from Steam. The launcher has keyboard and screen-reader access to Play, Settings and status. It preserves the original launcher for Square Enix online features and uses local saves for accessible Play. The original French, German and Spanish 2013 executables use different engine offsets and are not supported by the reader. Supported multilingual engine setups use translated screen-reader descriptions outside English; English recordings are included.\n\n## Hotkeys\n\n- \u0060R\u0060 - Repeat the last message Blind Soldier spoke\n- \u0060U\u0060 - Previous navigation category\n- \u0060O\u0060 - Next navigation category\n- \u0060J\u0060 - Previous target in the selected category\n- \u0060L\u0060 - Next target in the selected category\n- \u0060K\u0060 - Repeat the selected target, or report the active route and progress\n- \u0060I\u0060 - Start navigation to the selected target, or stop the active route\n- \u0060P\u0060 - Start or stop automatic walking to the selected navigation target\n- \u0060F5\u0060 - Turn route progress indicators off or on\n- \u0060F6\u0060 - Select the previous progress interval\n- \u0060F7\u0060 - Select the next progress interval\n- \u0060F8\u0060 - Toggle automatic steering during the motorcycle minigame\n\n## Battle status hotkeys\n\nThese keys are active only during battle. \u0060L\u0060 checks the selected member\u0027s limit gauge in battle and remains the next-target navigation key everywhere else.\n\n- \u00601\u0060 - Select and identify party member 1\n- \u00602\u0060 - Select and identify party member 2\n- \u00603\u0060 - Select and identify party member 3\n- \u0060H\u0060 - Read current and maximum HP\n- \u0060M\u0060 - Read current and maximum MP\n- \u0060D\u0060 - Read active debuffs and other harmful conditions\n- \u0060S\u0060 - Read active buffs\n- \u0060L\u0060 - Read the native limit gauge percentage\n\n## Navigation\n\nUse \u0060U\u0060 and \u0060O\u0060 to choose a category, \u0060J\u0060 and \u0060L\u0060 to choose a target, and \u0060I\u0060 to start or stop a route. Press \u0060K\u0060 to repeat the route and progress. Keeping progress indicators enabled is recommended; \u0060F5\u0060 toggles them, while \u0060F6\u0060 and \u0060F7\u0060 select 5, 10, 15, or 20 percent intervals.\n\n## Controller navigation\n\nHold either trigger, LT/L2 or RT/R2, to browse navigation in fields, on the world\nmap, and in the submarine mission. Automatic movement pauses while you browse.\n\n| While holding a trigger | Action |\n| --- | --- |\n| D-pad Left / Right | Previous / next category |\n| D-pad Up / Down | Previous / next target |\n| L3, click the left stick | Start spoken guidance |\n| R3, click the right stick | Start automatic travel |\n| B / Circle | Stop navigation and automatic travel |\n\nRelease the trigger to return to ordinary play. After starting or stopping a\nroute, release it before browsing again. D-pad selection repeats after a short\nhold. The controller uses the same targets as keyboard navigation. In the\nsubmarine mission either stick click starts pursuit; firing remains manual.\n\nIn battle, hold LT/L2 for party information. D-pad Left/Right selects the previous\nor next present member, Up reads HP, MP and limit, Down reads buffs and debuffs,\nand Y/Triangle reads the limit gauge. These readouts use the game\u0027s visible party\nstate and do not select a battle action.\n\nAccessibility chords and their release tails are captured before the game reads\nthem, including buttons and movement axes. With multiple controllers, a fresh\ntrigger press selects the browsing controller when the previous controller has\nreleased its controls. R3 is reserved on every controller while the mod\u0027s capture\nhooks are active, even outside a trigger chord, because Steam\u0027s Battle Assist\nshortcut toggles on release. Use the game\u0027s Boosts menu for Battle Assist.\n\n## Mod settings\n\nPress \u0060F11\u0060, or hold both triggers and press Y/Triangle, to open spoken settings.\nThe controller menu stays open when you release the triggers. It stays audible\nwith Mod speech turned off, and automatic movement pauses while it is open.\n\n| Action | Keyboard | Controller |\n| --- | --- | --- |\n| Previous / next setting | J / L | D-pad Up / Down |\n| Decrease / increase value | U / O | D-pad Left / Right |\n| Toggle or activate | I | A / Cross |\n| Repeat setting | K | Read the setting again by selecting it |\n| Close | F11 | B / Circle |\n\nDescription volume is the first setting: 50-300 percent in steps of 25. It\nchanges currently playing recorded descriptions as well as later playback;\nscreen-reader volume remains separate. A limiter controls boosted peaks.\n\nReset battle descriptions is the second setting. Activate it twice to confirm\nthe reset for the current save. Summons and limits are described again when they\nnext occur. A recording already in progress finishes normally. Other saves and\narea-description history are preserved.\n\nAll player toggles are listed. Settings announce when a change requires restarting\nthe game or is unavailable in that runtime. Choices are saved in\n\u0060Configuration/player-settings.json\u0060; \u0060config.json\u0060 remains the base configuration.\nThe installer preserves overrides and description histories on updates.",
       "steamAppId": "39140",
       "linuxSteamAppId": null,
       "exeName": "ff7_en.exe",
@@ -30,17 +30,27 @@
       "languages": [],
       "defaultPreInstall": null,
       "defaultPostInstall": {
-        "executable": "files/Blind-Soldier/Tools/Remove-AmethystRegistryEntries-Automatic.cmd",
+        "executable": "files/Blind-Soldier/Launcher2013/Manager-Install2013Launcher.ps1",
         "needsAdmin": true,
         "failureFatal": true,
-        "what": "removes obsolete Blind Soldier registry launch values left by earlier manager packages",
-        "why": "Blind Soldier uses its native proxy bootstrap and does not require registry launch redirection",
-        "modifies": "only Blind Soldier-owned Image File Execution Options values for ff7_en.exe and FFVII.exe; unrelated values are preserved",
+        "what": "Prepare compatible startup and add the accessible launcher to recognized original 2013 installations.",
+        "why": "Original Steam 2013 opens FF7_Launcher.exe. Compatible converted games keep their existing launch method. Blind Soldier no longer uses registry launch redirection.",
+        "modifies": "For recognized original 2013 installations only: FF7_Launcher.exe, its configuration, verified .original backups, and Blind-Soldier/Launcher2013/install-manifest.json. Unrecognized or absent launchers are kept with an explanation. In every layout, removes only recognized obsolete Blind Soldier IFEO Debugger and owner values for ff7_en.exe and FFVII.exe; unrelated values, saves and game settings are preserved.",
         "installToGameFolder": false,
         "runOnUpdate": true,
         "runFromGameFolder": false
       },
-      "defaultPostUninstall": null
+      "defaultPostUninstall": {
+        "executable": "files/Blind-Soldier/Launcher2013/Manager-Restore2013Launcher.ps1",
+        "needsAdmin": false,
+        "failureFatal": false,
+        "what": "Restore the original 2013 launcher and any original launcher configuration.",
+        "why": "The accessible launcher was installed with its own verified backup and ownership record.",
+        "modifies": "Restores only unchanged Blind Soldier launcher files from their verified .original backups and removes the completed launcher ownership record. Files changed since installation are preserved. Saves, game settings, 7th Heaven and FFNx are untouched.",
+        "installToGameFolder": false,
+        "runOnUpdate": false,
+        "runFromGameFolder": false
+      }
     },
     {
       "gameId": "ffviinew",
@@ -692,6 +702,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "1.0.3",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.3/ffviiold-v1.0.3-amm.zip",
+        "sha256": "344422fd7eda0603522654f9393812a90aad8aeef022c52e88888af7e4064f64",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.3",
+        "notes": "Adds translated screen-reader audio descriptions, repairs Shinra\u0027s Midgar-model placement guidance, and adds an accessible 2013 launcher.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2122,6 +2146,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "1.0.3",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.3/ffviinew-v1.0.3-amm.zip",
+        "sha256": "9c8d3bc19ef70cf4b0fe93a6d19d3f496ee734d11f03a6a29c7741f5bf22a261",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.3",
+        "notes": "Adds translated screen-reader audio descriptions, repairs Shinra\u0027s Midgar-model placement guidance, and adds an accessible 2013 launcher.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
