@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-24T00:45:59.1219925Z",
+  "generatedAt": "2026-11-25T00:14:03.1987123Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -240,7 +240,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.28 identifies Lindblum\u0027s air cab entrance before Vivi\u0027s scene and adds D-pad directions and Confirm cues for the castle telescope. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.29 repairs the timed Story route to Garnet in Alexandria Castle and announces the rotating bridge\u0027s boarding and landing prompts. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4561,6 +4561,20 @@
         "sha256": "a484d901bca07886e259bad1dadf236edb6cccf947232f55f921c126c6af2415",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.28",
         "notes": "Identifies Lindblum\u0027s air cab entrance before Vivi\u0027s scene and adds D-pad directions and Confirm cues for all six castle telescope landmarks.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.29",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.29/EchosOfGaia-v0.1.29-beta-amm.zip",
+        "sha256": "45d8c67bed9892612dca4ebac50c72ff4b30d8c1d1b595af54a28aede8639bd5",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.29",
+        "notes": "Repairs the timed Story route to Garnet in Alexandria Castle and adds boarding and landing cues for the rotating bridge.",
         "compatibility": null,
         "patreon": null
       }
