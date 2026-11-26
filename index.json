@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-26T00:54:24.877539Z",
+  "generatedAt": "2026-11-26T17:00:33.5528022Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -5073,6 +5073,20 @@
         "sha256": "7927b2b175a6b2220fa6168bf64e399691482a37454cebb5c61969a54127c5f5",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.68",
         "notes": "Story routes across Mt. Thunderclap. Oblivion Palace has reward-room routes and safe listings. Map Markers and Side Quests follow supported markers, and target browsing checks routes quietly.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.69",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.69/Visions-of-Grandshelt-0.2.69-Amethyst.zip",
+        "sha256": "6260a967414a2d36132f68e61543ab3eb5f77d85da5b3de5156b66c4ecf045ed",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.69",
+        "notes": "Mt. Thunderclap\u2019s east exit now routes directly to the Dwarven Forge\u2019s south entrance and the Esper high trail. Objects lists all four chests and three medal pickups from the trails that reach them.",
         "compatibility": null,
         "patreon": null
       }
