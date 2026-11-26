@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-26T17:00:33.5528022Z",
+  "generatedAt": "2026-11-26T20:41:42.1702165Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -250,7 +250,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.31 fixes the Burmecia Uptown route to the Square, the left balcony chests, and the Story route to the palace entrance. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.32 adds the statue chest in Burmecia\u0027s Vault, the route to Marcus on the Berkmea cable car, and Story routes through first-visit Treno to the Auction House and the Pub. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4641,6 +4641,20 @@
         "sha256": "43579b223367b5d05d6ae9514e9fe6b861a7d7effecbf2a0d17b600749ab90a2",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.31",
         "notes": "Fixes Burmecia Uptown navigation across the fallen statue to the chests, the Square, and the palace entrance.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.32",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.32/EchosOfGaia-v0.1.32-beta-amm.zip",
+        "sha256": "eebda1f4fc5bdd9f6f1d90366faae214772ed9a2418982df9270b112d4ced94c",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.32",
+        "notes": "Adds the statue chest in Burmecia\u0027s Vault and fixes Story navigation on the Berkmea cable car and the first visit to Treno.",
         "compatibility": null,
         "patreon": null
       }
