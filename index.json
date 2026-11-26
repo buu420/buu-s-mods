@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-25T13:05:53.3804099Z",
+  "generatedAt": "2026-11-26T00:27:52.0622987Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -5045,6 +5045,20 @@
         "sha256": "7c43590437bbfd64ac359617ee4ce0f94ab499f5368da18a69fa3ae5b377419a",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.65",
         "notes": "People and Exits find reachable targets from town arrivals. In Felicitas, all four street-level building doors appear from the entrance, and the inn stays available after returning from the shops or lower house.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.68",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.68/Visions-of-Grandshelt-0.2.68-Amethyst.zip",
+        "sha256": "7927b2b175a6b2220fa6168bf64e399691482a37454cebb5c61969a54127c5f5",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.68",
+        "notes": "Story routes across Mt. Thunderclap. Oblivion Palace has reward-room routes and safe listings. Map Markers and Side Quests follow supported markers, and target browsing checks routes quietly.",
         "compatibility": null,
         "patreon": null
       }
