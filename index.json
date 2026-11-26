@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-26T20:41:42.1702165Z",
+  "generatedAt": "2026-11-26T20:54:31.785351Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -702,6 +702,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "1.0.4",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.4/ffviiold-v1.0.4-amm.zip",
+        "sha256": "87f0a1f53ec4a0ce06ed49e62562ba8a3909c8062d4385a5d19f09dd6180af04",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.4",
+        "notes": "Increases audio buffering for descriptions, navigation sounds and footsteps, with a smaller queue for timed cues.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2146,6 +2160,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "1.0.4",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.4/ffviinew-v1.0.4-amm.zip",
+        "sha256": "fce6b5245dc93977e0f1562ae1cfde299ecce020e810f91b8387414a386571bc",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.4",
+        "notes": "Increases audio buffering for descriptions, navigation sounds and footsteps, with a smaller queue for timed cues.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
