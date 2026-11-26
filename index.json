@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-26T00:27:52.0622987Z",
+  "generatedAt": "2026-11-26T00:54:24.877539Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -250,7 +250,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.30 adds routes for Ramuh\u0027s fragments, improves chest and ground pickup navigation, and fills Story gaps in Qu\u0027s Marsh and Crystal World. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.31 fixes the Burmecia Uptown route to the Square, the left balcony chests, and the Story route to the palace entrance. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4627,6 +4627,20 @@
         "sha256": "dd22db33a903dc8ed98bcdc520eb89a5270e33dff815a1c85567b455d7bc67b8",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.30",
         "notes": "Repairs Pinnacle Rocks navigation, improves chest and ground pickup access, and fills Story gaps in Qu\u2019s Marsh and Crystal World.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.31",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.31/EchosOfGaia-v0.1.31-beta-amm.zip",
+        "sha256": "43579b223367b5d05d6ae9514e9fe6b861a7d7effecbf2a0d17b600749ab90a2",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.31",
+        "notes": "Fixes Burmecia Uptown navigation across the fallen statue to the chests, the Square, and the palace entrance.",
         "compatibility": null,
         "patreon": null
       }
