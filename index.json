@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-27T16:45:01.890908Z",
+  "generatedAt": "2026-11-27T18:34:06.2557574Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -5185,6 +5185,20 @@
         "sha256": "111a59e12a431b0ae04c2169845bd91abccc398ac21ad70e46ace30716a71ea1",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.70",
         "notes": "Onion Knight\u2019s Sanctum of Light routes through Thunderclap\u2019s lower exit. The Esper map marker continues through the high trail to Ramuh\u2019s encounter.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.71",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.71/Visions-of-Grandshelt-0.2.71-Amethyst.zip",
+        "sha256": "dc0a4a7295593b3484f7b78d2e1d46c0d2c19bb6e2c4a652c62b0dbda364b94c",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.71",
+        "notes": "Story guides you through Mobliz Shipyard and the timed escape. The manual beacon can resume toward the selected destination after battle.",
         "compatibility": null,
         "patreon": null
       }
