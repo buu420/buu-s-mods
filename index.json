@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-27T07:40:46.5514223Z",
+  "generatedAt": "2026-11-27T16:45:01.890908Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -702,6 +702,20 @@
   ],
   "releasesByGameId": {
     "ffviiold": [
+      {
+        "gameId": "ffviiold",
+        "pluginId": "buu420",
+        "version": "1.0.5",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.5/ffviiold-v1.0.5-amm.zip",
+        "sha256": "c140c58454d018d78cb565d0cc4ad169bd52520e13b35a253149660937752ae4",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.5",
+        "notes": "Adds Russian game-text decoding, menus, navigation and screen-reader audio descriptions for the ayumosa 7th Heaven translation.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviiold",
         "pluginId": "buu420",
@@ -2160,6 +2174,20 @@
       }
     ],
     "ffviinew": [
+      {
+        "gameId": "ffviinew",
+        "pluginId": "buu420",
+        "version": "1.0.5",
+        "channel": "stable",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/blind-soldier/releases/download/v1.0.5/ffviinew-v1.0.5-amm.zip",
+        "sha256": "7e26b4ec144ca3dd5567e2a1969f2679e033df027d18cbffc74c82011a808e48",
+        "changelogUrl": "https://github.com/buu420/blind-soldier/releases/tag/v1.0.5",
+        "notes": "Adds Russian game-text decoding, menus, navigation and screen-reader audio descriptions for the ayumosa 7th Heaven translation.",
+        "compatibility": null,
+        "patreon": null
+      },
       {
         "gameId": "ffviinew",
         "pluginId": "buu420",
