@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-26T23:31:55.110955Z",
+  "generatedAt": "2026-11-27T07:40:46.5514223Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -250,7 +250,7 @@
       "gameId": "final-fantasy-ix",
       "displayName": "Final Fantasy IX",
       "modName": "Echos of Gaia (Beta)",
-      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.32 adds the statue chest in Burmecia\u0027s Vault, the route to Marcus on the Berkmea cable car, and Story routes through first-visit Treno to the Auction House and the Pub. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
+      "description": "Echos of Gaia adds screen reader support, field and world navigation, automatic walking, battle and menu speech, and optional audio descriptions to Windows Steam Final Fantasy IX. Beta 0.1.33 adds ladder routes at Treno\u0027s dock and Doctor Tot\u0027s tower and announces the Confirm prompts at the call lever and Feed panel in Gargan Roo. Includes the accessible launcher, double-click standalone installer and 608 narration recordings. Broader gameplay testing continues.",
       "steamAppId": "377840",
       "linuxSteamAppId": null,
       "exeName": "FF9_Launcher.exe",
@@ -4683,6 +4683,20 @@
         "sha256": "eebda1f4fc5bdd9f6f1d90366faae214772ed9a2418982df9270b112d4ced94c",
         "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.32",
         "notes": "Adds the statue chest in Burmecia\u0027s Vault and fixes Story navigation on the Berkmea cable car and the first visit to Treno.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-ix",
+        "pluginId": "buu420",
+        "version": "0.1.33",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/echos-of-gaia/releases/download/v0.1.33/EchosOfGaia-v0.1.33-beta-amm.zip",
+        "sha256": "6034e0c1e8cc03d50f1bd26316cc4ec74085beb6be6e80a4d13692c3f6b8228e",
+        "changelogUrl": "https://github.com/buu420/echos-of-gaia/releases/tag/v0.1.33",
+        "notes": "Adds ladder routes for Baku and Doctor Tot\u0027s hatch and fixes the call lever and Feed panel prompts in Gargan Roo.",
         "compatibility": null,
         "patreon": null
       }
