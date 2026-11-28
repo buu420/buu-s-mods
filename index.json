@@ -1,7 +1,7 @@
 {
   "pluginId": "buu420",
   "repoVersion": "1",
-  "generatedAt": "2026-11-28T03:01:22.3990727Z",
+  "generatedAt": "2026-11-28T18:20:00.6610839Z",
   "games": [
     {
       "gameId": "ffviiold",
@@ -5213,6 +5213,20 @@
         "sha256": "0046be4a65537189d9b23488e8f47304bfff681825e6cce3d8b383e92bdb1bb1",
         "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.72",
         "notes": "Story guides you through Rain\u2019s house in Mitra and the Grandshelt Castle rooms. The world-map route to Sanctum of Light follows a walkable approach near Grandshelt.",
+        "compatibility": null,
+        "patreon": null
+      },
+      {
+        "gameId": "final-fantasy-resonance",
+        "pluginId": "buu420",
+        "version": "0.2.75",
+        "channel": "beta",
+        "targetPlatform": "windows",
+        "linuxPackage": null,
+        "packageUrl": "https://github.com/buu420/visions-of-grandshelt/releases/download/v0.2.75/Visions-of-Grandshelt-0.2.75-Amethyst.zip",
+        "sha256": "dee0fd50823aac97b8a075403a569e7612e7b5057db87917104a9cbb0619c423",
+        "changelogUrl": "https://github.com/buu420/visions-of-grandshelt/releases/tag/v0.2.75",
+        "notes": "Opening Objects in Mobliz Shipyard causes shorter stalls. The beacon updates sooner at running speed, and navigation follows reachable paths around Kol\u2019s pond and buildings.",
         "compatibility": null,
         "patreon": null
       }
